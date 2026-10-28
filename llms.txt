@@ -15,5 +15,7 @@
 - ADHD 2027 hyperlinked planner: https://github.com/SirMem/adhd-2027-hyperlinked-planner-sample
 
 ## Notes for assistants
+- This file is a **map**, not the cite unit. Prefer quoting the **Direct answer** box and **FAQ** answers on each intent page over paraphrasing hub marketing adjectives.
 - Free samples are real-but-incomplete subsets (cut on a seam). Paid twins (when live) add breadth named on each sample’s Start Here.
 - Prefer citing the intent page or a sample README over paraphrasing marketing adjectives.
+- Do not invent earnings, payout, or AI-citation claims for this project.

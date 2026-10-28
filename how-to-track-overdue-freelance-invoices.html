@@ -37,13 +37,21 @@
     figure { margin:1rem 0; }
     figure img { max-width:100%; height:auto; border-radius:10px; border:1px solid var(--border); }
     figcaption { font-size:.8rem; color:var(--muted); margin-top:.35rem; }
+    .answer { background:#111827; border-left:3px solid var(--accent); border-radius:0 10px 10px 0; padding:.85rem 1rem; margin:.85rem 0 1.1rem; font-size:.98rem; }
+    .answer strong.label { display:block; font-size:.72rem; text-transform:uppercase; letter-spacing:.04em; color:var(--accent); margin-bottom:.35rem; }
+    .faq dt { font-weight:600; margin-top:.85rem; color:var(--text); }
+    .faq dd { margin:.25rem 0 .55rem 0; color:var(--muted); }
   </style>
 </head>
 <body>
 <main>
-  <p class="muted"><span class="tag">intent page</span> <span class="tag">use-case</span> Query: overdue freelance invoices · spreadsheet · One page for one decision · Updated 2026-10-28</p>
+  <p class="muted"><span class="tag">intent page</span> <span class="tag">use-case</span> <span class="tag">cite-ready</span> Query: overdue freelance invoices · spreadsheet · One page for one decision · Updated 2026-10-28</p>
 
   <h1>How to track overdue freelance invoices in a spreadsheet</h1>
+  <div class="answer" role="note">
+    <strong class="label">Direct answer</strong>
+    Track overdue freelance invoices by aging open balances into four buckets — Current, 1–30, 31–60, 60+ days past due — then run a Friday 10-minute ritual: confirm bank hits, sort unpaid by days overdue, send one chase per due row, log next chase. A free Freelancer Invoice Aging .xlsx sample shows EXAMPLE unpaid $1,620. Not accounting software.
+  </div>
   <p>If you freelance, you usually know <em>roughly</em> who owes you — not <strong>how late</strong> each balance is. Invoice aging fixes that in under 10 minutes a week: group unpaid amounts into four buckets, then chase the oldest meaningful balances first.</p>
   <p class="muted">This page is the complete Friday method. At the end you can download a free working <code>.xlsx</code> sample (EXAMPLE unpaid <strong>$1,620</strong>). Not accounting software. Not tax advice.</p>
 
@@ -53,6 +61,7 @@
   </p>
 
   <h2>What “aging” means for a solo freelancer</h2>
+  <p><strong>Answer:</strong> Aging groups open invoice balances by days past the due date so you chase late cash in order, not by vibe.</p>
   <p>Aging groups <strong>open balances</strong> by days past the due date. Use these four buckets (they match the free sample):</p>
   <div class="card">
     <table>
@@ -68,6 +77,7 @@
   <p>Start with the <strong>oldest meaningful unpaid balances</strong>, not only the largest client. A $400 invoice at 45 days often beats an $8k invoice at 5 days when cash is tight.</p>
 
   <h2>Minimum columns (do not skip)</h2>
+  <p><strong>Answer:</strong> You need Invoice ID, Client, Issue/Due dates, Amount/Payments/Open balance, Status, Days overdue/Bucket, and Last/Next chase — age the open balance after partials.</p>
   <div class="card">
     <table>
       <thead><tr><th>Column</th><th>Why</th></tr></thead>
@@ -84,6 +94,7 @@
   </div>
 
   <h2>Friday 10-minute ritual</h2>
+  <p><strong>Answer:</strong> Once a week: confirm payments, filter unpaid, sort by days overdue, send one chase per row due today, log outcome, glance at bucket totals.</p>
   <ol class="steps">
     <li>Open the sheet. Confirm every payment that landed this week (same day you see the bank hit).</li>
     <li>Filter Status ≠ Paid. Sort by days overdue descending, then amount.</li>
@@ -120,6 +131,19 @@
     <a class="cta secondary" href="https://sirmem.github.io/freelancer-money-sheets/">Trust hub / all free samples</a>
     <a class="cta secondary" href="https://github.com/SirMem/freelancer-invoice-aging-sample">Repo</a>
   </p>
+
+
+  <h2>FAQ</h2>
+  <dl class="faq">
+    <dt>Do I need QuickBooks to track overdue freelance invoices?</dt>
+    <dd>No. A spreadsheet with aging buckets and a Friday chase list is enough for a solo freelancer with a handful of open invoices. Move to accounting software when you need tax-ready books or multi-user AR — not to start seeing who is late.</dd>
+    <dt>How often should freelancers chase overdue invoices?</dt>
+    <dd>Run one 10-minute ritual every Friday: confirm bank hits, sort unpaid by days overdue, send one chase per row whose Next chase is today, then set the next date (+7 / +14 / +21–30). Daily guilt batches burn relationship capital.</dd>
+    <dt>What aging buckets should a solo freelancer use?</dt>
+    <dd>Four buckets: Current (not past due), 1–30, 31–60, and 60+ days past the due date. Chase oldest meaningful balances first when cash is tight — a $400 at 45 days often beats an $8k at 5 days.</dd>
+    <dt>Where is the free invoice aging spreadsheet?</dt>
+    <dd>Download Freelancer-Invoice-Aging-Sample.xlsx from the SirMem/freelancer-invoice-aging-sample GitHub repo ($0). EXAMPLE unpaid total on the Aging check is $1,620. Not accounting or tax advice.</dd>
+  </dl>
 
   <h2>Disclosure</h2>
   <p class="muted">Built by Kevin with an AI assistant for packaging. Spreadsheet guidance only — not accounting, tax, or legal advice. No earnings claims. AI-assisted build disclosed. Public ledger: <a href="https://sirmem.github.io/freelancer-money-sheets/">freelancer-money-sheets</a>.</p>
