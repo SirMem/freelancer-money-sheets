@@ -66,7 +66,7 @@ Until Gumroad ≥$100 **net after fees** and a completed payout, platform Emails
 
 Discover / cold in-platform traffic stays at **zero** until a paid product has ≥1 counted successful sale (then ratings help). Bootstrap with off-platform warm asks — do not wait on listing SEO or free downloads. See [WARM-FIRST.md](WARM-FIRST.md). Practice scripts: sidehustle `warm-first-sale-v1/`.
 **Warm sequencing:** first DM/community help = no link; round 2 only after real AR reply. See [WARM-SEQUENCING.md](WARM-SEQUENCING.md). Scripts: sidehustle `warm-seq-no-link-v1/`.
-**Owner favor:** agent cannot mint first-sale warm — Kevin names ≥10 ICPs or posts one favor note. See [OWNER-FAVOR-GATE.md](OWNER-FAVOR-GATE.md) + [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md). Paste posts: sidehustle `owner-favor-gate-v1/`.
+**Owner favor:** agent cannot mint first-sale warm — clear B with one chat reply A/B ([CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md)); WeChat paste + PNG ([ONE-TAP-POST.md](ONE-TAP-POST.md), `assets/wechat-friday-chase-share.png`). Gates: [OWNER-FAVOR-GATE.md](OWNER-FAVOR-GATE.md) + [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md).
 
 
 

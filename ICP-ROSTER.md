@@ -1,6 +1,16 @@
-# Invoice ICP roster · fill ≥10 to clear OWNER-FAVOR B
+# Invoice ICP roster · preferred path = chat reply B
 
-**Rule:** Agent cannot invent these names. Kevin fills real people (classmate side-hustle / WeChat / X / LinkedIn / 外贸同行里接过私活的人). After ≥10 rows with a reachable handle, paste the list in chat → B=PASS → R1 no-link may start.
+**Preferred (fastest):** paste one line in chat — see [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md) option **B**:
+
+```
+ICP：姓名1(@handle),姓名2,...
+```
+
+≥10 people you would actually message. Agent fills this table for you. **No need to edit the markdown table yourself.**
+
+**Backup only:** fill rows below if you prefer editing files.
+
+**Rule:** Agent cannot invent these names. Classmate side-hustle / WeChat / 私活 friends only — **not** influencers you only follow, **not** 外贸询盘客户.
 
 | # | Name / handle | Where you know them | Late-pay signal? (Y/N/? ) | Reach channel (WeChat/X/…) | Touched? (date) |
 |---|---------------|---------------------|---------------------------|----------------------------|-----------------|
@@ -17,11 +27,10 @@
 | 11 |  |  |  |  |  |
 | 12 |  |  |  |  |  |
 
-## Where to look (5 min, not research theater)
-1. 大学同学 / 实验室里接过私活、做设计/开发/翻译的人
-2. 微信「最近」里提过客户拖款、催款、对公打款慢的人
-3. X / LinkedIn 已关注、简介含 freelance / consultant / 独立开发 的人（只写你真会打招呼的）
-4. 利侨 / 外贸圈里自己也接外单的朋友（不是询盘客户）
-5. 以前一起做课设、接过外包的搭档
+## Where to look (5 min)
+1. 大学同学 / 实验室里接过私活的人
+2. 微信「最近」提过拖款、催款的人
+3. 以前课设/外包搭档（只写你会打招呼的）
+4. 利侨圈里自己也接外单的朋友（不是询盘客户）
 
-**Does not count:** fake ICP, public influencer you never talk to, pet-inquiry buyers from 主业.
+**Does not count:** fake ICP, public influencer you never talk to, pet-inquiry buyers.

@@ -24,9 +24,9 @@
 | L3 | Samples / awesome PRs / listing polish while B=FAIL | Allowed only as *secondary* honesty fixes; never as “progress toward first sale” |
 
 ## Allowed primary work while B=FAIL
-1. Fillable ≥10 Invoice ICP roster (names/handles Kevin already has).
-2. One-tap owner favor post (WeChat / X / Moments) — shorter than previous packs if needed.
-3. Logging a live owner post URL or named list into chat → flip B=PASS.
+1. One chat reply clears the gate — [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md) A (人情帖已发) or B (`ICP：姓名1,...` ≥10). Prefer chat over table editing.
+2. One-tap WeChat paste + share PNG — [ONE-TAP-POST.md](ONE-TAP-POST.md); card at `assets/wechat-friday-chase-share.png`.
+3. Optional backup roster table — [ICP-ROSTER.md](ICP-ROSTER.md) (agent fills after reply B).
 
 ## Forbidden as primary while B=FAIL
 - New paid SKU, new free sample “alignment,” new awesome-list PRs sold as first-sale progress.
