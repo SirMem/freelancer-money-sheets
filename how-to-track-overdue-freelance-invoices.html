@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How to track overdue freelance invoices in a spreadsheet</title>
+  <meta name="description" content="Friday chase method for solo freelancers: four aging buckets, EXAMPLE unpaid $1,620, and a free .xlsx sample you can open today. Not accounting software." />
+  <meta property="og:title" content="How to track overdue freelance invoices in a spreadsheet" />
+  <meta property="og:description" content="Four aging buckets + EXAMPLE unpaid $1,620. Free Freelancer Invoice Aging .xlsx sample." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sirmem.github.io/freelancer-money-sheets/how-to-track-overdue-freelance-invoices.html" />
+  <meta property="og:image" content="https://sirmem.github.io/freelancer-money-sheets/assets/01-invoice-aging.png" />
+  <link rel="canonical" href="https://sirmem.github.io/freelancer-money-sheets/how-to-track-overdue-freelance-invoices.html" />
+  <style>
+    :root { color-scheme: dark; --bg:#0f1115; --card:#1a1d24; --text:#e8eaed; --muted:#9aa0a6; --accent:#7dd3fc; --ok:#86efac; --border:#2a2f3a; --price:#fde68a; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background:var(--bg); color:var(--text); line-height:1.55; }
+    main { max-width:720px; margin:0 auto; padding:2rem 1.25rem 4rem; }
+    h1 { font-size:1.55rem; margin:0 0 .6rem; }
+    h2 { font-size:1.12rem; margin:1.75rem 0 .65rem; border-bottom:1px solid var(--border); padding-bottom:.3rem; }
+    p, li { color:var(--text); }
+    .muted { color:var(--muted); font-size:.95rem; }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1rem 1.1rem; margin:.75rem 0; }
+    a { color:var(--accent); }
+    .tag { display:inline-block; font-size:.75rem; padding:.15rem .45rem; border-radius:999px; background:#0c4a6e; color:var(--accent); margin-right:.35rem; }
+    .price { color:var(--price); font-weight:700; }
+    .ok { color:var(--ok); }
+    table { width:100%; border-collapse:collapse; font-size:.9rem; }
+    th, td { text-align:left; padding:.45rem .35rem; border-bottom:1px solid var(--border); vertical-align:top; }
+    th { color:var(--muted); font-weight:600; }
+    code { font-size:.85em; background:#111827; padding:.1rem .3rem; border-radius:4px; }
+    .cta { display:inline-block; background:#0c4a6e; color:var(--accent); text-decoration:none; padding:.6rem 1rem; border-radius:8px; font-weight:600; border:1px solid #155e75; margin:.25rem .35rem .25rem 0; }
+    .cta:hover { background:#155e75; }
+    .cta.secondary { background:transparent; border-color:var(--border); color:var(--text); }
+    ol.steps { padding-left:1.2rem; }
+    ol.steps li { margin:.45rem 0; }
+    figure { margin:1rem 0; }
+    figure img { max-width:100%; height:auto; border-radius:10px; border:1px solid var(--border); }
+    figcaption { font-size:.8rem; color:var(--muted); margin-top:.35rem; }
+  </style>
+</head>
+<body>
+<main>
+  <p class="muted"><span class="tag">intent page</span> <span class="tag">use-case</span> Query: overdue freelance invoices · spreadsheet · One page for one decision · Updated 2026-10-28</p>
+
+  <h1>How to track overdue freelance invoices in a spreadsheet</h1>
+  <p>If you freelance, you usually know <em>roughly</em> who owes you — not <strong>how late</strong> each balance is. Invoice aging fixes that in under 10 minutes a week: group unpaid amounts into four buckets, then chase the oldest meaningful balances first.</p>
+  <p class="muted">This page is the complete Friday method. At the end you can download a free working <code>.xlsx</code> sample (EXAMPLE unpaid <strong>$1,620</strong>). Not accounting software. Not tax advice.</p>
+
+  <p>
+    <a class="cta" href="https://raw.githubusercontent.com/SirMem/freelancer-invoice-aging-sample/main/Freelancer-Invoice-Aging-Sample.xlsx">Download free Aging .xlsx ($0)</a>
+    <a class="cta secondary" href="https://github.com/SirMem/freelancer-invoice-aging-sample">Open sample repo</a>
+  </p>
+
+  <h2>What “aging” means for a solo freelancer</h2>
+  <p>Aging groups <strong>open balances</strong> by days past the due date. Use these four buckets (they match the free sample):</p>
+  <div class="card">
+    <table>
+      <thead><tr><th>Bucket</th><th>Meaning</th><th>Friday action</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Current</strong></td><td>Not past due</td><td>No chase; optional pre-due note on large AP</td></tr>
+        <tr><td><strong>1–30</strong></td><td>Recently late</td><td>Polite reminder + payment details</td></tr>
+        <tr><td><strong>31–60</strong></td><td>Seriously late</td><td>Ask what is blocking payment; firmer tone</td></tr>
+        <tr><td><strong>60+</strong></td><td>At risk</td><td>Final written chase; pause new work if that is your policy</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Start with the <strong>oldest meaningful unpaid balances</strong>, not only the largest client. A $400 invoice at 45 days often beats an $8k invoice at 5 days when cash is tight.</p>
+
+  <h2>Minimum columns (do not skip)</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Column</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>Invoice ID</td><td>Reference in email and bank notes</td></tr>
+        <tr><td>Client</td><td>Filter / sort by relationship</td></tr>
+        <tr><td>Issue date · Due date</td><td>Aging starts at due date, not issue date</td></tr>
+        <tr><td>Amount · Payments · Open balance</td><td>Age the <em>open</em> balance after partials</td></tr>
+        <tr><td>Status</td><td>Draft / Sent / Partial / Paid / Written off</td></tr>
+        <tr><td>Days overdue · Bucket</td><td>Only unpaid, past-due rows count up</td></tr>
+        <tr><td>Last chase · Next chase</td><td>Your Friday sorted list</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Friday 10-minute ritual</h2>
+  <ol class="steps">
+    <li>Open the sheet. Confirm every payment that landed this week (same day you see the bank hit).</li>
+    <li>Filter Status ≠ Paid. Sort by days overdue descending, then amount.</li>
+    <li>Send one chase per overdue row that is due <em>today</em> on Next chase — not a batch of guilt emails.</li>
+    <li>Log channel + outcome; set the next chase date (due / +7 / +14 / +21–30).</li>
+    <li>Glance at bucket totals: where is cash stuck this week?</li>
+  </ol>
+
+  <h2>Worked EXAMPLE (fake data — from the free sample)</h2>
+  <figure>
+    <img src="assets/01-invoice-aging.png" width="1000" height="1500" alt="Preview cover of Freelancer Invoice Aging free spreadsheet sample" />
+    <figcaption>Free sample cover — open the .xlsx for the Aging sheet with EXAMPLE rows.</figcaption>
+  </figure>
+  <div class="card">
+    <p>On the free sample’s Aging check, EXAMPLE unpaid total is <strong>$1,620</strong> across Current / 1–30 / 31–60 / 60+ buckets. Personas are fictional; the formulas and Friday sort are real.</p>
+    <p class="muted">Open the file → read <strong>Start Here</strong> → look at Aging Sample → sort overdue for chase.</p>
+  </div>
+
+  <h2>Free vs paid (honest seam)</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Free sample ($0)</th><th>Full invoice tracker (when live)</th></tr></thead>
+      <tbody>
+        <tr><td>Aging Sample sheet + Start Here + Full Tracker map</td><td>Invoice Log · Clients · PDF invoice path · Dashboard</td></tr>
+        <tr><td>Proves quality + Friday sort</td><td>Breadth: full AR system, not unlocked cells on the sample</td></tr>
+      </tbody>
+    </table>
+    <p class="muted">If the free sample is missing what you need, open a GitHub issue with one word: <code>CLIENTS</code> · <code>PDF</code> · <code>DASHBOARD</code>. Silent downloads do not tell us what to build next.</p>
+  </div>
+
+  <h2>Download</h2>
+  <p>
+    <a class="cta" href="https://raw.githubusercontent.com/SirMem/freelancer-invoice-aging-sample/main/Freelancer-Invoice-Aging-Sample.xlsx">Get free Aging .xlsx ($0)</a>
+    <a class="cta secondary" href="https://sirmem.github.io/freelancer-money-sheets/">Trust hub / all free samples</a>
+    <a class="cta secondary" href="https://github.com/SirMem/freelancer-invoice-aging-sample">Repo</a>
+  </p>
+
+  <h2>Disclosure</h2>
+  <p class="muted">Built by Kevin with an AI assistant for packaging. Spreadsheet guidance only — not accounting, tax, or legal advice. No earnings claims. AI-assisted build disclosed. Public ledger: <a href="https://sirmem.github.io/freelancer-money-sheets/">freelancer-money-sheets</a>.</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,18 @@
+# Freelancer money sheets (SirMem)
+
+> Free working spreadsheet samples for freelancers, residential RE listing-copy prompts, and a 2027 ADHD hyperlinked HTML planner. Public trust ledger. AI-assisted packaging disclosed. No inflated earnings claims.
+
+## Primary
+- Trust hub: https://sirmem.github.io/freelancer-money-sheets/
+- Intent — how to track overdue freelance invoices in a spreadsheet: https://sirmem.github.io/freelancer-money-sheets/how-to-track-overdue-freelance-invoices.html
+
+## Free samples ($0)
+- Invoice Aging .xlsx: https://github.com/SirMem/freelancer-invoice-aging-sample
+- Expense Category .xlsx: https://github.com/SirMem/freelancer-expense-category-sample
+- Client Pipeline .xlsx: https://github.com/SirMem/freelancer-client-pipeline-sample
+- RE listing copy prompts (16): https://github.com/SirMem/real-estate-listing-copy-prompts
+- ADHD 2027 hyperlinked planner: https://github.com/SirMem/adhd-2027-hyperlinked-planner-sample
+
+## Notes for assistants
+- Free samples are real-but-incomplete subsets (cut on a seam). Paid twins (when live) add breadth named on each sample’s Start Here.
+- Prefer citing the intent page or a sample README over paraphrasing marketing adjectives.
