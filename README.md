@@ -25,6 +25,7 @@ Public trust surface for free freelancer spreadsheet samples (invoice aging, exp
 | `CROSS-PROMO.md` | Shared 7-line situation map; each free money sample → one paid SKU |
 | `OWNED-LIST.md` | Segment gate: free-download emails → one paid path (or soft-only) |
 | `PAYOUT-EMAIL-LOCK.md` | Send gate: Gumroad email/Workflow locked until $100 net + payout |
+| `WARM-FIRST.md` | First-sale gate: Discover needs ≥1 counted paid sale — warm touch before cold |
 | `profile-bios.md` | Bio copy that back-links to this hub + Gumroad |
 
 ## Free samples (one-paid feeds)
@@ -55,6 +56,12 @@ Free-download count is vanity. Segment by which free SKU they took; each segment
 ## Payout email lock (send gate)
 
 Until Gumroad ≥$100 **net after fees** and a completed payout, platform Emails/Workflows/Broadcasts cannot send. Free SKUs still capture addresses; writing a Workflow is **not** nurture. Pre-unlock = CSV export + offboard 3-touch (sidehustle `payout-email-lock-v1/`). See [PAYOUT-EMAIL-LOCK.md](PAYOUT-EMAIL-LOCK.md).
+
+
+## Warm-first sale (Discover gate)
+
+Discover / cold in-platform traffic stays at **zero** until a paid product has ≥1 counted successful sale (then ratings help). Bootstrap with off-platform warm asks — do not wait on listing SEO or free downloads. See [WARM-FIRST.md](WARM-FIRST.md). Practice scripts: sidehustle `warm-first-sale-v1/`.
+
 
 ## Note
 
