@@ -8,6 +8,8 @@ Public trust surface for free freelancer spreadsheet samples (invoice aging, exp
 - [Free Aging · $0+](https://keithjenn.gumroad.com/l/merlns)
 - [Free ADHD 2027 planner sample · $0](https://keithjenn.gumroad.com/l/adhd-2027-planner-sample)
 - [Free RE Listing Copy Prompt Pack · $0](https://keithjenn.gumroad.com/l/re-listing-copy-prompts)
+- [Free Expense Category sample · $0+](https://keithjenn.gumroad.com/l/freelancer-expense-category-sample)
+- [Free Client Pipeline sample · $0+](https://keithjenn.gumroad.com/l/freelancer-client-pipeline-sample)
 - [Invoice Tracker · $6](https://keithjenn.gumroad.com/l/freelancer-invoice-tracker)
 - [Expense Tracker · $5](https://keithjenn.gumroad.com/l/freelancer-expense-tracker)
 - [Client Tracker · $5](https://keithjenn.gumroad.com/l/freelancer-client-tracker)
@@ -29,8 +31,8 @@ Public trust surface for free freelancer spreadsheet samples (invoice aging, exp
 | Free sample | Points to only | Stay free if enough |
 |-------------|----------------|---------------------|
 | [Invoice Aging](https://github.com/SirMem/freelancer-invoice-aging-sample) · [Gumroad $0+](https://keithjenn.gumroad.com/l/merlns) | [Invoice Tracker $6](https://keithjenn.gumroad.com/l/freelancer-invoice-tracker) | Aging subset |
-| [Expense Category](https://github.com/SirMem/freelancer-expense-category-sample) | [Expense Tracker $5](https://keithjenn.gumroad.com/l/freelancer-expense-tracker) | One-month Category |
-| [Client Pipeline](https://github.com/SirMem/freelancer-client-pipeline-sample) | [Client Tracker $5](https://keithjenn.gumroad.com/l/freelancer-client-tracker) | Mini CRM |
+| [Expense Category](https://github.com/SirMem/freelancer-expense-category-sample) · [Gumroad $0+](https://keithjenn.gumroad.com/l/freelancer-expense-category-sample) | [Expense Tracker $5](https://keithjenn.gumroad.com/l/freelancer-expense-tracker) | One-month Category |
+| [Client Pipeline](https://github.com/SirMem/freelancer-client-pipeline-sample) · [Gumroad $0+](https://keithjenn.gumroad.com/l/freelancer-client-pipeline-sample) | [Client Tracker $5](https://keithjenn.gumroad.com/l/freelancer-client-tracker) | Mini CRM |
 | [ADHD 2027 planner](https://github.com/SirMem/adhd-2027-hyperlinked-planner-sample) · [Gumroad $0](https://keithjenn.gumroad.com/l/adhd-2027-planner-sample) | Free-only (different ICP) | — |
 | [RE Listing Copy Prompts](https://github.com/SirMem/real-estate-listing-copy-prompts) · [Gumroad $0](https://keithjenn.gumroad.com/l/re-listing-copy-prompts) | Free-only (different ICP) | — |
 
@@ -53,4 +55,4 @@ Free-download count is vanity. Segment by which free SKU they took; each segment
 
 Full paid shelf is **live** on Gumroad (Invoice $6 · Expense $5 · Client $5 · Bundle $12). Free GitHub samples stay $0. Etsy still blocked. Payout connected. No earnings claims.
 
-Updated 2026-10-28 ~15:54 Asia/Shanghai (UTC+8).
+Updated 2026-10-28 ~16:05 Asia/Shanghai (UTC+8).
