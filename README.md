@@ -27,7 +27,7 @@ Public trust surface for free freelancer spreadsheet samples (invoice aging, exp
 | `PAYOUT-EMAIL-LOCK.md` | Send gate: Gumroad email/Workflow locked until $100 net + payout |
 | `WARM-FIRST.md` | First-sale gate: Discover needs ≥1 counted paid sale — warm touch before cold |
 | `OFFER-FIX.md` | After ~20 warm conversations & 0 sales → fix offer, not audience/list |
-| `COMPETITIVE-OFFER-GAP.md` | Invoice title gap vs $12–$17 chase competitors; paste-ready outcome title |
+| `COMPETITIVE-OFFER-GAP.md` | Invoice chase title LIVE + deliverable honesty vs $7–$39 script kits |
 | `profile-bios.md` | Bio copy that back-links to this hub + Gumroad |
 
 ## Free samples (one-paid feeds)
@@ -70,9 +70,9 @@ Discover / cold in-platform traffic stays at **zero** until a paid product has �
 
 Warm unlock still needs a stop rule: ~20 real **ICP** conversations with zero sales → change outcome title / promise / price — not a bigger list. See [OFFER-FIX.md](OFFER-FIX.md). Practice: sidehustle `offer-fix-gate-v1/`.
 
-## Competitive offer gap (Invoice title)
+## Competitive offer gap (Invoice title → deliverable)
 
-Public comps ($12–$17) lead with **chase** verbs; our LIVE title still reads like a Sheets template. Paste-ready chase-Friday title + first line: [COMPETITIVE-OFFER-GAP.md](COMPETITIVE-OFFER-GAP.md). Price stays $6.
+Chase-Friday title is **LIVE**. Next gap vs $7–$39 soft→firm **script kits**: sell the Friday **who-to-chase** aging decision surface honestly — do not fake scripts, do not lead the page with a tab dump. See [COMPETITIVE-OFFER-GAP.md](COMPETITIVE-OFFER-GAP.md). Price stays $6.
 
 ## Note
 

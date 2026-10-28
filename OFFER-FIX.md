@@ -23,3 +23,6 @@ Conversation rows count toward the 20 **only** if the person has late-pay / AR c
 
 ## LIVE title (2026-10-28 ~18:08)
 Who to Chase This Friday — Freelance Invoice Aging Tracker (Google Sheets & Excel)
+
+## LIVE deepen (2026-10-28 ~18:20)
+Chase title is LIVE. Next offer fix is **deliverable honesty**: comps sell soft→firm **scripts** ($7–$39); we sell the Friday **who-to-chase** aging decision surface at $6 — paste [GUMROAD-DESC-LEAD](https://github.com/SirMem/freelancer-money-sheets/blob/main/COMPETITIVE-OFFER-GAP.md) / sidehustle `competitive-deliverable-gap-v1/GUMROAD-DESC-LEAD.md`. Do not claim scripts we do not ship.
