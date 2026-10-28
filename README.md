@@ -36,7 +36,7 @@ Public trust surface for free freelancer spreadsheet samples (invoice aging, exp
 
 | Free sample | Points to only | Stay free if enough |
 |-------------|----------------|---------------------|
-| [Invoice Aging](https://github.com/SirMem/freelancer-invoice-aging-sample) · [Gumroad $0+](https://keithjenn.gumroad.com/l/merlns) | [Invoice Tracker $6](https://keithjenn.gumroad.com/l/freelancer-invoice-tracker) | Aging subset |
+| [Invoice Aging — Who to Chase This Friday](https://github.com/SirMem/freelancer-invoice-aging-sample) · [Gumroad $0+](https://keithjenn.gumroad.com/l/merlns) | [Invoice Tracker $6](https://keithjenn.gumroad.com/l/freelancer-invoice-tracker) | Aging subset |
 | [Expense Category](https://github.com/SirMem/freelancer-expense-category-sample) · [Gumroad $0+](https://keithjenn.gumroad.com/l/freelancer-expense-category-sample) | [Expense Tracker $5](https://keithjenn.gumroad.com/l/freelancer-expense-tracker) | One-month Category |
 | [Client Pipeline](https://github.com/SirMem/freelancer-client-pipeline-sample) · [Gumroad $0+](https://keithjenn.gumroad.com/l/freelancer-client-pipeline-sample) | [Client Tracker $5](https://keithjenn.gumroad.com/l/freelancer-client-tracker) | Mini CRM |
 | [ADHD 2027 planner](https://github.com/SirMem/adhd-2027-hyperlinked-planner-sample) · [Gumroad $0](https://keithjenn.gumroad.com/l/adhd-2027-planner-sample) | Free-only (different ICP) | — |
