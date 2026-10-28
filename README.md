@@ -67,4 +67,4 @@ Discover / cold in-platform traffic stays at **zero** until a paid product has �
 
 Full paid shelf is **live** on Gumroad (Invoice $6 · Expense $5 · Client $5 · Bundle $12). Free GitHub samples stay $0. Etsy still blocked. Payout connected. No earnings claims.
 
-Updated 2026-10-28 ~16:18 Asia/Shanghai (UTC+8).
+Updated 2026-10-28 ~17:06 Asia/Shanghai (UTC+8). PR open: PayrollFlow/awesome-freelancer-payments#14 (free Aging sample).
