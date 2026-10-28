@@ -3,6 +3,13 @@
 **用途：** 降低主人兑现成本——点名 **1 个**连接者，或直接把 C1 发给已知群主/带单学长/接单培训博主。  
 **不要**发给外贸询盘客户。0 花费；佣金用「人工记一笔」即可，先不建 affiliate 后台。
 
+### 降本资产（本轮）
+- 公开建议名单（挑 ≥1）：[CONNECTOR-SHORTLIST.md](CONNECTOR-SHORTLIST.md)
+- One-tap（C 与微信 DM 并列主路径）：[ONE-TAP-POST.md](ONE-TAP-POST.md)
+- 连接者分享图：[`assets/wechat-connector-c1-share.png`](assets/wechat-connector-c1-share.png)
+- 触达登记模板：[CONNECTOR-TOUCH-LOG.md](CONNECTOR-TOUCH-LOG.md)
+- 门禁说明：[CONNECTOR-GATE.md](CONNECTOR-GATE.md)
+
 ---
 
 ## 谁算连接者（勾选画像）
