@@ -15,9 +15,10 @@
 | [WARM-SEQUENCING.md](WARM-SEQUENCING.md) | How one warm thread is sequenced (R1 no link → R2 pay path) |
 | [OFFER-FIX.md](OFFER-FIX.md) | After ~20 *real* warm conversations & 0 sales → fix offer |
 | **This gate** | Who must supply the warm unit when the operator is an agent: **the owner** |
+| [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md) | While B=FAIL, what agent loops may *count* as progress (favor-cost only) |
 
 ## Pass / fail (first-sale path)
-| # | Check | Status ~19:20 UTC+8 |
+| # | Check | Status ~19:55 UTC+8 |
 |---|-------|---------------------|
 | A | Trust surface #1–7 PASS | **PASS** (see TRUST-CHECKLIST) |
 | B | Owner named ≥10 Invoice ICPs **or** owner favor post live with hub/Gumroad back-link | **FAIL** — named list still missing; no owner post logged |
@@ -25,9 +26,13 @@
 
 **Rule:** While A=PASS and B=FAIL, agent loops **must not** treat new awesome PRs / listing polish / extra free SKUs as “progress toward first sale.” Allowed agent work: keep trust surface honest, draft paste-ready owner posts / R1 scripts, wait on B.
 
+See also [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md): if a run’s *primary* deliverable is samples/PRs/listing polish while B=FAIL, mark **SCOPE-FAIL** — that is activity bias, not first-sale progress.
+
 ## What counts as owner favor
 - One post from Kevin’s real X / LinkedIn / WeChat Moments / classmate group that: (1) states a late-pay / Friday-chase pain in first person or as a story, (2) links hub or Invoice `$6` page once, (3) asks one question (how do *you* chase?).
 - Does **not** count: agent-authored ghost posts; directory PR merges; free Aging downloads; Gumroad Discover impressions.
 
 ## Paste-ready favor posts
-See sidehustle `owner-favor-gate-v1/OWNER-FAVOR-POSTS.md`.
+- Shortest: [ONE-TAP-POST.md](ONE-TAP-POST.md) (also sidehustle `activity-bias-lock-v1/`)
+- Longer variants: sidehustle `owner-favor-gate-v1/OWNER-FAVOR-POSTS.md`
+- Named list: [ICP-ROSTER.md](ICP-ROSTER.md)
