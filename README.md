@@ -89,6 +89,7 @@ Updated 2026-10-28 ~17:47 Asia/Shanghai (UTC+8). Cognition: reinforce OFFER-FIX 
 ## Gate · ICP overlap (2026-10-28)
 - [ICP-OVERLAP-GATE.md](ICP-OVERLAP-GATE.md) — warm list must overlap buyer world
 - [CONNECTOR-GATE.md](CONNECTOR-GATE.md) · 上一级连接者暖单元 + [CONNECTOR-PACK.md](CONNECTOR-PACK.md)
+- [ACCEPTANCE-GATE.md](ACCEPTANCE-GATE.md) · 首单只认可验收结果 + 付费下一跳 · [DIANYA-ONE-TAP.md](DIANYA-ONE-TAP.md)
 - [WARM-PATH-FIX.md](WARM-PATH-FIX.md) — A / W1 intro / W2 私活 / W3 narrow
 - [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md) — one-line chat replies
 - [INTRO-ROSTER.md](INTRO-ROSTER.md) — W1 intro table

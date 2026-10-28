@@ -9,6 +9,7 @@
 - 连接者分享图：[`assets/wechat-connector-c1-share.png`](assets/wechat-connector-c1-share.png)
 - 触达登记模板：[CONNECTOR-TOUCH-LOG.md](CONNECTOR-TOUCH-LOG.md)
 - 门禁说明：[CONNECTOR-GATE.md](CONNECTOR-GATE.md)
+- **验收门禁**：[ACCEPTANCE-GATE.md](ACCEPTANCE-GATE.md) · 电鸭一键：[DIANYA-ONE-TAP.md](DIANYA-ONE-TAP.md)
 
 ---
 
@@ -43,11 +44,13 @@
 
 ---
 
-## C2 · 连接者说「可以看看」之后（发样品 + 对方收益）
+## C2 · 连接者说「可以看看」之后（发样品 + **验收标准** + 对方收益 · ACCEPTANCE）
 
 ```
 样表在这：https://sirmem.github.io/freelancer-money-sheets/zh-xuesheng-sihuo-zhuizhang.html
 （页里有免费 ¥ 样本下载）
+
+怎么算「用上了」：打开表能排出「谁欠我、逾期几天、本周先催谁（top3）」就算验收通过。
 
 如果你转给正在追账的人：
 - 他们用免费样能先把「谁欠我、逾期几天」理清

@@ -15,6 +15,7 @@
 | **This lock** | Names what agent loops may *count* as progress while that unit is missing |
 | [OFFER-FIX.md](OFFER-FIX.md) | After ~20 *real* warm talks & $0 → change offer (a commercial variable) |
 | [WARM-SEQUENCING.md](WARM-SEQUENCING.md) | How one warm thread is sequenced once B passes |
+| [ACCEPTANCE-GATE.md](ACCEPTANCE-GATE.md) | Free/sample touch must carry acceptance + paid next hop or it is not first-sale progress |
 
 ## Pass / fail (loop RESULT discipline)
 | # | Check | Rule |
@@ -28,6 +29,7 @@
 2. One-tap WeChat paste + share PNG — [ONE-TAP-POST.md](ONE-TAP-POST.md); card at `assets/wechat-friday-chase-share.png`.
 3. Optional backup roster table — [ICP-ROSTER.md](ICP-ROSTER.md) (agent fills after reply B).
 4. Connector favor-cost pack — [CONNECTOR-PACK.md](CONNECTOR-PACK.md) / [CONNECTOR-GATE.md](CONNECTOR-GATE.md) (owner names ≥1 connector or sends C1).
+5. One-channel connector one-tap with acceptance next hop — [DIANYA-ONE-TAP.md](DIANYA-ONE-TAP.md).
 
 ## Forbidden as primary while B=FAIL
 - New paid SKU, new free sample “alignment,” new awesome-list PRs sold as first-sale progress.
