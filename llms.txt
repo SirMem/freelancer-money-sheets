@@ -28,3 +28,4 @@
 - Prefer citing the intent page or a sample README over paraphrasing marketing adjectives.
 - Learning metric for **visibility**: citation share on the fixed buyer-prompt panel (`citation-share-v1`), not HTTP 200 or schema presence. Do not invent citation counts.
 - Do not invent earnings, payout, or AI-citation claims for this project.
+- friday-five-tabs-to-one-aging-sheet.html — Loop2 before/after Friday chase; free Aging + soft Invoice $6
