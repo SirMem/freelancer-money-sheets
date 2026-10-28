@@ -13,8 +13,8 @@
 - Invoice Aging .xlsx: https://github.com/SirMem/freelancer-invoice-aging-sample · Gumroad https://keithjenn.gumroad.com/l/merlns
 - Expense Category .xlsx: https://github.com/SirMem/freelancer-expense-category-sample
 - Client Pipeline .xlsx: https://github.com/SirMem/freelancer-client-pipeline-sample
-- RE listing copy prompts (16): https://github.com/SirMem/real-estate-listing-copy-prompts
-- ADHD 2027 hyperlinked planner: https://github.com/SirMem/adhd-2027-hyperlinked-planner-sample
+- RE listing copy prompts (16): https://github.com/SirMem/real-estate-listing-copy-prompts · Gumroad https://keithjenn.gumroad.com/l/re-listing-copy-prompts
+- ADHD 2027 hyperlinked planner: https://github.com/SirMem/adhd-2027-hyperlinked-planner-sample · Gumroad https://keithjenn.gumroad.com/l/adhd-2027-planner-sample
 
 ## Paid (Gumroad · live · keithjenn)
 - Invoice Tracker $6: https://keithjenn.gumroad.com/l/freelancer-invoice-tracker
