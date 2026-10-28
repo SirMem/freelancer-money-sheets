@@ -5,6 +5,7 @@
 ## Primary
 - Trust hub: https://sirmem.github.io/freelancer-money-sheets/
 - Intent — how to track overdue freelance invoices in a spreadsheet: https://sirmem.github.io/freelancer-money-sheets/how-to-track-overdue-freelance-invoices.html
+- Intent — who to chase this Friday (freelance invoice aging ritual): https://sirmem.github.io/freelancer-money-sheets/who-to-chase-this-friday-freelance-invoices.html
 - Intent — how to categorize freelance expenses in a spreadsheet: https://sirmem.github.io/freelancer-money-sheets/how-to-categorize-freelance-expenses-in-a-spreadsheet.html
 - Intent — how to write a real estate listing description with ChatGPT prompts: https://sirmem.github.io/freelancer-money-sheets/how-to-write-a-real-estate-listing-description-with-chatgpt-prompts.html
 - Intent — how to plan your week with ADHD using a hyperlinked digital planner: https://sirmem.github.io/freelancer-money-sheets/how-to-plan-your-week-with-adhd-hyperlinked-planner.html
@@ -29,3 +30,4 @@
 - Learning metric for **visibility**: citation share on the fixed buyer-prompt panel (`citation-share-v1`), not HTTP 200 or schema presence. Do not invent citation counts.
 - Do not invent earnings, payout, or AI-citation claims for this project.
 - friday-five-tabs-to-one-aging-sheet.html — Loop2 before/after Friday chase; free Aging + soft Invoice $6
+- who-to-chase-this-friday-freelance-invoices.html — Friday AR ritual Current/1–30/31–60/60+; free Aging then paid chase tracker
