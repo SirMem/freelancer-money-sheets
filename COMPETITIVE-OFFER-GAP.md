@@ -5,6 +5,9 @@
 ## One-liner (2026-10-28 ~18:20 deepen)
 Title chase is LIVE. Next gap is **deliverable honesty**: late-pay ICP competitors sell **soft→firm chase scripts** ($7–$39). Our $6 wedge must explicitly sell the **Friday who-to-chase decision surface** (aging → sorted chase list) — do **not** fake a script pack with chase verbs, and do **not** keep the first screen as a tab inventory.
 
+## Deliverable alignment shipped (2026-10-28 ~18:38)
+Paid `Freelancer-Invoice-Tracker-v1.xlsx` **Start Here** now leads with Friday who-to-chase (Invoice Log / Aging → sort Days Overdue / aging buckets), then setup/print steps. Explicit disclaimer: **not** a soft→firm email-script pack. Aging sheet header clarified. File copies refreshed under sidehustle `invoice-sheet-v1/` + `gumroad-uploads/`. Gumroad product **file** re-upload still needs seller session if LIVE file must match; desc paste attempted in parallel by sibling loop.
+
 ## Public comps (fetched 2026-10-28)
 | Offer | $ | Lead verb / buy point |
 |-------|---|------------------------|
@@ -19,7 +22,7 @@ Title chase is LIVE. Next gap is **deliverable honesty**: late-pay ICP competito
 
 ## Gap history
 1. **Title gap (closed LIVE ~18:08):** was SEO “Google Sheets Invoice Template” → now **Who to Chase This Friday…**
-2. **Deliverable gap (this round):** page “What you get” still leads with Start Here / Settings / Clients tabs. Buyers comparing to $7–$39 kits hear “scripts.” We ship aging + printable invoice — sell that as **who to chase this Friday**, not as a tab dump, and **do not claim scripts we don’t ship**.
+2. **Deliverable gap (Start Here closed ~18:38; Gumroad “What you get” paste parallel):** paid `.xlsx` Start Here now leads Friday chase decision (not tab inventory) + no-scripts disclaimer. Listing “What you get” bullets still need LIVE paste if not yet applied.
 
 ## Paste (Gumroad Invoice) — title LIVE; description lead next
 - **Title (LIVE):** Who to Chase This Friday — Freelance Invoice Aging Tracker (Google Sheets & Excel)
