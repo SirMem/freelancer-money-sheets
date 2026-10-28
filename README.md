@@ -25,8 +25,12 @@ Public trust surface for free freelancer spreadsheet samples (invoice aging, exp
 - [Expense Category](https://github.com/SirMem/freelancer-expense-category-sample)
 - [Client Pipeline](https://github.com/SirMem/freelancer-client-pipeline-sample)
 
+## Market class (ratings gate)
+
+Before cutting price or stacking SKUs: classify buyer search terms as Paid / Free / Empty by Gumroad page-1 **ratings** (not competitor counts). See [MARKET-CLASS.md](MARKET-CLASS.md). 2026-10-28 snapshot: Invoice/Expense/Client stay paid as **Trackers**; Aging stays free (dead `aging receivables` room).
+
 ## Note
 
 Full paid shelf is **live** on Gumroad (Invoice $6 · Expense $5 · Client $5 · Bundle $12). Free GitHub samples stay $0. Etsy still blocked. Payout connected. No earnings claims.
 
-Updated 2026-10-28 ~14:05 Asia/Shanghai (UTC+8).
+Updated 2026-10-28 ~14:55 Asia/Shanghai (UTC+8).
