@@ -25,3 +25,7 @@ Gate: do **not** spend a push (X thread, Pin, directory submit, cold DM) until r
 ## Push rule
 
 If #1–7 PASS on Gumroad: paid CTA is allowed. Etsy/X still blocked — do not claim those shelves. Never claim Expense/Client paid URLs until listed.
+
+## Visibility / AEO (learning)
+
+- [x] Citation-share baseline logged (2026-10-28) = **0** on web SERP for primary how-to / best prompts; `robots.txt` allows major AI crawlers. Metric = panel citation share, not HTTP 200 / schema presence. Do not claim AI-engine cites until logged.
