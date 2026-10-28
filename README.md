@@ -27,6 +27,7 @@ Public trust surface for free freelancer spreadsheet samples (invoice aging, exp
 | `PAYOUT-EMAIL-LOCK.md` | Send gate: Gumroad email/Workflow locked until $100 net + payout |
 | `WARM-FIRST.md` | First-sale gate: Discover needs ≥1 counted paid sale — warm touch before cold |
 | `OFFER-FIX.md` | After ~20 warm conversations & 0 sales → fix offer, not audience/list |
+| `COMPETITIVE-OFFER-GAP.md` | Invoice title gap vs $12–$17 chase competitors; paste-ready outcome title |
 | `profile-bios.md` | Bio copy that back-links to this hub + Gumroad |
 
 ## Free samples (one-paid feeds)
@@ -67,10 +68,14 @@ Discover / cold in-platform traffic stays at **zero** until a paid product has �
 
 ## Offer-fix gate (20-convo stop)
 
-Warm unlock still needs a stop rule: ~20 real conversations with zero sales → change outcome title / promise / price — not a bigger list. See [OFFER-FIX.md](OFFER-FIX.md). Practice: sidehustle `offer-fix-gate-v1/`.
+Warm unlock still needs a stop rule: ~20 real **ICP** conversations with zero sales → change outcome title / promise / price — not a bigger list. See [OFFER-FIX.md](OFFER-FIX.md). Practice: sidehustle `offer-fix-gate-v1/`.
+
+## Competitive offer gap (Invoice title)
+
+Public comps ($12–$17) lead with **chase** verbs; our LIVE title still reads like a Sheets template. Paste-ready chase-Friday title + first line: [COMPETITIVE-OFFER-GAP.md](COMPETITIVE-OFFER-GAP.md). Price stays $6.
 
 ## Note
 
 Full paid shelf is **live** on Gumroad (Invoice $6 · Expense $5 · Client $5 · Bundle $12). Free GitHub samples stay $0. Etsy still blocked. Payout connected. No earnings claims.
 
-Updated 2026-10-28 ~17:26 Asia/Shanghai (UTC+8). Cognition: OFFER-FIX 20-convo stop.
+Updated 2026-10-28 ~17:47 Asia/Shanghai (UTC+8). Cognition: reinforce OFFER-FIX via competitive chase-title gap.
