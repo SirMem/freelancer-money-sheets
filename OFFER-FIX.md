@@ -19,3 +19,7 @@ Conversation rows count toward the 20 **only** if the person has late-pay / AR c
 ## Links
 - Hero paid: [Invoice Tracker $6](https://keithjenn.gumroad.com/l/freelancer-invoice-tracker)
 - Related: [WARM-FIRST.md](WARM-FIRST.md) · [PAIN-SPLIT.md](PAIN-SPLIT.md) · [MARKET-CLASS.md](MARKET-CLASS.md) · [COMPETITIVE-OFFER-GAP.md](COMPETITIVE-OFFER-GAP.md)
+
+
+## LIVE title (2026-10-28 ~18:08)
+Who to Chase This Friday — Freelance Invoice Aging Tracker (Google Sheets & Excel)

@@ -13,7 +13,7 @@
 ## Gap
 Our LIVE title still leads with **Google Sheets Invoice Template**. Buyers with late-pay pain buy a **Friday chase list**. We already ship aging + printable invoice — under-sold.
 
-## Paste (Gumroad Invoice)
+## Paste (Gumroad Invoice) — **LIVE applied 2026-10-28 ~18:08**
 - **Title:** Who to Chase This Friday — Freelance Invoice Aging Tracker (Google Sheets & Excel)
 - **First line:** Clients already invoiced you — cash still isn’t in. Sort by days overdue, chase the late ones this Friday first, then print the next invoice from the same sheet.
 - **Price:** $6 unchanged
