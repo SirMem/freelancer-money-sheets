@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Freelancer money sheets — free samples & trust ledger</title>
-  <meta name="description" content="Free working spreadsheet samples for freelancers (invoice aging, expense categories, client pipeline). Public ledger of what shipped. Try before you buy." />
+  <meta name="description" content="Free working spreadsheet samples for freelancers (invoice aging, expense categories, client pipeline) plus a free real-estate listing copy prompt pack. Public ledger of what shipped. Try before you buy." />
   <style>
-    :root { color-scheme: dark; --bg:#0f1115; --card:#1a1d24; --text:#e8eaed; --muted:#9aa0a6; --accent:#7dd3fc; --ok:#86efac; --border:#2a2f3a; }
+    :root { color-scheme: dark; --bg:#0f1115; --card:#1a1d24; --text:#e8eaed; --muted:#9aa0a6; --accent:#7dd3fc; --ok:#86efac; --border:#2a2f3a; --price:#fde68a; }
     * { box-sizing: border-box; }
     body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background:var(--bg); color:var(--text); line-height:1.55; }
     main { max-width:720px; margin:0 auto; padding:2rem 1.25rem 4rem; }
@@ -18,47 +18,106 @@
     a { color:var(--accent); }
     .tag { display:inline-block; font-size:.75rem; padding:.15rem .45rem; border-radius:999px; background:#0c4a6e; color:var(--accent); margin-right:.35rem; }
     .ok { color:var(--ok); }
+    .price { color:var(--price); font-weight:700; }
     table { width:100%; border-collapse:collapse; font-size:.9rem; }
     th, td { text-align:left; padding:.45rem .35rem; border-bottom:1px solid var(--border); vertical-align:top; }
     th { color:var(--muted); font-weight:600; }
     code { font-size:.85em; background:#111827; padding:.1rem .3rem; border-radius:4px; }
+    /* Decision viewport — first screen */
+    .viewport { background:linear-gradient(180deg,#151922 0%,var(--card) 100%); border:1px solid var(--border); border-radius:14px; padding:1.15rem 1.2rem 1.25rem; margin:0.85rem 0 1.25rem; }
+    .viewport h1 { font-size:1.45rem; margin:0 0 .4rem; }
+    .five { list-style:none; padding:0; margin:.85rem 0 .5rem; }
+    .five li { display:grid; grid-template-columns:5.5rem 1fr; gap:.5rem; padding:.35rem 0; border-bottom:1px solid var(--border); font-size:.95rem; }
+    .five li:last-child { border-bottom:none; }
+    .five .q { color:var(--muted); font-size:.8rem; text-transform:uppercase; letter-spacing:.03em; padding-top:.15rem; }
+    .cta-row { display:flex; flex-wrap:wrap; gap:.5rem; margin-top:.9rem; }
+    .cta { display:inline-block; background:#0c4a6e; color:var(--accent); text-decoration:none; padding:.55rem .9rem; border-radius:8px; font-weight:600; font-size:.92rem; border:1px solid #155e75; }
+    .cta:hover { background:#155e75; }
+    .cta.secondary { background:transparent; border-color:var(--border); color:var(--text); }
+    /* Visual previews */
+    .previews { display:grid; grid-template-columns:repeat(3,1fr); gap:.65rem; margin:.85rem 0; }
+    .previews figure { margin:0; background:#111827; border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+    .previews img { display:block; width:100%; height:auto; aspect-ratio:2/3; object-fit:cover; }
+    .previews figcaption { font-size:.72rem; color:var(--muted); padding:.35rem .45rem .5rem; line-height:1.35; }
+    @media (max-width:520px) {
+      .five li { grid-template-columns:1fr; gap:.15rem; }
+      .previews { grid-template-columns:1fr; }
+      .previews img { aspect-ratio:16/10; object-fit:cover; object-position:top; }
+    }
   </style>
 </head>
 <body>
 <main>
-  <p class="muted"><span class="tag">trust surface</span> Updated 2026-10-28 ~11:15 · Asia/Shanghai (UTC+8)</p>
-  <h1>Freelancer money sheets</h1>
-  <p>Working spreadsheet samples you can open today. Built for freelancers who need invoice aging, expense categories, and a client pipeline — without starting from a blank grid.</p>
+  <p class="muted"><span class="tag">decision viewport</span> Updated 2026-10-28 ~11:35 · Asia/Shanghai (UTC+8)</p>
+
+  <!-- FIRST SCREEN: answers what / who-for / price=$0 / why-trust / after-click -->
+  <section class="viewport" aria-label="Decision viewport">
+    <h1>Freelancer money sheets + free tools</h1>
+    <p><strong>What:</strong> Real working <code>.xlsx</code> samples (invoice aging, expense categories, client pipeline) and a free real-estate listing copy prompt pack — not screenshots, not a course.</p>
+    <ul class="five">
+      <li><span class="q">What</span><span>Usable spreadsheet subsets + listing-copy prompts you open today</span></li>
+      <li><span class="q">Who for</span><span>Freelancers / solos tracking money — and residential agents needing listing copy fast</span></li>
+      <li><span class="q">Price</span><span class="price">$0</span> <span class="muted">· free samples below · paid trackers not live yet</span></li>
+      <li><span class="q">Why trust</span><span>Real files on public GitHub · named free-vs-paid seam · this ledger · AI-assisted build disclosed</span></li>
+      <li><span class="q">After click</span><span>Instant raw download or clone — open in Excel / Google Sheets (or copy a prompt)</span></li>
+    </ul>
+    <div class="cta-row">
+      <a class="cta" href="#free-samples">Get free samples ($0)</a>
+      <a class="cta secondary" href="#previews">See sheet previews</a>
+    </div>
+  </section>
+
+  <h2 id="previews">Visual previews</h2>
+  <p class="muted">Pin-style covers for the three spreadsheet samples — what the free downloads look like before you open them.</p>
+  <div class="previews">
+    <figure>
+      <img src="assets/01-invoice-aging.png" alt="Preview cover: Freelancer Invoice Aging sample" width="1000" height="1500" loading="eager" />
+      <figcaption>Invoice Aging · free xlsx</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/02-expense-category.png" alt="Preview cover: Freelancer Expense Category sample" width="1000" height="1500" loading="lazy" />
+      <figcaption>Expense Category · free xlsx</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/03-client-pipeline.png" alt="Preview cover: Freelancer Client Pipeline sample" width="1000" height="1500" loading="lazy" />
+      <figcaption>Client Pipeline · free xlsx</figcaption>
+    </figure>
+  </div>
 
   <h2>About / disclosure</h2>
   <div class="card">
-    <p>These files are made by <strong>Kevin</strong> with an AI assistant doing the build and packaging. What you download is a real <code>.xlsx</code> (Excel / Google Sheets), not a screenshot pack or a course upsell.</p>
+    <p>These files are made by <strong>Kevin</strong> with an AI assistant doing the build and packaging. Spreadsheet downloads are real <code>.xlsx</code> (Excel / Google Sheets). The listing prompt pack is plain Markdown you copy into any AI tool.</p>
     <p class="muted">No inflated earnings claims. Free samples are complete usable subsets; paid trackers (when live) add the missing sheets named on each sample’s Start Here tab.</p>
   </div>
 
-  <h2>Free samples <span class="ok">· live</span></h2>
+  <h2 id="free-samples">Free samples <span class="ok">· live</span> <span class="price">· $0</span></h2>
   <div class="card">
     <table>
-      <thead><tr><th>Sample</th><th>What you get</th><th>Download</th></tr></thead>
+      <thead><tr><th>Sample</th><th>What / who</th><th>Download</th></tr></thead>
       <tbody>
         <tr>
           <td><strong>Invoice Aging</strong></td>
-          <td>Aging buckets on a real invoice set. Seam-cut from the full invoice tracker.</td>
+          <td>Aging buckets on a real invoice set. For freelancers chasing overdue pay. Seam-cut from the full invoice tracker.</td>
           <td><a href="https://raw.githubusercontent.com/SirMem/freelancer-invoice-aging-sample/main/Freelancer-Invoice-Aging-Sample.xlsx">xlsx</a> · <a href="https://github.com/SirMem/freelancer-invoice-aging-sample">repo</a></td>
         </tr>
         <tr>
           <td><strong>Expense Category</strong></td>
-          <td>Category + spend sample. Seam-cut from the full expense tracker.</td>
+          <td>Category + spend sample. For freelancers sorting tax-year spend. Seam-cut from the full expense tracker.</td>
           <td><a href="https://raw.githubusercontent.com/SirMem/freelancer-expense-category-sample/main/Freelancer-Expense-Category-Sample.xlsx">xlsx</a> · <a href="https://github.com/SirMem/freelancer-expense-category-sample">repo</a></td>
         </tr>
         <tr>
           <td><strong>Client Pipeline</strong></td>
-          <td>Clients + projects pipeline (Active / Value / Overdue). Seam-cut from the full client tracker.</td>
+          <td>Clients + projects pipeline (Active / Value / Overdue). For freelancers tracking Lead→Done.</td>
           <td><a href="https://raw.githubusercontent.com/SirMem/freelancer-client-pipeline-sample/main/Freelancer-Client-Pipeline-Sample.xlsx">xlsx</a> · <a href="https://github.com/SirMem/freelancer-client-pipeline-sample">repo</a></td>
+        </tr>
+        <tr>
+          <td><strong>RE Listing Copy Prompts</strong></td>
+          <td>16 AI prompts (AIDA / PAS / feature→benefit / open-house) for residential listing + social copy. Agents who need drafts fast.</td>
+          <td><a href="https://raw.githubusercontent.com/SirMem/real-estate-listing-copy-prompts/main/prompts.md">prompts.md</a> · <a href="https://github.com/SirMem/real-estate-listing-copy-prompts">repo</a></td>
         </tr>
       </tbody>
     </table>
-    <p class="muted" style="margin-top:.75rem">If a gap question on Start Here fits (e.g. CLIENTS / PDF / DASHBOARD), open a GitHub issue with that one word — no pitch required.</p>
+    <p class="muted" style="margin-top:.75rem">After click = instant raw file or clone. If a gap question on a spreadsheet Start Here fits (e.g. CLIENTS / PDF / DASHBOARD), open a GitHub issue with that one word — no pitch required.</p>
   </div>
 
   <h2>Public ledger</h2>
@@ -66,17 +125,17 @@
     <table>
       <thead><tr><th>When (UTC+8)</th><th>Shipped</th><th>Status</th></tr></thead>
       <tbody>
-        <tr><td>2026-10-28 ~09:40</td><td>Free Invoice Aging sample (public GitHub)</td><td class="ok">Live</td></tr>
-        <tr><td>2026-10-28 ~10:01</td><td>Free Expense Category sample (public GitHub)</td><td class="ok">Live</td></tr>
-        <tr><td>2026-10-28 ~10:34</td><td>Free Client Pipeline sample (public GitHub)</td><td class="ok">Live</td></tr>
-        <tr><td>2026-10-27–28</td><td>Paid Invoice / Expense / Client trackers + $12 bundle (local listing copy + covers)</td><td>Ready; shop publish waiting on payout / Etsy</td></tr>
-        <tr><td>2026-10-28</td><td>Gumroad free Aging draft <code>merlns</code></td><td>Uploaded $0; Publish blocked until payout connected</td></tr>
+        <tr><td>2026-10-28 ~11:35</td><td>Hub decision-viewport first screen + pin previews; free RE Listing Copy Prompt Pack (public GitHub)</td><td class="ok">Live</td></tr>
         <tr><td>2026-10-28 ~11:15</td><td>Decision FAQ / Before you buy (decision-viewport-v1) on this hub</td><td class="ok">Live</td></tr>
         <tr><td>2026-10-28 ~11:05</td><td>Trust hub on GitHub Pages (<a href="https://sirmem.github.io/freelancer-money-sheets/">sirmem.github.io/freelancer-money-sheets</a>)</td><td class="ok">Live</td></tr>
+        <tr><td>2026-10-28 ~10:34</td><td>Free Client Pipeline sample (public GitHub)</td><td class="ok">Live</td></tr>
+        <tr><td>2026-10-28 ~10:01</td><td>Free Expense Category sample (public GitHub)</td><td class="ok">Live</td></tr>
+        <tr><td>2026-10-28 ~09:40</td><td>Free Invoice Aging sample (public GitHub)</td><td class="ok">Live</td></tr>
+        <tr><td>2026-10-27–28</td><td>Paid Invoice / Expense / Client trackers + $12 bundle (local listing copy + covers)</td><td>Ready; shop publish waiting on payout / Etsy</td></tr>
+        <tr><td>2026-10-28</td><td>Gumroad free Aging draft <code>merlns</code></td><td>Uploaded $0; Publish blocked until payout connected</td></tr>
       </tbody>
     </table>
   </div>
-
 
   <h2>Before you buy / Decision FAQ</h2>
   <div class="card">
@@ -84,7 +143,7 @@
     <p><strong>Excel or Google Sheets?</strong><br/>
     One <code>.xlsx</code>. Open in Excel, or Drive → Open with Google Sheets. We claim both; formulas stay simple so they recalculate in either.</p>
     <p><strong>Free sample vs paid tracker?</strong><br/>
-    Free = real but incomplete subset (Aging / Category / Pipeline). Paid = full sheets named on each sample’s Start Here (Invoice Log + invoice + Dashboard; Expenses + Mileage + Dashboard; Clients + Time Log + Dashboard). Free stays free.</p>
+    Free = real but incomplete subset (Aging / Category / Pipeline). Paid = full sheets named on each sample’s Start Here (Invoice Log + invoice + Dashboard; Expenses + Mileage + Dashboard; Clients + Time Log + Dashboard). Free stays free. Prompt pack free = core listing/open-house/social; a paid twin later could add CMA email sequences (not built yet).</p>
     <p><strong>Mac Numbers?</strong><br/>
     We only claim Excel and Google Sheets. If Numbers breaks a formula, open in Sheets (free) or Excel. Refund = won’t open in Excel/Sheets, not Numbers quirks.</p>
     <p><strong>Won’t open after I pay?</strong><br/>
@@ -108,7 +167,7 @@
     <p class="muted">Checkout links appear here only after a stranger can complete pay → receipt → download. Until then, use the free samples above.</p>
   </div>
 
-  <p class="muted">This page is the public trust hub. Point X / Gumroad / Etsy bios here before any push.</p>
+  <p class="muted">This page is the public trust hub + decision viewport for free samples. Point X / Gumroad / Etsy bios here before any push.</p>
 </main>
 </body>
 </html>
