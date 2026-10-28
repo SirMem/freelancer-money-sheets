@@ -53,3 +53,11 @@ https://keithjenn.gumroad.com/l/freelancer-invoice-tracker
 例：`人情帖已发：微信私聊×3 + 21:20`
 
 朋友圈仍可用，但本轮 **优先私聊**（社交风险更低）。
+
+---
+
+## 首单后 · 48h 复盘（FIRST-BUYER-MAP）
+
+有人付钱后 **先发三问、再/同条要评分**。完整文案：[DEBRIEF-ASK.md](DEBRIEF-ASK.md)。门禁：[FIRST-BUYER-MAP.md](FIRST-BUYER-MAP.md)。
+
+发完回聊天：`首单复盘已发：HH:MM`

@@ -19,3 +19,6 @@ Sidehustle `warm-first-sale-v1/`: gate checklist, paste-ready warm scripts (Invo
 ## Links
 - Hero paid: [Invoice Tracker $6](https://keithjenn.gumroad.com/l/freelancer-invoice-tracker)
 - Related gates: [OWNER-FAVOR-GATE.md](OWNER-FAVOR-GATE.md) · [MARKET-CLASS.md](MARKET-CLASS.md) · [PAYOUT-EMAIL-LOCK.md](PAYOUT-EMAIL-LOCK.md) · [OWNED-LIST.md](OWNED-LIST.md) · [OFFER-FIX.md](OFFER-FIX.md)
+
+## After sale #1 · map before trophy
+Do **not** stop at a Gumroad rating ask. Within 48h run [FIRST-BUYER-MAP.md](FIRST-BUYER-MAP.md) / [DEBRIEF-ASK.md](DEBRIEF-ASK.md): why they paid · what almost stopped them · their words · acquisition source. Rating is secondary; missing debrief = trophy bias (SCOPE-FAIL for that loop).

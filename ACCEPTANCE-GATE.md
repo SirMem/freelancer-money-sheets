@@ -39,3 +39,6 @@
 | 本轮实践 | **PASS（降本）** | 电鸭一键包把验收下一跳钉进 C2；不润色 listing |
 
 *Sources logged; 0 spend; no fake revenue.*
+
+## After first paid unit
+Once a counted sale exists, commercial learning continues via [FIRST-BUYER-MAP.md](FIRST-BUYER-MAP.md) (48h why/almost-stopped/their-words) — not rating spam alone.

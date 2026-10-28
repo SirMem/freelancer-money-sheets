@@ -27,6 +27,7 @@ Public trust surface for free freelancer spreadsheet samples (invoice aging, exp
 | `PAYOUT-EMAIL-LOCK.md` | Send gate: Gumroad email/Workflow locked until $100 net + payout |
 | `WARM-FIRST.md` | First-sale gate: Discover needs ≥1 counted paid sale — warm touch before cold |
 | `WARM-SEQUENCING.md` | First warm touch: **no product URL**; R2 = $6 + `?wanted=true`; verbal interest ≠ validation |
+| `FIRST-BUYER-MAP.md` / `DEBRIEF-ASK.md` | After sale #1: 48h debrief (why / almost-stopped / their-words + source) before treating rating-ask as done — first buyer is the map to the next 10 |
 | `OWNER-FAVOR-GATE.md` / `ACTIVITY-BIAS-LOCK.md` | Zero-audience agent shops: first sale needs **owner** named list or one favor post — not more agent automation |
 | `CHANNEL-TRUST-GATE.md` / `CHANNEL-MAP.md` | Free channels gate on **accumulated trust** (Reddit age/karma, HN demotion, PH age, Discover needs first sale) — agent-new accounts cannot skip; Day-1 path must borrow owner's aged/unlocked accounts (e.g. WeChat W3) |
 | `OFFER-FIX.md` | After ~20 warm conversations & 0 sales → fix offer, not audience/list |
