@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How to categorize freelance expenses in a spreadsheet</title>
+  <meta name="description" content="Schedule C–style categories + business-use % for solo freelancers. Free .xlsx sample: EXAMPLE spent $422.69 → deductible $369.69. Not tax advice." />
+  <meta property="og:title" content="How to categorize freelance expenses in a spreadsheet" />
+  <meta property="og:description" content="Category log + business-use %. Free sample EXAMPLE $422.69 spent → $369.69 deductible." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sirmem.github.io/freelancer-money-sheets/how-to-categorize-freelance-expenses-in-a-spreadsheet.html" />
+  <meta property="og:image" content="https://sirmem.github.io/freelancer-money-sheets/assets/02-expense-category.png" />
+  <link rel="canonical" href="https://sirmem.github.io/freelancer-money-sheets/how-to-categorize-freelance-expenses-in-a-spreadsheet.html" />
+  <style>
+    :root { color-scheme: dark; --bg:#0f1115; --card:#1a1d24; --text:#e8eaed; --muted:#9aa0a6; --accent:#7dd3fc; --ok:#86efac; --border:#2a2f3a; --price:#fde68a; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background:var(--bg); color:var(--text); line-height:1.55; }
+    main { max-width:720px; margin:0 auto; padding:2rem 1.25rem 4rem; }
+    h1 { font-size:1.55rem; margin:0 0 .6rem; }
+    h2 { font-size:1.12rem; margin:1.75rem 0 .65rem; border-bottom:1px solid var(--border); padding-bottom:.3rem; }
+    p, li { color:var(--text); }
+    .muted { color:var(--muted); font-size:.95rem; }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1rem 1.1rem; margin:.75rem 0; }
+    a { color:var(--accent); }
+    .tag { display:inline-block; font-size:.75rem; padding:.15rem .45rem; border-radius:999px; background:#0c4a6e; color:var(--accent); margin-right:.35rem; }
+    .price { color:var(--price); font-weight:700; }
+    .ok { color:var(--ok); }
+    table { width:100%; border-collapse:collapse; font-size:.9rem; }
+    th, td { text-align:left; padding:.45rem .35rem; border-bottom:1px solid var(--border); vertical-align:top; }
+    th { color:var(--muted); font-weight:600; }
+    code { font-size:.85em; background:#111827; padding:.1rem .3rem; border-radius:4px; }
+    .cta { display:inline-block; background:#0c4a6e; color:var(--accent); text-decoration:none; padding:.6rem 1rem; border-radius:8px; font-weight:600; border:1px solid #155e75; margin:.25rem .35rem .25rem 0; }
+    .cta:hover { background:#155e75; }
+    .cta.secondary { background:transparent; border-color:var(--border); color:var(--text); }
+    ol.steps { padding-left:1.2rem; }
+    ol.steps li { margin:.45rem 0; }
+    figure { margin:1rem 0; }
+    figure img { max-width:100%; height:auto; border-radius:10px; border:1px solid var(--border); }
+    figcaption { font-size:.8rem; color:var(--muted); margin-top:.35rem; }
+    .answer { background:#111827; border-left:3px solid var(--accent); border-radius:0 10px 10px 0; padding:.85rem 1rem; margin:.85rem 0 1.1rem; font-size:.98rem; }
+    .answer strong.label { display:block; font-size:.72rem; text-transform:uppercase; letter-spacing:.04em; color:var(--accent); margin-bottom:.35rem; }
+    .faq dt { font-weight:600; margin-top:.85rem; color:var(--text); }
+    .faq dd { margin:.25rem 0 .55rem 0; color:var(--muted); }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do freelancers need QuickBooks to categorize expenses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. A one-month spreadsheet with Schedule C–style categories and a business-use % column is enough to see spent vs deductible before you buy accounting software. Move to QuickBooks or similar when you need multi-user books, bank sync, or accountant handoff — not to start labeling receipts."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What expense categories should a solo freelancer use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Start with common Schedule C (Form 1040) line labels: advertising, office expense, supplies, utilities, travel, meals, phone/internet, software, professional services, and education. Keep the list editable; rename for your jurisdiction. The free sample ships with these labels preloaded."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I handle partial business use like phone or meals?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Log the full amount, then set business-use % so deductible = amount × %. On the free sample EXAMPLE: phone at 60% and meals at 50% turn $422.69 spent into $369.69 deductible. Adjust % to your facts; this is not tax advice."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where is the free freelance expense category spreadsheet?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Download Freelancer-Expense-Category-Sample.xlsx from the SirMem/freelancer-expense-category-sample GitHub repo ($0). EXAMPLE hand-check: spent $422.69 · deductible $369.69. Not tax or accounting advice."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Freelancer Expense Category Sample",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Windows, macOS, Linux, ChromeOS",
+    "description": "Free one-month freelancer expense log with Schedule C–style categories and business-use %. EXAMPLE spent $422.69 → deductible $369.69. Not tax advice.",
+    "url": "https://github.com/SirMem/freelancer-expense-category-sample",
+    "downloadUrl": "https://raw.githubusercontent.com/SirMem/freelancer-expense-category-sample/main/Freelancer-Expense-Category-Sample.xlsx",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "url": "https://raw.githubusercontent.com/SirMem/freelancer-expense-category-sample/main/Freelancer-Expense-Category-Sample.xlsx"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Kevin"
+    }
+  }
+  </script>
+</head>
+<body>
+<main>
+  <p class="muted"><span class="tag">intent page</span> <span class="tag">cite-ready</span> <span class="tag">schema-parity</span> Query: categorize freelance expenses · spreadsheet · Updated 2026-10-28</p>
+
+  <h1>How to categorize freelance expenses in a spreadsheet</h1>
+  <div class="answer" role="note">
+    <strong class="label">Direct answer</strong>
+    Categorize freelance expenses in a spreadsheet by logging each receipt under a Schedule C–style category and a business-use %, then totaling spent vs deductible by category each month. A free Freelancer Expense Category .xlsx sample shows EXAMPLE spent <strong>$422.69</strong> → deductible <strong>$369.69</strong> (phone 60%, meals 50%). Not tax advice. Not accounting software.
+  </div>
+  <p>If you freelance, receipts usually land in one pile — bank export, photo folder, or a single “misc” column. Category + business-use % turns that pile into a month you can actually hand to yourself (or later an accountant): what you spent, what looks deductible, and which line is eating cash.</p>
+  <p class="muted">This page is the complete one-month method. At the end you can download a free working <code>.xlsx</code> sample. Not tax, legal, or accounting advice.</p>
+
+  <p>
+    <a class="cta" href="https://raw.githubusercontent.com/SirMem/freelancer-expense-category-sample/main/Freelancer-Expense-Category-Sample.xlsx">Download free Expense Category .xlsx ($0)</a>
+    <a class="cta secondary" href="https://github.com/SirMem/freelancer-expense-category-sample">Open sample repo</a>
+  </p>
+
+  <h2>What “categorize” means for a solo freelancer</h2>
+  <p><strong>Answer:</strong> Assign every business spend to one editable Schedule C–style label and a business-use %, then sum spent and deductible by category for the month.</p>
+  <p>You are not recreating a CPA firm. You need three facts per row:</p>
+  <div class="card">
+    <table>
+      <thead><tr><th>Fact</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Category</strong></td><td>Matches how you (or your preparer) will group the year — advertising, supplies, phone, meals…</td></tr>
+        <tr><td><strong>Amount</strong></td><td>Full receipt, not “about $40”</td></tr>
+        <tr><td><strong>Business-use %</strong></td><td>Phone / internet / meals are rarely 100%; deductible = amount × %</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Minimum columns (do not skip)</h2>
+  <p><strong>Answer:</strong> Date, vendor, description, category, amount, business-use %, deductible (formula), plus year/month helpers for rollups.</p>
+  <div class="card">
+    <table>
+      <thead><tr><th>Column</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>Date</td><td>Month filters and audit trail</td></tr>
+        <tr><td>Vendor</td><td>Match bank lines later</td></tr>
+        <tr><td>Description</td><td>What the spend was for in plain words</td></tr>
+        <tr><td>Category</td><td>Pick from an editable list (Schedule C–style labels)</td></tr>
+        <tr><td>Amount</td><td>Full spend before %</td></tr>
+        <tr><td>Business-use %</td><td>0–100; drives deductible</td></tr>
+        <tr><td>Deductible</td><td>Amount × % (formula — do not hard-type)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Monthly 15-minute ritual</h2>
+  <p><strong>Answer:</strong> Once a month: dump new receipts, assign category + %, glance at category totals, fix miscategorized rows, export or screenshot the month for your archive.</p>
+  <ol class="steps">
+    <li>Open the Categories sheet. Confirm labels still match how you work (rename freely for your jurisdiction).</li>
+    <li>Paste or type new Expense Log rows for the month (yellow input cells).</li>
+    <li>Set business-use % honestly (phone, meals, mixed-use software).</li>
+    <li>Check month totals by category: spent vs deductible.</li>
+    <li>Fix “Misc” dumps — misc is a parking lot, not a strategy.</li>
+  </ol>
+
+  <h2>Worked EXAMPLE (fake data — from the free sample)</h2>
+  <figure>
+    <img src="assets/02-expense-category.png" width="1000" height="1500" alt="Preview cover of Freelancer Expense Category free spreadsheet sample" />
+    <figcaption>Free sample cover — open the .xlsx for Categories + one-month Expense Log.</figcaption>
+  </figure>
+  <div class="card">
+    <p>On the free sample’s hand-check, EXAMPLE totals are <strong>spent $422.69</strong> and <strong>deductible $369.69</strong> (phone at 60%, meals at 50%). Vendors are fictional; the category list and formulas are real.</p>
+    <p class="muted">Open the file → read <strong>Start Here</strong> → edit Categories if needed → replace EXAMPLE rows with yours.</p>
+  </div>
+
+  <h2>Free vs paid (honest seam)</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Free sample ($0)</th><th>Full expense tracker (when live)</th></tr></thead>
+      <tbody>
+        <tr><td>Categories + one-month Expense Log + Start Here</td><td>Full-year Expenses · Mileage · Settings · Dashboard</td></tr>
+        <tr><td>Proves category + % quality</td><td>Breadth: year rollups and mileage rate — not unlocked cells on the sample</td></tr>
+      </tbody>
+    </table>
+    <p class="muted">If the free sample is missing what you need, open a GitHub issue with one word: <code>SCHEDULEC</code> · <code>MILEAGE</code> · <code>DASHBOARD</code>. Silent downloads do not tell us what to build next.</p>
+  </div>
+
+  <h2>Download</h2>
+  <p>
+    <a class="cta" href="https://raw.githubusercontent.com/SirMem/freelancer-expense-category-sample/main/Freelancer-Expense-Category-Sample.xlsx">Get free Expense Category .xlsx ($0)</a>
+    <a class="cta secondary" href="https://sirmem.github.io/freelancer-money-sheets/">Trust hub / all free samples</a>
+    <a class="cta secondary" href="https://github.com/SirMem/freelancer-expense-category-sample">Repo</a>
+  </p>
+
+  <h2>FAQ</h2>
+  <dl class="faq">
+    <dt>Do freelancers need QuickBooks to categorize expenses?</dt>
+    <dd>No. A one-month spreadsheet with Schedule C–style categories and a business-use % column is enough to see spent vs deductible before you buy accounting software. Move to QuickBooks or similar when you need multi-user books, bank sync, or accountant handoff — not to start labeling receipts.</dd>
+    <dt>What expense categories should a solo freelancer use?</dt>
+    <dd>Start with common Schedule C (Form 1040) line labels: advertising, office expense, supplies, utilities, travel, meals, phone/internet, software, professional services, and education. Keep the list editable; rename for your jurisdiction. The free sample ships with these labels preloaded.</dd>
+    <dt>How do I handle partial business use like phone or meals?</dt>
+    <dd>Log the full amount, then set business-use % so deductible = amount × %. On the free sample EXAMPLE: phone at 60% and meals at 50% turn $422.69 spent into $369.69 deductible. Adjust % to your facts; this is not tax advice.</dd>
+    <dt>Where is the free freelance expense category spreadsheet?</dt>
+    <dd>Download Freelancer-Expense-Category-Sample.xlsx from the SirMem/freelancer-expense-category-sample GitHub repo ($0). EXAMPLE hand-check: spent $422.69 · deductible $369.69. Not tax or accounting advice.</dd>
+  </dl>
+
+  <h2>Disclosure</h2>
+  <p class="muted">Built by Kevin with an AI assistant for packaging. Spreadsheet guidance only — not accounting, tax, or legal advice. No earnings claims. Category labels follow common public US IRS Schedule C vocabulary; rename for your jurisdiction. AI-assisted build disclosed. Public ledger: <a href="https://sirmem.github.io/freelancer-money-sheets/">freelancer-money-sheets</a>.</p>
+</main>
+</body>
+</html>
