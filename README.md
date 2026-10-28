@@ -26,6 +26,7 @@ Public trust surface for free freelancer spreadsheet samples (invoice aging, exp
 | `OWNED-LIST.md` | Segment gate: free-download emails → one paid path (or soft-only) |
 | `PAYOUT-EMAIL-LOCK.md` | Send gate: Gumroad email/Workflow locked until $100 net + payout |
 | `WARM-FIRST.md` | First-sale gate: Discover needs ≥1 counted paid sale — warm touch before cold |
+| `WARM-SEQUENCING.md` | First warm touch: **no product URL**; R2 = $6 + `?wanted=true`; verbal interest ≠ validation |
 | `OFFER-FIX.md` | After ~20 warm conversations & 0 sales → fix offer, not audience/list |
 | `COMPETITIVE-OFFER-GAP.md` | Invoice chase title LIVE + deliverable honesty vs $7–$39 script kits |
 | `profile-bios.md` | Bio copy that back-links to this hub + Gumroad |
@@ -63,6 +64,8 @@ Until Gumroad ≥$100 **net after fees** and a completed payout, platform Emails
 ## Warm-first sale (Discover gate)
 
 Discover / cold in-platform traffic stays at **zero** until a paid product has ≥1 counted successful sale (then ratings help). Bootstrap with off-platform warm asks — do not wait on listing SEO or free downloads. See [WARM-FIRST.md](WARM-FIRST.md). Practice scripts: sidehustle `warm-first-sale-v1/`.
+**Warm sequencing:** first DM/community help = no link; round 2 only after real AR reply. See [WARM-SEQUENCING.md](WARM-SEQUENCING.md). Scripts: sidehustle `warm-seq-no-link-v1/`.
+
 
 
 

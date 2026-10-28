@@ -2,6 +2,9 @@
 
 **One line:** Gumroad Discover / in-platform cold traffic is zero until a product has ≥1 successful paid sale that counts toward volume. Get that sale from **off-platform warm touch**, enable ratings, then cold can start. Listing polish, waiting on Discover, and free-download counts are **not** a first-sale strategy.
 
+## Sequencing (2026-10-28 ~18:47)
+See **[WARM-SEQUENCING.md](WARM-SEQUENCING.md)**: R1 = no product URL (ask how they chase / only help); R2 = $6 + `?wanted=true`. Verbal interest ≠ validation. Complements this Discover chicken-egg gate.
+
 ## Evidence (short)
 - [Gumroad Help · Discover](https://gumroad.com/help/article/79-gumroad-discover) — sale + category + ratings; account $100 genuine + payout + risk review for Discover eligibility.
 - Indie Hackers — treat Gumroad as checkout; Discover stays dark with zero counted sales.
