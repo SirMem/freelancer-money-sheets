@@ -15,7 +15,7 @@
 | 公开名 | 电鸭社区 |
 | URL | https://eleduck.com/ |
 | 受众重叠 | 中文远程/兼职/外包居民集中，常聊接活与职场痛点，和「私活做完被拖尾款」场景相邻。 |
-| Kevin 怎么开 | 用**本人账号**浏览岗位/帖子，找活跃版主或发帖人，**评论或私信**问是否有群友被拖尾款；勿让 Agent 代发。一键稿：[DIANYA-ONE-TAP.md](DIANYA-ONE-TAP.md)（含 ACCEPTANCE 下一跳）。 |
+| Kevin 怎么开 | 用**本人账号**找拖款相关**公开帖**：先 **D0 公开评论**，再 D1 私信（[THREAD-CONTEXT-GATE](THREAD-CONTEXT-GATE.md)）；熟人可直 D1。一键稿：[DIANYA-ONE-TAP.md](DIANYA-ONE-TAP.md)。勿让 Agent 代发。 |
 | 风险 | 社区对广告敏感；先问痛点（C1），别一上来硬链付费表。 |
 
 ## 2 · 程序员客栈（自由工作平台品牌）
@@ -67,4 +67,4 @@
 3. 登记 [CONNECTOR-TOUCH-LOG.md](CONNECTOR-TOUCH-LOG.md)；**禁止** Agent 伪造已发记录。
 4. 配图：[assets/wechat-connector-c1-share.png](assets/wechat-connector-c1-share.png) · 文案总入口 [ONE-TAP-POST.md](ONE-TAP-POST.md)
 
-*Updated 2026-10-28 ~22:02 Asia/Shanghai · CodingDocs Issue #4 OPENED (SHORTLIST#5)*
+*Updated 2026-10-28 ~22:22 Asia/Shanghai · THREAD-CONTEXT-GATE + CodingDocs/电鸭公开首触*

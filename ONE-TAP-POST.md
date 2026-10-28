@@ -31,7 +31,7 @@
 我弄了一份给学生用的「账龄催款表」免费样（Excel，中文），本来是给自己追账用的。如果你觉得对群里有用，我发你一份，你看看值不值得转给正在追账的人——不合适直接说，我不烦你。
 ```
 
-不知道找谁？从 [CONNECTOR-SHORTLIST.md](CONNECTOR-SHORTLIST.md) **挑 ≥1**（建议项，非已认识声明）。**优先试电鸭一键**：[DIANYA-ONE-TAP.md](DIANYA-ONE-TAP.md)（含验收下一跳）。配图：`assets/wechat-connector-c1-share.png`。
+不知道找谁？从 [CONNECTOR-SHORTLIST.md](CONNECTOR-SHORTLIST.md) **挑 ≥1**（建议项，非已认识声明）。**优先试电鸭一键**：[DIANYA-ONE-TAP.md](DIANYA-ONE-TAP.md)（**D0 公开评论优先**，见 [THREAD-CONTEXT-GATE](THREAD-CONTEXT-GATE.md)；含验收下一跳）。CodingDocs 公开轨：[CODINGDOCS-ONE-TAP.md](CODINGDOCS-ONE-TAP.md)。配图：`assets/wechat-connector-c1-share.png`。
 
 发完回：
 

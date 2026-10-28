@@ -13,6 +13,7 @@
 | [WARM-FIRST](../freelancer-money-sheets-tmp/WARM-FIRST.md) | First sale must be off-platform warm, not Discover |
 | [OFFER-FIX](../freelancer-money-sheets-tmp/OFFER-FIX.md) | After ~20 *real* conversations (reply / opened page / declined after look) with 0 sales → fix offer |
 | This gate | How a single warm thread is sequenced so “conversation” is real, not a cold pitch with a warm label |
+| [THREAD-CONTEXT-GATE.md](THREAD-CONTEXT-GATE.md) | Before the DM: earn shared public context on raised-hand threads |
 
 ## Count rules (for the 20)
 - **Counts toward 20:** they replied to a no-link ask; OR they opened checkout / product page after round 2; OR they said no after seeing price.
