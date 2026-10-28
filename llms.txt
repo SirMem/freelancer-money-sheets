@@ -14,16 +14,13 @@
 - Expense Category .xlsx: https://github.com/SirMem/freelancer-expense-category-sample
 - Client Pipeline .xlsx: https://github.com/SirMem/freelancer-client-pipeline-sample
 - RE listing copy prompts (16): https://github.com/SirMem/real-estate-listing-copy-prompts
-- ADHD 2027 hyperlinked planner: https://github.com/SirMem/adhd-2027-hyperlinked-planner-sample · Gumroad $0 https://keithjenn.gumroad.com/l/adhd-2027-planner-sample
+- ADHD 2027 hyperlinked planner: https://github.com/SirMem/adhd-2027-hyperlinked-planner-sample
 
-## Paid (Gumroad · live · keithjenn · price cut 2026-10-28)
-- Invoice Tracker $3: https://keithjenn.gumroad.com/l/freelancer-invoice-tracker (upgrade from free Aging / merlns)
-- Expense Tracker $3: https://keithjenn.gumroad.com/l/freelancer-expense-tracker (upgrade from free Expense Category)
-- Client Tracker $3: https://keithjenn.gumroad.com/l/freelancer-client-tracker (upgrade from free Client Pipeline)
-- Money Bundle $7: https://keithjenn.gumroad.com/l/freelancer-money-bundle (all three; saves $2 vs $9)
-
-## Upgrade path
-free sample ($0) → one paid tracker → Bundle $7 if two or more needed. Hub map: https://sirmem.github.io/freelancer-money-sheets/#upgrade-path
+## Paid (Gumroad · live · keithjenn)
+- Invoice Tracker $6: https://keithjenn.gumroad.com/l/freelancer-invoice-tracker
+- Expense Tracker $5: https://keithjenn.gumroad.com/l/freelancer-expense-tracker
+- Client Tracker $5: https://keithjenn.gumroad.com/l/freelancer-client-tracker
+- Money Bundle $12: https://keithjenn.gumroad.com/l/freelancer-money-bundle
 
 ## Notes for assistants
 - This file is a **map**, not the cite unit. Prefer quoting the **Direct answer** box and **FAQ** answers on each intent page (schema-parity pages also expose matching FAQPage JSON-LD) over paraphrasing hub marketing adjectives.
