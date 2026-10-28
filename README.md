@@ -84,3 +84,9 @@ Chase-Friday title is **LIVE**. Next gap vs $7–$39 soft→firm **script kits**
 Full paid shelf is **live** on Gumroad (Invoice $6 · Expense $5 · Client $5 · Bundle $12). Free GitHub samples stay $0. Etsy still blocked. Payout connected. No earnings claims.
 
 Updated 2026-10-28 ~17:47 Asia/Shanghai (UTC+8). Cognition: reinforce OFFER-FIX via competitive chase-title gap.
+
+## Gate · ICP overlap (2026-10-28)
+- [ICP-OVERLAP-GATE.md](ICP-OVERLAP-GATE.md) — warm list must overlap buyer world
+- [WARM-PATH-FIX.md](WARM-PATH-FIX.md) — A / W1 intro / W2 私活 / W3 narrow
+- [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md) — one-line chat replies
+- [INTRO-ROSTER.md](INTRO-ROSTER.md) — W1 intro table

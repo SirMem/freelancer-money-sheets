@@ -36,3 +36,6 @@ See also [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md): if a run’s *primary* 
 - Shortest: [ONE-TAP-POST.md](ONE-TAP-POST.md) (also sidehustle `activity-bias-lock-v1/`)
 - Longer variants: sidehustle `owner-favor-gate-v1/OWNER-FAVOR-POSTS.md`
 - Named list: [ICP-ROSTER.md](ICP-ROSTER.md)
+
+## Related · ICP overlap
+If Invoice ICP names will not come: see [ICP-OVERLAP-GATE.md](ICP-OVERLAP-GATE.md) and reply W1/W2/W3 per [WARM-PATH-FIX.md](WARM-PATH-FIX.md).

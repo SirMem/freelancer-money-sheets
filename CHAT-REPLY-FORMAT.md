@@ -1,40 +1,38 @@
-# Chat reply format · one message clears OWNER-FAVOR B
+# Chat reply format · ICP-OVERLAP（取代空 Invoice 表死等）
 
-**Rule:** Kevin pastes **exactly one** of A or B in chat with the agent. Do not fill markdown tables. Do not invent influencer names. Agent then flips OWNER-FAVOR B=PASS / fills roster.
-
-Pick **one** (mutually exclusive):
+**Rule:** Kevin pastes **exactly one** line in chat. Agent flips gate / fills roster. Do not invent names. Do not use 外贸询盘客户.
 
 ## A · 人情帖已发
-
 ```
 人情帖已发：<url或截图说明>
 ```
 
-Examples that count:
-- `人情帖已发：朋友圈 10/28 20:30 已配图`
-- `人情帖已发：同学群「接私活」已发 + 截图`
-- `人情帖已发：https://x.com/.../status/...`（自己账号，非 Agent 代发）
-
-Does **not** count: draft only, Agent posted for you, product-link spray with no question.
-
-## B · ≥10 Invoice ICP（真会私聊的人）
-
+## W1 · 介绍源 ≥10（推荐）
 ```
-ICP：姓名1(@handle),姓名2(@handle),姓名3,...
+介绍源：姓名1(微信),姓名2,...
 ```
+≥10 people who would **intro** you (not necessarily buy).
 
-- ≥10 people you would **actually** message (同学 / 私活朋友 / 接过外包的搭档).
-- Handles optional but helpful (`微信昵称` / `@x` / LinkedIn).
-- **Not** influencers you only follow. **Not** 外贸询盘客户. **Not** made-up names.
-
-Example shape (fake names — replace with yours):
+## W2 · 私活ICP ≥10
 ```
-ICP：小陈(微信),阿杰(@ajie_dev),老周(同学群),…（凑满≥10）
+私活ICP：姓名1,姓名2,...
+```
+≥10 classmates/partners who did side gigs / got paid late.
+
+## W3 · 收窄暖卖点
+```
+收窄：本轮暖触达只讲学生/新人私活追账
 ```
 
-## After you reply
-1. Agent marks OWNER-FAVOR **B=PASS**.
-2. If B: roster filled from your list; R1 warm-seq (no product link first) may start.
-3. If A: post logged; still prefer a named list later for R1.
+## Legacy B（仅当重叠真实存在）
+```
+ICP：姓名1(@handle),...
+```
+Only if those people are actual Invoice/Friday-chase buyers. Otherwise use W1/W2.
 
-See also: [ONE-TAP-POST.md](ONE-TAP-POST.md) (WeChat text + PNG), [ICP-ROSTER.md](ICP-ROSTER.md) (optional table backup), [OWNER-FAVOR-GATE.md](OWNER-FAVOR-GATE.md).
+## After reply
+1. A → OWNER-FAVOR A=PASS  
+2. W1 → INTRO roster filled; R1 intro-ask only (no product link)  
+3. W2 → 私活 roster; R1 warm-seq no link  
+4. W3 → Agent ships CN warm bridge assets next money/cognition loop  
+5. Empty Invoice table alone → **OVERLAP=FAIL**, not progress
