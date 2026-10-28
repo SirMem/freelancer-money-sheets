@@ -5,6 +5,9 @@
 ## Sequencing (2026-10-28 ~18:47)
 See **[WARM-SEQUENCING.md](WARM-SEQUENCING.md)**: R1 = no product URL (ask how they chase / only help); R2 = $6 + `?wanted=true`. Verbal interest ≠ validation. Complements this Discover chicken-egg gate.
 
+## Owner unit (2026-10-28 ~19:20)
+See **[OWNER-FAVOR-GATE.md](OWNER-FAVOR-GATE.md)**: when an agent runs the shop, first-sale warm must be **owner-supplied** (named ≥10 ICPs or one favor post). Trust surface PASS + more agent PRs ≠ first sale.
+
 ## Evidence (short)
 - [Gumroad Help · Discover](https://gumroad.com/help/article/79-gumroad-discover) — sale + category + ratings; account $100 genuine + payout + risk review for Discover eligibility.
 - Indie Hackers — treat Gumroad as checkout; Discover stays dark with zero counted sales.
@@ -15,4 +18,4 @@ Sidehustle `warm-first-sale-v1/`: gate checklist, paste-ready warm scripts (Invo
 
 ## Links
 - Hero paid: [Invoice Tracker $6](https://keithjenn.gumroad.com/l/freelancer-invoice-tracker)
-- Related gates: [MARKET-CLASS.md](MARKET-CLASS.md) · [PAYOUT-EMAIL-LOCK.md](PAYOUT-EMAIL-LOCK.md) · [OWNED-LIST.md](OWNED-LIST.md) · [OFFER-FIX.md](OFFER-FIX.md)
+- Related gates: [OWNER-FAVOR-GATE.md](OWNER-FAVOR-GATE.md) · [MARKET-CLASS.md](MARKET-CLASS.md) · [PAYOUT-EMAIL-LOCK.md](PAYOUT-EMAIL-LOCK.md) · [OWNED-LIST.md](OWNED-LIST.md) · [OFFER-FIX.md](OFFER-FIX.md)
