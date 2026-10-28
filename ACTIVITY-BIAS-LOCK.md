@@ -27,6 +27,7 @@
 1. One chat reply clears the gate — [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md) A (人情帖已发) or B (`ICP：姓名1,...` ≥10). Prefer chat over table editing.
 2. One-tap WeChat paste + share PNG — [ONE-TAP-POST.md](ONE-TAP-POST.md); card at `assets/wechat-friday-chase-share.png`.
 3. Optional backup roster table — [ICP-ROSTER.md](ICP-ROSTER.md) (agent fills after reply B).
+4. Connector favor-cost pack — [CONNECTOR-PACK.md](CONNECTOR-PACK.md) / [CONNECTOR-GATE.md](CONNECTOR-GATE.md) (owner names ≥1 connector or sends C1).
 
 ## Forbidden as primary while B=FAIL
 - New paid SKU, new free sample “alignment,” new awesome-list PRs sold as first-sale progress.

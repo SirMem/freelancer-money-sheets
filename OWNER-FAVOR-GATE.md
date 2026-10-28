@@ -39,3 +39,6 @@ See also [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md): if a run’s *primary* 
 
 ## Related · ICP overlap
 If Invoice ICP names will not come: see [ICP-OVERLAP-GATE.md](ICP-OVERLAP-GATE.md) and reply W1/W2/W3 per [WARM-PATH-FIX.md](WARM-PATH-FIX.md).
+
+## Related · Connector path
+If naming ≥10 ICPs stalls: a **connector** (≥1 coach/group-owner who already reaches the ICP) can supply the warm unit. See [CONNECTOR-GATE.md](CONNECTOR-GATE.md) and paste pack [CONNECTOR-PACK.md](CONNECTOR-PACK.md). Clearing connector **C1** counts as warm-unit started (same class as favor B), still sequenced no-link-first.

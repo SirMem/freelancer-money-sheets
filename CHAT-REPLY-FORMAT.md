@@ -28,6 +28,17 @@ X：`人情帖已发：<推文url>`
 ```
 Agent 已落地 CN 页 + CN ¥ 样本 + WECHAT-DM-PACK；仍需 A 或 W1/W2 清 OWNER-FAVOR。
 
+## C · 连接者 ≥1（本轮新增 · 可与 A/W 并行）
+```
+连接者：姓名1(微信/群名),姓名2
+```
+或：
+```
+连接者私聊已发：姓名 + HH:MM
+```
+画像：接单群主 / 带私活学长 / 接单培训博主 / 中文自由职业教练。  
+触达稿见 [CONNECTOR-PACK.md](CONNECTOR-PACK.md)。**1 个真连接者即可启动暖单元**（≠ 空 Affiliate 页）。
+
 ## Legacy B（仅当重叠真实存在）
 ```
 ICP：姓名1(@handle),...
@@ -40,3 +51,4 @@ Only if those people are actual Invoice/Friday-chase buyers. Otherwise use W1/W2
 3. W2 → 私活 roster; R1 warm-seq no link
 4. W3 → already shipped; still need A or W1/W2
 5. Empty Invoice table alone → **OVERLAP=FAIL**, not progress
+6. C → CONNECTOR-GATE C1=PASS；按 CONNECTOR-PACK 序（先无链问痛 → 样品 → 佣金口头）
