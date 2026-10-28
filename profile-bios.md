@@ -1,6 +1,6 @@
 # Profile bios · back-link to trust hub
 
-Replace `https://sirmem.github.io/freelancer-money-sheets/` after hosting `index.html` (Netlify Drop / GitHub Pages / any static host). Do not point bios at a Gumroad/Etsy URL that cannot complete checkout.
+Hub is live: https://sirmem.github.io/freelancer-money-sheets/ — paste into X / Gumroad / Etsy bios when those accounts are reachable. Do not point bios at a Gumroad/Etsy checkout URL that cannot complete pay.
 
 ## X / Twitter (≤160 chars)
 
@@ -33,6 +33,6 @@ Refund: if the file won’t open in Excel or Google Sheets within 7 days, messag
 
 ## After hub is live
 
-1. Paste `https://sirmem.github.io/freelancer-money-sheets/` into all three bios.
+1. Paste the hub URL into all three bios (already filled above).
 2. Re-check TRUST-CHECKLIST #5 → PASS.
 3. Only then: one push (prefer merit-channel or free-sample CTA), not a burst.
