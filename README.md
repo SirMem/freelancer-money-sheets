@@ -24,6 +24,7 @@ Public trust surface for free freelancer spreadsheet samples (invoice aging, exp
 | `PAIN-SPLIT.md` | Situation gate: distinct buyer pains per paid SKU (anti-cannibalize) |
 | `CROSS-PROMO.md` | Shared 7-line situation map; each free money sample → one paid SKU |
 | `OWNED-LIST.md` | Segment gate: free-download emails → one paid path (or soft-only) |
+| `PAYOUT-EMAIL-LOCK.md` | Send gate: Gumroad email/Workflow locked until $100 net + payout |
 | `profile-bios.md` | Bio copy that back-links to this hub + Gumroad |
 
 ## Free samples (one-paid feeds)
@@ -49,10 +50,14 @@ SKU tiers split by **buyer situation / precondition**, not a price ladder. Same-
 
 ## Owned list (nurture gate)
 
-Free-download count is vanity. Segment by which free SKU they took; each segment maps to **at most one** paid CTA (Aging → Invoice). ADHD/RE free stay soft-only (no cross-ICP money-tracker pitch). See [OWNED-LIST.md](OWNED-LIST.md). Paste-ready sequences live under sidehustle `owned-list-nurture-v1/SEQUENCES.md` (not auto-sent).
+Free-download count is vanity. Segment by which free SKU they took; each segment maps to **at most one** paid CTA (Aging → Invoice; Expense → Expense; Client → Client). ADHD/RE free stay soft-only (no cross-ICP money-tracker pitch). See [OWNED-LIST.md](OWNED-LIST.md). Paste-ready sequences live under sidehustle `owned-list-nurture-v1/SEQUENCES.md` (not auto-sent).
+
+## Payout email lock (send gate)
+
+Until Gumroad ≥$100 **net after fees** and a completed payout, platform Emails/Workflows/Broadcasts cannot send. Free SKUs still capture addresses; writing a Workflow is **not** nurture. Pre-unlock = CSV export + offboard 3-touch (sidehustle `payout-email-lock-v1/`). See [PAYOUT-EMAIL-LOCK.md](PAYOUT-EMAIL-LOCK.md).
 
 ## Note
 
 Full paid shelf is **live** on Gumroad (Invoice $6 · Expense $5 · Client $5 · Bundle $12). Free GitHub samples stay $0. Etsy still blocked. Payout connected. No earnings claims.
 
-Updated 2026-10-28 ~16:05 Asia/Shanghai (UTC+8).
+Updated 2026-10-28 ~16:18 Asia/Shanghai (UTC+8).
