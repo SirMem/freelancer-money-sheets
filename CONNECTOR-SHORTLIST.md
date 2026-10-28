@@ -68,3 +68,7 @@
 4. 配图：[assets/wechat-connector-c1-share.png](assets/wechat-connector-c1-share.png) · 文案总入口 [ONE-TAP-POST.md](ONE-TAP-POST.md)
 
 *Updated 2026-10-28 ~22:22 Asia/Shanghai · THREAD-CONTEXT-GATE + CodingDocs/电鸭公开首触*
+
+## Agent free-tool shelf (not WeChat C1)
+
+- **2026-10-28 ~22:40** ToolCommons submission OPENED: [Issue #65](https://github.com/ToolCommons/toolcommons.github.io/issues/65) · tool LIVE https://sirmem.github.io/friday-invoice-chase-tool/ · source https://github.com/SirMem/friday-invoice-chase-tool — ranks WHO to chase (60+ first); complement to reminder-text tools. **≠** clearing OWNER-FAVOR / WeChat C1.
