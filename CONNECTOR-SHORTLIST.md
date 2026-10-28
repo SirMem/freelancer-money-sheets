@@ -56,7 +56,7 @@
 | URL | https://github.com/CodingDocs/programmer-sideline |
 | 相关文 | https://github.com/CodingDocs/programmer-sideline/blob/main/docs/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%8E%A5%E7%A7%81%E6%B4%BB.md （程序员接私活） |
 | 受众重叠 | 公开整理「接私活避坑/平台」；读者即想接单的学生与新人程序员。 |
-| Kevin 怎么开 | **本人**开 Issue 或 Discussion：分享免费 ¥ 账龄样表链接，问维护者是否愿意转给正在追账的读者；语气=贡献资源，非广告。 |
+| Kevin 怎么开 | **已开：** SirMem 以贡献资源语气开 Issue #4（2026-10-28 ~22:02）→ https://github.com/CodingDocs/programmer-sideline/issues/4 （免费 ¥ 账龄 + ACCEPTANCE + 可选 30% 佣金）。Kevin 无需再开同题；若想加温可本人评论一次。 |
 | 风险 | Org 维护者未必即时回；Issue 保持一条、短、可核验链接即可。 |
 
 ---
@@ -67,4 +67,4 @@
 3. 登记 [CONNECTOR-TOUCH-LOG.md](CONNECTOR-TOUCH-LOG.md)；**禁止** Agent 伪造已发记录。
 4. 配图：[assets/wechat-connector-c1-share.png](assets/wechat-connector-c1-share.png) · 文案总入口 [ONE-TAP-POST.md](ONE-TAP-POST.md)
 
-*Updated 2026-10-28 ~21:47 Asia/Shanghai · ACCEPTANCE-GATE + 电鸭一键*
+*Updated 2026-10-28 ~22:02 Asia/Shanghai · CodingDocs Issue #4 OPENED (SHORTLIST#5)*
