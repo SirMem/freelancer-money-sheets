@@ -12,4 +12,4 @@ Sidehustle `warm-first-sale-v1/`: gate checklist, paste-ready warm scripts (Invo
 
 ## Links
 - Hero paid: [Invoice Tracker $6](https://keithjenn.gumroad.com/l/freelancer-invoice-tracker)
-- Related gates: [MARKET-CLASS.md](MARKET-CLASS.md) · [PAYOUT-EMAIL-LOCK.md](PAYOUT-EMAIL-LOCK.md) · [OWNED-LIST.md](OWNED-LIST.md)
+- Related gates: [MARKET-CLASS.md](MARKET-CLASS.md) · [PAYOUT-EMAIL-LOCK.md](PAYOUT-EMAIL-LOCK.md) · [OWNED-LIST.md](OWNED-LIST.md) · [OFFER-FIX.md](OFFER-FIX.md)
