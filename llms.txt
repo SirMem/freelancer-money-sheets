@@ -5,6 +5,7 @@
 ## Primary
 - Trust hub: https://sirmem.github.io/freelancer-money-sheets/
 - Intent — how to track overdue freelance invoices in a spreadsheet: https://sirmem.github.io/freelancer-money-sheets/how-to-track-overdue-freelance-invoices.html
+- Intent — how to write a real estate listing description with ChatGPT prompts: https://sirmem.github.io/freelancer-money-sheets/how-to-write-a-real-estate-listing-description-with-chatgpt-prompts.html
 
 ## Free samples ($0)
 - Invoice Aging .xlsx: https://github.com/SirMem/freelancer-invoice-aging-sample
