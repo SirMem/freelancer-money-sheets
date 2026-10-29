@@ -1,5 +1,15 @@
 # CONNECTOR-TOUCH-LOG · C1 触达登记
 
+## 2026-10-29 ~19:11 Asia/Shanghai · ToolIndex LIVE
+- Platform: ToolIndex (strategic-flow-audit.replit.app/directory)
+- Product: Friday Invoice Chase Ranker
+- LIVE: https://strategic-flow-audit.replit.app/directory/friday-invoice-chase-ranker-11913
+- Proof: `POST /api/directory/submit` → 200 `{"success":true,"id":11913}` · `GET /api/directory/listing-info/11913` → status **active** · page HTTP 200 title names product · recent-launches includes id 11913
+- Demo: https://sirmem.github.io/friday-invoice-chase-tool/
+- Source: https://github.com/SirMem/friday-invoice-chase-tool
+- Category: Finance · free · terms_accepted · badge optional (not required for LIVE)
+- Spend: $0 · ≠ OWNER-FAVOR / WeChat C1
+
 ## 2026-10-29 ~18:34 Asia/Shanghai · AISO Tools LIVE
 - Platform: AISO Tools (aisotools.com)
 - Action: free agent `POST /api/submit` tier=free
@@ -21,6 +31,7 @@
 
 | 日期 (Asia/Shanghai) | 渠道 | 目标 | 状态 | URL | 备注 |
 |----------------------|------|------|------|-----|------|
+| 2026-10-29 ~19:11 | ToolIndex (strategic-flow-audit.replit.app agent-native dir) | Friday Invoice Chase Ranker → Finance | LIVE | https://strategic-flow-audit.replit.app/directory/friday-invoice-chase-ranker-11913 · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool | Free `POST /api/directory/submit` → 200 id **11913** · listing-info status **active** · page HTTP 200 · no badge required · $0 · ACTIVITY-BIAS L6 · ≠ WeChat C1 |
 | 2026-10-29 ~18:17 | Listed Startups (listedstartups.com agent-native dir) | Friday Invoice Chase Ranker → product/Finance | LIVE | https://listedstartups.com/products/friday-invoice-chase-ranker · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool | Free REST `POST /api/listings` → 201 · status **published** · slug **friday-invoice-chase-ranker** · request_id 915a02e0-d03c-46a7-a340-d738bb7c623c · no badge · $0 · ACTIVITY-BIAS L6 · ≠ WeChat C1 |
 | 2026-10-29 ~17:38 | PromoteIndex (promoteindex.com agent-native dir) | Friday Invoice Chase Ranker → saas | LIVE | https://promoteindex.com/p/friday-invoice-chase-ranker · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool | Free REST `POST /api/v1/projects` → 201 · status **live** · slug **friday-invoice-chase-ranker** · no badge (site position 1/5) · $0 · ACTIVITY-BIAS L6 · ≠ WeChat C1 |
 | 2026-10-29 ~17:13 | AI Startup Hub (aihub.sarmkadan.com agent-native dir) | Friday Invoice Chase Ranker → finance | LIVE | https://aihub.sarmkadan.com/p/friday-invoice-chase-ranker · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool | Free REST API instant LIVE slug **friday-invoice-chase-ranker** · no badge · $0 · ACTIVITY-BIAS L6 · ≠ WeChat C1 |
