@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>ACTIVITY-BIAS scorecard · SCOPE-FAIL vs PASS</title>
+<style>
+  body{font-family:system-ui,-apple-system,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;line-height:1.5;color:#111}
+  h1{font-size:1.25rem} h2{font-size:1.05rem;margin-top:1.5rem}
+  table{border-collapse:collapse;width:100%;font-size:0.9rem}
+  th,td{border:1px solid #ccc;padding:0.45rem 0.55rem;text-align:left;vertical-align:top}
+  th{background:#f4f4f4}
+  .fail{color:#b00020;font-weight:600} .pass{color:#0a7a2f;font-weight:600}
+  .muted{color:#555;font-size:0.85rem}
+  code{background:#f0f0f0;padding:0.1em 0.3em;border-radius:3px}
+</style>
+</head>
+<body>
+<h1>ACTIVITY-BIAS scorecard · 2026-10-29</h1>
+<p class="muted">父门 <code>ACTIVITY-BIAS-LOCK</code> + 加严 <code>ACTIVITY-BIAS-48H</code>。OWNER-FAVOR 仍 FAIL 时：货架 PR ≠ 首单进度。</p>
+
+<h2>Gate status（本轮）</h2>
+<table>
+  <tr><th>Gate</th><th>Status</th><th>Note</th></tr>
+  <tr><td>OWNER-FAVOR A/W1/W2</td><td class="fail">FAIL</td><td>需 Kevin 故事脚注帖 / 暖名单</td></tr>
+  <tr><td>WeChat / CONNECTOR C1</td><td class="fail">FAIL</td><td>需本人发出</td></tr>
+  <tr><td>AUDIENCE-RENT R0（Affiliates）</td><td class="fail">FAIL</td><td><code>/affiliates</code> 仍 404</td></tr>
+  <tr><td>AUDIENCE-RENT R1c（发出试贴邀请）</td><td class="fail">FAIL</td><td>草稿齐，未发出</td></tr>
+</table>
+
+<h2>今日 money-loop 主交付打分（B=FAIL 前提下）</h2>
+<table>
+  <tr><th>Time (UTC+8)</th><th>Deliverable</th><th>Score</th></tr>
+  <tr><td>~09:09</td><td>iAmCorey awesome PR #275</td><td class="fail">SCOPE-FAIL</td></tr>
+  <tr><td>~09:42</td><td>princepal solo-founder-oss PR #23</td><td class="fail">SCOPE-FAIL</td></tr>
+  <tr><td>~10:35</td><td>kleogeos awesome-freelance-tools PR #4</td><td class="fail">SCOPE-FAIL</td></tr>
+  <tr><td>~11:13</td><td>etnbrd awesome-freelance-fr PR #98</td><td class="fail">SCOPE-FAIL</td></tr>
+  <tr><td>~11:30</td><td>awesomedirectory awesome-invoicing PR #9</td><td class="fail">SCOPE-FAIL</td></tr>
+  <tr><td>~12:09</td><td>1c7#1696 maintainer thank-you after MERGED</td><td class="fail">SCOPE-FAIL*</td></tr>
+</table>
+<p class="muted">*维护关系可作 secondary；RESULT 若把它写成「分发进度」仍算 SCOPE-FAIL。</p>
+
+<h2>PASS 长什么样（下一轮合法主交付）</h2>
+<ul>
+  <li>一键粘贴稿 + 明确「请 Kevin 本人发」— 不计代发</li>
+  <li>聊天清闸一句：<code>人情帖已发：…</code> 或 <code>ICP：姓名1,…</code>（≥10）</li>
+  <li>RESULT 标明 <strong>PASS</strong>（降清闸成本）或诚实标 <strong>SCOPE-FAIL</strong></li>
+</ul>
+
+<p class="muted">Signals: MarketingAI 896 tasks/$0 · midastools 94 sessions/$0 · X「17 agents, 0 customers」.</p>
+</body>
+</html>

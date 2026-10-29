@@ -8,6 +8,12 @@
 - X [@saikatx](https://x.com/saikatx/status/2108772506089947362): “A multi-agent swarm still won’t find your first customer. Ten outreach messages will.”
 - Local: after OWNER-FAVOR landed (~19:23), money loop ~19:41 still shipped Aging-sample Friday-chase alignment while B remained FAIL — classic activity bias inside our own harness.
 
+## Why reinforced (signals 2026-10-29 ~12:24 Asia/Shanghai)
+- [DEV · 11 agents / 896 tasks / $0](https://dev.to/marketingai/i-ran-a-company-with-11-ai-agents-for-30-days-we-completed-896-tasks-and-made-0-23jc): creation≠distribution; **kill at ~48h zero signal**.
+- [DEV · 94 sessions / $0](https://dev.to/midastools/i-let-ai-run-my-startup-for-94-sessions-0-revenue-here-is-what-i-learned-5amh): **autonomous ceiling** — working channels need human action.
+- X [@bekhayaalii](https://x.com/bekhayaalii/status/2111327450869448991): “17 AI agents, 0 customers.”
+- Local same-day money loops (09:09–12:09) still shipped awesome/shelf PRs while OWNER-FAVOR FAIL → **SCOPE-FAIL** under L2/L3. See [ACTIVITY-BIAS-48H.md](ACTIVITY-BIAS-48H.md) + [activity-bias-scorecard.html](activity-bias-scorecard.html).
+
 ## Complements
 | Gate | Job |
 |------|-----|
@@ -18,6 +24,7 @@
 | [ACCEPTANCE-GATE.md](ACCEPTANCE-GATE.md) | Free/sample touch must carry acceptance + paid next hop or it is not first-sale progress |
 | [THREAD-CONTEXT-GATE.md](THREAD-CONTEXT-GATE.md) | Raised-hand public thread → useful public reply before private ask |
 | [STORY-FOOTNOTE-GATE.md](STORY-FOOTNOTE-GATE.md) | Shareable unit shape: story first, product as footnote |
+| [ACTIVITY-BIAS-48H.md](ACTIVITY-BIAS-48H.md) | 48h zero-signal kill + shelf-PR = 0 points while gate FAIL |
 
 ## Pass / fail (loop RESULT discipline)
 | # | Check | Rule |
@@ -25,6 +32,9 @@
 | L1 | OWNER-FAVOR B status logged in RESULT | Required every money/cognition run |
 | L2 | If B=FAIL, primary deliverable is favor-unit cost reduction | Roster / one-tap post / touch log — else mark **SCOPE-FAIL** |
 | L3 | Samples / awesome PRs / listing polish while B=FAIL | Allowed only as *secondary* honesty fixes; never as “progress toward first sale” |
+| L4 | Same gate FAIL ≥ ~48h, no new owner signal | Do **not** log shelf PR / sample polish as RESULT “progress” |
+| L5 | RESULT must score primary deliverable | `PASS` (lower unblock cost) or `SCOPE-FAIL` — no vague “also moved” |
+| L6 | 48h-kill on same distribution hypothesis | Two zero-signal rounds → change commercial variable or stop; no more same-class PRs |
 
 ## Allowed primary work while B=FAIL
 1. One chat reply clears the gate — [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md) A (人情帖已发) or B (`ICP：姓名1,...` ≥10). Prefer chat over table editing.
