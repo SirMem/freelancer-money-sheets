@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>CLEAR-COST · 一张卡清闸</title>
+<style>
+  body{font-family:system-ui,-apple-system,sans-serif;max-width:680px;margin:1.5rem auto;padding:0 1rem;line-height:1.55;color:#111;background:#fafafa}
+  .card{background:#fff;border:1px solid #ddd;border-radius:10px;padding:1.1rem 1.2rem;margin-bottom:1rem;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+  h1{font-size:1.2rem;margin:0 0 .4rem}
+  h2{font-size:1rem;margin:0 0 .6rem}
+  .badge{display:inline-block;background:#0a7a2f;color:#fff;font-size:.75rem;padding:.15rem .5rem;border-radius:999px;font-weight:600}
+  .muted{color:#555;font-size:.88rem}
+  .fail{color:#b00020;font-weight:600}
+  pre{white-space:pre-wrap;word-break:break-word;background:#f5f5f5;border:1px solid #e0e0e0;border-radius:8px;padding:.85rem;font-size:.92rem;margin:.5rem 0}
+  .reply{background:#eef7f0;border-color:#b7dfc2}
+  .steps{display:flex;flex-wrap:wrap;gap:.4rem;margin:.6rem 0}
+  .step{background:#f0f0f0;border-radius:6px;padding:.35rem .55rem;font-size:.85rem}
+  .step strong{display:block;font-size:.75rem;color:#666}
+  button{appearance:none;border:1px solid #222;background:#111;color:#fff;border-radius:8px;padding:.55rem 1rem;font-size:.95rem;cursor:pointer}
+  button.secondary{background:#fff;color:#111}
+  .row{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:.6rem 0}
+  a{color:#0b57d0}
+  ul{margin:.4rem 0 .4rem 1.1rem;padding:0}
+  .alt{opacity:.75;font-size:.85rem;border-top:1px dashed #ddd;padding-top:.7rem;margin-top:.8rem}
+</style>
+</head>
+<body>
+<div class="card">
+  <span class="badge">推荐 · 唯一首屏动作</span>
+  <h1>CLEAR-COST · 朋友圈/同学群 · 故事脚注</h1>
+  <p class="muted">父核 <a href="CLEAR-COST.md">CLEAR-COST</a> · 门禁 <a href="OWNER-FAVOR-GATE.md">OWNER-FAVOR</a> 仍 <span class="fail">FAIL</span> · 不要再开 awesome PR 当进度</p>
+  <p>打开本卡 → 复制正文 → 本人从微信发出 → 回一行令牌。目标激活能：<strong>≤90 秒 / 0 个未决「选哪个」</strong>。</p>
+</div>
+
+<div class="card">
+  <h2>三步</h2>
+  <div class="steps">
+    <div class="step"><strong>1</strong>复制下方正文</div>
+    <div class="step"><strong>2</strong>发朋友圈或同学群（可配图 wechat-zh-sihuo-share.png）</div>
+    <div class="step"><strong>3</strong>回聊天一行令牌</div>
+  </div>
+  <div class="row">
+    <button type="button" id="copyPaste">复制粘贴正文</button>
+    <button type="button" class="secondary" id="copyReply">复制回令模板</button>
+    <span class="muted" id="toast" aria-live="polite"></span>
+  </div>
+</div>
+
+<div class="card">
+  <h2>粘贴正文（产物预览 · 故事脚注）</h2>
+  <pre id="paste">上周三晚上催尾款：打开账龄一看，同一个人欠了三笔，最大那笔已经 60+ 天。
+以前习惯是「谁烦催谁」——那天改成按 Current / 1–30 / 31–60 / 60+ 排，只追 top3。
+当晚回了两笔。
+
+（脚注）我把这套「本周先催谁」四档仪式 + 免费中文 ¥ 样本放这儿了，要的自取，别当广告：
+https://sirmem.github.io/freelancer-money-sheets/zh-xuesheng-sihuo-zhuizhang.html
+
+你们接私活被拖款时，现在一般先催谁？</pre>
+  <p class="muted">配图：hub <code>assets/wechat-zh-sihuo-share.png</code> · CN 页：<a href="zh-xuesheng-sihuo-zhuizhang.html">学生/新人私活追账</a></p>
+</div>
+
+<div class="card">
+  <h2>发完回这一行（清闸令牌）</h2>
+  <pre class="reply" id="reply">人情帖已发：朋友圈/同学群·故事脚注 + HH:MM</pre>
+  <p class="muted">例：<code>人情帖已发：朋友圈/同学群·故事脚注 + 13:05</code> → Agent 翻 OWNER-FAVOR A=PASS。不要空喊「发了」。</p>
+</div>
+
+<div class="card alt">
+  <h2>备选（勿与首屏并列决策）</h2>
+  <ul>
+    <li>拒绝 Moments → 微信 1:1 DM-R1（无硬链）见 <a href="STORY-FOOTNOTE-POSTS.md">STORY-FOOTNOTE-POSTS</a> §B</li>
+    <li>有连接者可问 → C1 见 <a href="ONE-TAP-POST.md">ONE-TAP-POST</a></li>
+    <li>能列 ≥10 人 → <code>介绍源：…</code> / <code>私活ICP：…</code> 见 <a href="CHAT-REPLY-FORMAT.md">CHAT-REPLY-FORMAT</a></li>
+  </ul>
+  <p class="muted">分数卡：<a href="clear-cost-scorecard.html">clear-cost-scorecard.html</a> · 活动偏差：<a href="activity-bias-scorecard.html">activity-bias-scorecard.html</a></p>
+</div>
+
+<script>
+const paste = document.getElementById('paste').textContent;
+const reply = document.getElementById('reply').textContent;
+const toast = document.getElementById('toast');
+async function copy(text, label){
+  try{
+    await navigator.clipboard.writeText(text);
+    toast.textContent = label + '已复制';
+  }catch(e){
+    toast.textContent = '复制失败，请手动选中';
+  }
+}
+document.getElementById('copyPaste').onclick = () => copy(paste, '正文');
+document.getElementById('copyReply').onclick = () => copy(reply, '回令');
+</script>
+</body>
+</html>

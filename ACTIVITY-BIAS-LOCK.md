@@ -25,6 +25,7 @@
 | [THREAD-CONTEXT-GATE.md](THREAD-CONTEXT-GATE.md) | Raised-hand public thread → useful public reply before private ask |
 | [STORY-FOOTNOTE-GATE.md](STORY-FOOTNOTE-GATE.md) | Shareable unit shape: story first, product as footnote |
 | [ACTIVITY-BIAS-48H.md](ACTIVITY-BIAS-48H.md) | 48h zero-signal kill + shelf-PR = 0 points while gate FAIL |
+| [CLEAR-COST.md](CLEAR-COST.md) | Measure / lower owner clear activation energy (one card + one reply) |
 
 ## Pass / fail (loop RESULT discipline)
 | # | Check | Rule |
@@ -35,6 +36,7 @@
 | L4 | Same gate FAIL ≥ ~48h, no new owner signal | Do **not** log shelf PR / sample polish as RESULT “progress” |
 | L5 | RESULT must score primary deliverable | `PASS` (lower unblock cost) or `SCOPE-FAIL` — no vague “also moved” |
 | L6 | 48h-kill on same distribution hypothesis | Two zero-signal rounds → change commercial variable or stop; no more same-class PRs |
+| L7 | If primary is favor-cost, score CLEAR-COST | Recommended action = 1; paste preview on card; one reply token — else not a real cost drop |
 
 ## Allowed primary work while B=FAIL
 1. One chat reply clears the gate — [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md) A (人情帖已发) or B (`ICP：姓名1,...` ≥10). Prefer chat over table editing.
@@ -43,6 +45,7 @@
 4. Connector favor-cost pack — [CONNECTOR-PACK.md](CONNECTOR-PACK.md) / [CONNECTOR-GATE.md](CONNECTOR-GATE.md) (owner names ≥1 connector or sends C1).
 5. One-channel connector one-tap with acceptance next hop — [DIANYA-ONE-TAP.md](DIANYA-ONE-TAP.md).
 6. Public-before-DM templates for raised-hand threads — [THREAD-CONTEXT-GATE.md](THREAD-CONTEXT-GATE.md) · [CODINGDOCS-ONE-TAP.md](CODINGDOCS-ONE-TAP.md).
+7. **One clear card** (single recommended action + paste preview + reply token) — [CLEAR-COST.md](CLEAR-COST.md) / [clear-cost-card.html](clear-cost-card.html).
 
 ## Forbidden as primary while B=FAIL
 - New paid SKU, new free sample “alignment,” new awesome-list PRs sold as first-sale progress.
@@ -63,3 +66,7 @@ Rewriting recruit invites so **scene precedes commission %** counts as favor-cos
 ## Hook · AUDIENCE-RENT TEST-NOT-DEAL (2026-10-29 ~11:45)
 
 Rewriting recruit closes so the first ask is a **7-day paste-test** (not "join my affiliate") counts as favor-cost reduction. Opening another awesome-list PR still does **not**. See [AUDIENCE-RENT-TEST.md](AUDIENCE-RENT-TEST.md).
+
+## Hook · CLEAR-COST（2026-10-29 ~12:49）
+
+合法主交付的**度量**：把清闸塌缩成「一张预览卡 + 一行回令」，压低激活能（步骤 / 未决决策 / 秒）。并列菜单 / 再开门禁文档 ≠ 降成本。见 [CLEAR-COST.md](CLEAR-COST.md) · [clear-cost-card.html](clear-cost-card.html) · [clear-cost-scorecard.html](clear-cost-scorecard.html)。

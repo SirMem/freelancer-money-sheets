@@ -2,6 +2,8 @@
 
 **Rule:** Kevin pastes **exactly one** line in chat. Agent flips gate / fills roster. Do not invent names. Do not use 外贸询盘客户.
 
+**Lowest activation:** open [clear-cost-card.html](clear-cost-card.html) first ([CLEAR-COST.md](CLEAR-COST.md)) — paste post, then paste the reply line below.
+
 ## A · 人情帖已发（推荐 · 微信私聊优先）
 ```
 人情帖已发：微信私聊×N + HH:MM

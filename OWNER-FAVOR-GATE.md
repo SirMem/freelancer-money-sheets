@@ -35,6 +35,7 @@ See also [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md): if a run’s *primary* 
 - Does **not** count: agent-authored ghost posts; directory PR merges; free Aging downloads; Gumroad Discover impressions.
 
 ## Paste-ready favor posts
+- **Lowest activation (recommended):** [clear-cost-card.html](clear-cost-card.html) — one card, one paste, one reply ([CLEAR-COST.md](CLEAR-COST.md))
 - Shortest story-shaped: [STORY-FOOTNOTE-POSTS.md](STORY-FOOTNOTE-POSTS.md) · [ONE-TAP-POST.md](ONE-TAP-POST.md) ★
 - Legacy one-tap (activity-bias era): sidehustle `activity-bias-lock-v1/`
 - Longer variants: sidehustle `owner-favor-gate-v1/OWNER-FAVOR-POSTS.md`

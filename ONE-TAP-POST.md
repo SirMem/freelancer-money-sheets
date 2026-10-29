@@ -1,4 +1,7 @@
+<!-- CLEAR-COST: prefer clear-cost-card.html as the single recommended surface while B=FAIL -->
 # One-tap · 双主路径并列 · W3 CN · 2026-10-28 ~21:33
+
+**默认先打开一张卡（降激活能）：** [clear-cost-card.html](clear-cost-card.html)（CLEAR-COST · 推荐 Moments 故事脚注）。
 
 **两条主路径同等优先（二选一即可清暖单元）：**
 
