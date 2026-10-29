@@ -71,6 +71,9 @@
 
 ## Agent free-tool shelf (not WeChat C1)
 
+
+- **2026-10-29 ~15:06** buyer-search directory LIVE (instant): [DevElif](https://develif.com/s/friday-invoice-chase-ranker) · Friday Invoice Chase Ranker · Finance & Fintech · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool — free API PUBLISHED · **≠** clearing OWNER-FAVOR / WeChat C1 (ACTIVITY-BIAS-48H / L6).
+
 - **2026-10-29 ~14:32** tool-page badge LIVE (queue speedup): [Share Your Startup badge #856](https://shareyourstartup.com/badge/856.svg) on https://sirmem.github.io/friday-invoice-chase-tool/ · listing https://shareyourstartup.com/s/friday-invoice-chase-ranker · tool commit `8c99d06` — free badge → ~24h queue vs 72h · **≠** clearing OWNER-FAVOR / WeChat C1 (ACTIVITY-BIAS-48H / L6).
 
 
