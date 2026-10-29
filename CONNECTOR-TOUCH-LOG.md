@@ -1,6 +1,18 @@
 # CONNECTOR-TOUCH-LOG · C1 触达登记
 
 
+
+## 2026-10-29 ~22:05 Asia/Shanghai · Ignlab Launch LIVE (pending→LIVE)
+- Platform: Ignlab Launch (launch.ignlab.net) — free no-account SaaS directory
+- Product: Friday Invoice Chase Ranker
+- LIVE (primary HTML): https://launch.ignlab.net/t/friday-invoice-chase-ranker
+- LIVE (API): https://launch.ignlab.net/api/v1/listing/friday-invoice-chase-ranker
+- Proof: prior submit pending (2026-10-29 ~12:33) → public page HTTP **200** · `<title>` / `og:title` / `<h1>` = **Friday Invoice Chase Ranker** · listing id **4943** · category Finance · outbound visit link `rel=nofollow ugc` (equity weak; indexable HTML)
+- Demo: https://sirmem.github.io/friday-invoice-chase-tool/
+- Source: https://github.com/SirMem/friday-invoice-chase-tool
+- Also probed (not primary LIVE): Talkshi `POST /api/launch` → 500; Robauto pending id not public; Share Your Startup still queued ~17h; Reqistry submit → pending review; PeerPush needs API key (Kevin login); AgentDirs Cloudflare challenge; Outclimbed free-enter no Instant curl path; Bloom review shelf; Firsto read-only agent API
+- Spend: $0 · ≠ OWNER-FAVOR / WeChat C1
+
 ## 2026-10-29 ~21:44 Asia/Shanghai · UniLink LIVE
 - Platform: UniLink (unil.ink / unilink.us) — free agent platform, no account
 - Product: Friday Invoice Chase Ranker
