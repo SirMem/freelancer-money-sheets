@@ -13,6 +13,7 @@
 
 | 日期 (Asia/Shanghai) | 渠道 | 目标 | 状态 | URL | 备注 |
 |----------------------|------|------|------|-----|------|
+| 2026-10-29 ~15:42 | CurlShip (buyer directory) | Friday Invoice Chase Ranker → free→dofollow | LIVE | https://curlship.com/l/8311 · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool | Free API instant LIVE id 8311 · badge verify dofollow · tool `9fcc9bc` · ListYourApp 403 abandoned · ACTIVITY-BIAS L6 · ≠ WeChat C1 |
 | 2026-10-29 ~15:06 | DevElif (buyer directory) | Friday Invoice Chase Ranker → Finance & Fintech | LIVE | https://develif.com/s/friday-invoice-chase-ranker · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool | Free API instant PUBLISHED · slug friday-invoice-chase-ranker · ACTIVITY-BIAS L6 · ≠ WeChat C1 |
 | 2026-10-29 ~14:37 | Zearches (buyer directory) | Friday Invoice Chase → Software & SaaS Tools | LIVE | https://zearches.com/directory.php?slug=software-saas · https://sirmem.github.io/friday-invoice-chase-tool/ · https://zearches.com/?status=ok#submission-feedback | Free no-login instant publish · position #1 newest · ACTIVITY-BIAS L6 · ≠ WeChat C1 |
 | 2026-10-29 ~14:32 | Share Your Startup badge on tool page | Friday Invoice Chase Ranker → queue ~24h | BADGE LIVE | https://sirmem.github.io/friday-invoice-chase-tool/ · https://shareyourstartup.com/s/friday-invoice-chase-ranker · tool `8c99d06` | Badge id 856 · free · ACTIVITY-BIAS L6 · ≠ WeChat C1 |
