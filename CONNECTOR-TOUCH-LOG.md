@@ -1,5 +1,13 @@
 # CONNECTOR-TOUCH-LOG · C1 触达登记
 
+## 2026-10-29 ~18:34 Asia/Shanghai · AISO Tools LIVE
+- Platform: AISO Tools (aisotools.com)
+- Action: free agent `POST /api/submit` tier=free
+- Result: LIVE https://aisotools.com/tool/friday-invoice-chase-ranker
+- Proof: HTTP 200 · title contains product · sid 1bd0af60-6d4f-403a-b8b9-d6f157a107f8
+- Spend: $0 · OWNER-FAVOR still FAIL
+
+
 **用途：** 记录真实触达；禁止 Agent 编造「已发微信」。  
 **规则：** 只记真实发出的触达；未发勿填 Kevin 微信行。0 花费。
 

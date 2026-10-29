@@ -71,6 +71,10 @@
 
 ## Agent free-tool shelf (not WeChat C1)
 
+- **2026-10-29 ~18:34** agent-native directory LIVE (instant): [AISO Tools](https://aisotools.com/tool/friday-invoice-chase-ranker) · Friday Invoice Chase Ranker · Business & Finance · slug `friday-invoice-chase-ranker` · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool — free `POST /api/submit` → 200 success+redirect · sid `1bd0af60-6d4f-403a-b8b9-d6f157a107f8` · page HTTP 200 · **≠** clearing OWNER-FAVOR / WeChat C1 (ACTIVITY-BIAS-48H / L6 · commercial var ≠ human launch-board stack).
+
+
+
 
 - **2026-10-29 ~18:17** agent-native directory LIVE (instant): [Listed Startups](https://listedstartups.com/products/friday-invoice-chase-ranker) · Friday Invoice Chase Ranker · product · Finance/Freelance Tools/Productivity/Billing/SaaS · slug `friday-invoice-chase-ranker` · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool — free REST `POST /api/listings` → 201 · status published · **≠** clearing OWNER-FAVOR / WeChat C1 (ACTIVITY-BIAS-48H / L6 · commercial var ≠ human launch-board stack).
 
