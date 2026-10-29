@@ -13,6 +13,7 @@
 
 | 日期 (Asia/Shanghai) | 渠道 | 目标 | 状态 | URL | 备注 |
 |----------------------|------|------|------|-----|------|
+| 2026-10-29 ~14:32 | Share Your Startup badge on tool page | Friday Invoice Chase Ranker → queue ~24h | BADGE LIVE | https://sirmem.github.io/friday-invoice-chase-tool/ · https://shareyourstartup.com/s/friday-invoice-chase-ranker · tool `8c99d06` | Badge id 856 · free · ACTIVITY-BIAS L6 · ≠ WeChat C1 |
 | 2026-10-29 ~14:00 | Share Your Startup (buyer directory) | Friday Invoice Chase Ranker → free queue | QUEUED | https://shareyourstartup.com/s/friday-invoice-chase-ranker · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool | Free no-login ~72h · $2.99 declined · ACTIVITY-BIAS: not awesome PR · ≠ WeChat C1 |
 | 2026-10-29 ~13:39 | Canopy Launch (buyer directory) | Friday Invoice Chase Ranker → Dev tool | LIVE | https://canopystack.dev/launches/0f0j1b2o5o · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool | Free no-login instant list · ACTIVITY-BIAS: not awesome PR · ≠ WeChat C1 |
 | 2026-10-29 ~13:08 | Launching Next (buyer directory) | Friday Invoice Chase Ranker → free submit | SUBMITTED PENDING | https://www.launchingnext.com/thanks/?i=170272 (id **170272**) · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool | Free form (no login) · $99 Fast-Track declined · queue ~4 months free · ACTIVITY-BIAS: not another awesome PR · ≠ WeChat C1 |
