@@ -22,6 +22,7 @@
 | [PREVIEW-CONTRACT](PREVIEW-CONTRACT.md) | 预览同意语义：类目≠令牌；按钮动词；批准后改文=新卡 |
 | [GATE-IN-CHANNEL](GATE-IN-CHANNEL.md) | 通道：预览必须在已打开聊天；站外 HTML = 可选镜像 |
 | [REPLY-BIND](REPLY-BIND.md) | 绑定：回令 ↔ 唯一粘贴块；双主路径/中英菜单/新门禁 = FAIL |
+| [EXCEPTION-ONLY](EXCEPTION-ONLY.md) | 决策类阶梯：可逆低爆 → rung3+；不可逆人情留 rung2；一条未清闸时再开新批准类 / 新 GATE = **FAIL 抬高 ceiling** |
 | [ONE-TAP-POST](ONE-TAP-POST.md) / [STORY-FOOTNOTE-POSTS](STORY-FOOTNOTE-POSTS.md) | 粘贴原文来源 |
 | [CHAT-REPLY-FORMAT](CHAT-REPLY-FORMAT.md) | 清闸回令格式 |
 
@@ -59,6 +60,12 @@
 
 对照卡（可选镜像）：[token-latency-scorecard.html](token-latency-scorecard.html)。Signals: [one-ping first action](https://thefirstusers.com/waitlist-to-signup-activation-ping)；TikTok in-feed one-tap；IH choice-overload empty state；本仓 clear-cost-scorecard 曾写「先开 HTML」= 泄漏（已修）。
 
+## Reinforce · EXCEPTION-ONLY（2026-10-29 ~15:49 · 非新门禁拆核）
+
+**Ceiling raise = FAIL:** 在 OWNER-FAVOR 一条闸未清时，再开并列批准类 / 新 `*-GATE.md` / 第二回令 = **抬高**激活能 ceiling，不是降本。正确动作是把 Directory/hub/Feishu 等可逆低爆工作留在 agent 自治（rung3+，0 CLEAR-COST 分），只保留一条 chat-inline 人情清闸。
+
+对照卡（可选镜像）：[exception-only-scorecard.html](exception-only-scorecard.html)。见 [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · LOCK L11。
+
 ## Anti-patterns
 
 - 把 CLEAR-COST 再拆成 5 个新门禁文件
@@ -66,3 +73,4 @@
 - 用 awesome PR / 样品润色冒充「降清闸成本」
 - 把「打开网页/下载卡」当成清闸第一步（违反 [GATE-IN-CHANNEL](GATE-IN-CHANNEL.md)）
 - 「两条主路径同等优先」/中英菜单并列首屏，或再开新门禁文档冒充降本（违反 [REPLY-BIND](REPLY-BIND.md)）
+- 「催更快批」或一条未清闸旁再开新 GATE / 第二回令（违反 [EXCEPTION-ONLY](EXCEPTION-ONLY.md) / L11）

@@ -37,7 +37,7 @@ https://sirmem.github.io/freelancer-money-sheets/zh-xuesheng-sihuo-zhuizhang.htm
 
 ## Optional mirrors（非清闸前置）
 
-- Scorecard: [reply-bind-scorecard.html](reply-bind-scorecard.html) · [gate-in-channel-scorecard.html](gate-in-channel-scorecard.html) · [token-latency-scorecard.html](token-latency-scorecard.html)
+- Scorecard: [reply-bind-scorecard.html](reply-bind-scorecard.html) · [gate-in-channel-scorecard.html](gate-in-channel-scorecard.html) · [token-latency-scorecard.html](token-latency-scorecard.html) · [exception-only-scorecard.html](exception-only-scorecard.html)
 - Legacy cards: [clear-cost-card.html](clear-cost-card.html) / [action-preview-card.html](action-preview-card.html)（**勿**再写成「请先打开」；**勿**标成 Lowest activation）
 
 ## Backup（仅当 Kevin 明确拒绝 Moments 后展开 · 不并列首屏）

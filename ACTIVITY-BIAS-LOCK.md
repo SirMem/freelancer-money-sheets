@@ -27,6 +27,7 @@
 | [ACTIVITY-BIAS-48H.md](ACTIVITY-BIAS-48H.md) | 48h zero-signal kill + shelf-PR = 0 points while gate FAIL |
 | [CLEAR-COST.md](CLEAR-COST.md) | Measure / lower owner clear activation energy (one card + one reply); **TOKEN-LATENCY** reinforce: clear-complete = bound reply only; open-scorecard / shelf LIVE = 0 clear points ([token-latency-scorecard.html](token-latency-scorecard.html)) |
 | [REPLY-BIND.md](REPLY-BIND.md) | Bind reply token to the single in-chat paste; kill dual-path menus (L10) |
+| [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) | Which decision classes leave Kevin's queue (rung3+) vs stay approve-before; while one gate open, no new approval class (L11) · [exception-only-scorecard.html](exception-only-scorecard.html) |
 
 ## Pass / fail (loop RESULT discipline)
 | # | Check | Rule |
@@ -41,6 +42,7 @@
 | L8 | Clear card must be PREVIEW-CONTRACT | Title=verb+object; verbatim fields; approve button names the act; no silent mutate after yes |
 | L9 | Clear preview must be GATE-IN-CHANNEL | Verbatim paste in the **open chat** / WakeParent; requiring open Pages/HTML before reply token = **FAIL cost drop** |
 | L10 | Reply must be REPLY-BIND | One paste ↔ one bound reply; ≥2 equal recommended actions / dual EN·CN first screen / new gate doc instead of fewer tokens = **FAIL cost drop** |
+| L11 | While B=FAIL, no new competing approval class | Primary deliverable must **not** open a new competing approval class / new `*-GATE.md` / second reply token; agent-openable work (directories, hub mirrors) = rung3+ and scores **0 CLEAR-COST**; only keep/refresh the single chat-inline clear — cite [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) |
 
 ## Allowed primary work while B=FAIL
 1. One chat reply clears the gate — [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md) A (人情帖已发) or B (`ICP：姓名1,...` ≥10). Prefer chat over table editing.
@@ -86,3 +88,11 @@ Clear preview must live in the **open chat**; treating "open Pages/HTML first" a
 ## Hook · REPLY-BIND（REINFORCE CLEAR-COST + GATE-IN-CHANNEL · 2026-10-29 ~14:16）
 
 回令必须绑定聊天里那一块 verbatim 粘贴；「两条主路径同等优先」/中英菜单/再开新门禁文档 = **FAIL** cost drop（L10）。见 [REPLY-BIND.md](REPLY-BIND.md) · [chat-inline-clear.md](chat-inline-clear.md) · [reply-bind-scorecard.html](reply-bind-scorecard.html)。
+
+## Hook · TOKEN-LATENCY（REINFORCE CLEAR-COST · 2026-10-29 ~15:25）
+
+清闸完成分只计绑定回令；开分数卡/货架 LIVE = **0** CLEAR-COST 分。见 [TOKEN-LATENCY.md](TOKEN-LATENCY.md) · [token-latency-scorecard.html](token-latency-scorecard.html) · [CLEAR-COST.md](CLEAR-COST.md)。
+
+## Hook · EXCEPTION-ONLY（NEW core · 2026-10-29 ~15:49）
+
+可逆·低爆破半径决策升到事后抽查/仅异常（rung3+）；只把不可逆人情（OWNER-FAVOR）留在事前批准（rung2）。**已有一条未清 Kevin 闸时，禁止再开新批准类 / 新 `*-GATE.md` / 第二回令（L11）。** 见 [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · [exception-only-scorecard.html](exception-only-scorecard.html)。
