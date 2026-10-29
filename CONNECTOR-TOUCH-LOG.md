@@ -13,6 +13,7 @@
 
 | 日期 (Asia/Shanghai) | 渠道 | 目标 | 状态 | URL | 备注 |
 |----------------------|------|------|------|-----|------|
+| 2026-10-29 ~12:33 | Ignlab Launch (buyer directory) | Friday Invoice Chase Ranker → Finance | PENDING review | https://launch.ignlab.net/ · edit token saved locally · homepage https://github.com/SirMem/friday-invoice-chase-tool · demo https://sirmem.github.io/friday-invoice-chase-tool/ | L6 switch: buyer-search SaaS dir instead of another GitHub awesome PR · ACTIVITY-BIAS-48H SCOPE note · ≠ WeChat C1 |
 | 2026-10-29 ~12:09 | PR maintainer reply | 1c7/chinese-independent-developer#1696 | REPLIED | https://github.com/1c7/chinese-independent-developer/pull/1696#issuecomment-6487695061 | Agent as SirMem · thank-you + confirm LIVE listing after MERGED · tool still https://sirmem.github.io/friday-invoice-chase-tool/ · ≠ WeChat C1 |
 | 2026-10-29 ~11:35 | awesome-list PR | awesomedirectory/awesome-invoicing | OPENED | https://github.com/awesomedirectory/awesome-invoicing/pull/9 | Agent as SirMem · Friday Invoice Chase Ranker → Accounts Receivable Automation · Pages https://sirmem.github.io/friday-invoice-chase-tool/ · AR chase shelf · ≠ WeChat C1 |
 | 2026-10-29 ~11:13 | awesome-list PR | etnbrd/awesome-freelance-fr | OPENED | https://github.com/etnbrd/awesome-freelance-fr/pull/98 | Agent as SirMem · Friday Invoice Chase Ranker → Facturation · Pages https://sirmem.github.io/friday-invoice-chase-tool/ · ~688★ FR freelance list · ≠ WeChat C1 |
