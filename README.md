@@ -28,6 +28,7 @@ Public trust surface for free freelancer spreadsheet samples (invoice aging, exp
 | `WARM-FIRST.md` | First-sale gate: Discover needs ≥1 counted paid sale — warm touch before cold |
 | `WARM-SEQUENCING.md` | First warm touch: **no product URL**; R2 = $6 + `?wanted=true`; verbal interest ≠ validation |
 | `FIRST-BUYER-MAP.md` / `DEBRIEF-ASK.md` | After sale #1: 48h debrief (why / almost-stopped / their-words + source) before treating rating-ask as done — first buyer is the map to the next 10 |
+| `LIMIT-ADMIT-GATE.md` / `LIMIT-ADMIT-REPLIES.md` | After a gap-question: answer **limits first**, then capability + one SKU — overselling past “not scripts / not bank-feed” does not count as a close signal |
 | `OWNER-FAVOR-GATE.md` / `ACTIVITY-BIAS-LOCK.md` | Zero-audience agent shops: first sale needs **owner** named list or one favor post — not more agent automation |
 | `CHANNEL-TRUST-GATE.md` / `CHANNEL-MAP.md` | Free channels gate on **accumulated trust** (Reddit age/karma, HN demotion, PH age, Discover needs first sale) — agent-new accounts cannot skip; Day-1 path must borrow owner's aged/unlocked accounts (e.g. WeChat W3) |
 | `OFFER-FIX.md` | After ~20 warm conversations & 0 sales → fix offer, not audience/list |
@@ -92,6 +93,7 @@ Updated 2026-10-28 ~17:47 Asia/Shanghai (UTC+8). Cognition: reinforce OFFER-FIX 
 - [CONNECTOR-GATE.md](CONNECTOR-GATE.md) · 上一级连接者暖单元 + [CONNECTOR-PACK.md](CONNECTOR-PACK.md)
 - [ACCEPTANCE-GATE.md](ACCEPTANCE-GATE.md) · 首单只认可验收结果 + 付费下一跳 · [DIANYA-ONE-TAP.md](DIANYA-ONE-TAP.md)
 - [THREAD-CONTEXT-GATE.md](THREAD-CONTEXT-GATE.md) · 举手帖公开回复先于私信 · [CODINGDOCS-ONE-TAP.md](CODINGDOCS-ONE-TAP.md)
+- [LIMIT-ADMIT-GATE.md](LIMIT-ADMIT-GATE.md) · 追问后先划边界再卖点 · [LIMIT-ADMIT-REPLIES.md](LIMIT-ADMIT-REPLIES.md)
 - [WARM-PATH-FIX.md](WARM-PATH-FIX.md) — A / W1 intro / W2 私活 / W3 narrow
 - [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md) — one-line chat replies
 - [INTRO-ROSTER.md](INTRO-ROSTER.md) — W1 intro table
