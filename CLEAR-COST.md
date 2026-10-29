@@ -23,6 +23,7 @@
 | [GATE-IN-CHANNEL](GATE-IN-CHANNEL.md) | 通道：预览必须在已打开聊天；站外 HTML = 可选镜像 |
 | [REPLY-BIND](REPLY-BIND.md) | 绑定：回令 ↔ 唯一粘贴块；双主路径/中英菜单/新门禁 = FAIL |
 | [EXCEPTION-ONLY](EXCEPTION-ONLY.md) | 决策类阶梯：可逆低爆 → rung3+；不可逆人情留 rung2；一条未清闸时再开新批准类 / 新 GATE = **FAIL 抬高 ceiling**；**REVIEW≠RATIFY** + money-loop 出站 = 0 CLEAR-COST；**EXCEPTION-QUEUE** packet + SAY-YES LOCK（reinforce ~16:49） |
+| [OBSERVE-NOT-NARRATE](OBSERVE-NOT-NARRATE.md) | 升阶证据前提：独立存活出处；日志是证据还是叙事；生成≠评判；一次违约降阶 · [observe-not-narrate-scorecard.html](observe-not-narrate-scorecard.html) |
 | [ONE-TAP-POST](ONE-TAP-POST.md) / [STORY-FOOTNOTE-POSTS](STORY-FOOTNOTE-POSTS.md) | 粘贴原文来源 |
 | [CHAT-REPLY-FORMAT](CHAT-REPLY-FORMAT.md) | 清闸回令格式 |
 
@@ -65,6 +66,11 @@
 **Ceiling raise = FAIL:** 在 OWNER-FAVOR 一条闸未清时，再开并列批准类 / 新 `*-GATE.md` / 第二回令 = **抬高**激活能 ceiling，不是降本。正确动作是把 Directory/hub/Feishu 等可逆低爆工作留在 agent 自治（rung3+，0 CLEAR-COST 分），只保留一条 chat-inline 人情清闸。
 
 对照卡（可选镜像）：[exception-only-scorecard.html](exception-only-scorecard.html)。见 [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · LOCK L11。
+
+
+## Reinforce · OBSERVE-NOT-NARRATE（2026-10-29 ~17:15 · 非新门禁）
+
+清闸成本度量之外：RESULT / 分数卡若只有 Agent 自述而无 URL/HTTP/commit/raw，**不得**记为进度（含目录 LIVE 叙事）。对照卡（可选镜像）：[observe-not-narrate-scorecard.html](observe-not-narrate-scorecard.html)。见 [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md)。
 
 ## Anti-patterns
 

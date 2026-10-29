@@ -48,6 +48,7 @@
 | [GATE-IN-CHANNEL](GATE-IN-CHANNEL.md) / [REPLY-BIND](REPLY-BIND.md) | That clear lives in chat; one paste ↔ one reply |
 | [OWNER-FAVOR-GATE](OWNER-FAVOR-GATE.md) | Names the irreversible warm unit that stays at rung2 |
 | **This core** | Classifies **which decision classes** may leave Kevin's queue (rung3+) vs stay approve-before |
+| [OBSERVE-NOT-NARRATE](OBSERVE-NOT-NARRATE.md) | Evidence bar for any raise to rung3+：独立存活出处 + demotion；生成≠评判 |
 
 EXCEPTION-ONLY answers *which classes leave the queue*; CLEAR-COST lowers cost of the one that stays.
 
@@ -111,6 +112,12 @@ EXCEPTION-ONLY answers *which classes leave the queue*; CLEAR-COST lowers cost o
 | X [@0xForem](https://x.com/0xForem/status/2114032775674102137) | Structure autonomy by reversibility, not task size |
 | Local | OWNER-FAVOR 仍 FAIL；chat-inline 已是 packet 雏形 — 本轮钉死字段与 SAY-YES LOCK |
 
+## Evidence prerequisite · OBSERVE-NOT-NARRATE（2026-10-29 ~17:15）
+
+**升 rung3+ 的前提不是「可逆」 alone。** 可逆·低爆只是必要非充分；还必须有**独立于 Agent 叙事、且执行后仍存活**的出处（URL / HTTP / commit / 工具原始结果）。生成 RESULT ≠ 评判 PASS；一次证据违约 → 该类立刻降阶。NEVER_AUTO：OWNER-FAVOR / Spend。
+
+详见 [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md) · [observe-not-narrate-scorecard.html](observe-not-narrate-scorecard.html)。本核不另开 `*-GATE.md`（L11）。
+
 ## Pass rules（Agent 自检）
 
 1. While OWNER-FAVOR **B=FAIL**, primary deliverable must **not** open a new competing approval class / new `*-GATE.md` / second reply token (**L11**).
@@ -120,6 +127,7 @@ EXCEPTION-ONLY answers *which classes leave the queue*; CLEAR-COST lowers cost o
 5. RESULT must score decision-class table ([exception-only-scorecard.html](exception-only-scorecard.html)): each class PASS if on target rung, FAIL if still waiting on Kevin when it should not.
 6. **REVIEW≠RATIFY:** 分数卡/货架审阅 ≠ Kevin 批准人情；不得用「已开 scorecard」冒充 clear 完成。
 7. **EXCEPTION-QUEUE:** 每个 rung2 开闸必须是完整 packet（why/evidence/proposed/decision/owner）；bare ask = FAIL；Agent 永不代「说是」。
+8. **OBSERVE-NOT-NARRATE:** rung3+ 主张必须带独立存活出处；无出处 = 不得升阶 / RESULT 不得记进度；一次违约降阶。
 
 ## Anti-patterns
 

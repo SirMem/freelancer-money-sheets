@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>OBSERVE-NOT-NARRATE · evidence ≠ narrative</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:960px;margin:1.5rem auto;padding:0 1rem;line-height:1.5}
+  table{border-collapse:collapse;width:100%;font-size:.86rem}
+  th,td{border:1px solid #ddd;padding:.4rem .5rem;text-align:left;vertical-align:top}
+  th{background:#f5f5f5}
+  .pass{color:#0a7a2f;font-weight:600}
+  .fail{color:#b00020;font-weight:600}
+  .hold{background:#fff8e6}
+  .okrow{background:#eef8f0}
+  .note{background:#f8f8f8;padding:.75rem 1rem;border-radius:6px;font-size:.9rem}
+  code{font-size:.85em}
+</style>
+</head>
+<body>
+<h1>OBSERVE-NOT-NARRATE · 证据≠叙事 分数卡</h1>
+<p class="note"><strong>镜像 only。</strong> 清闸主表面仍是聊天内 <code>chat-inline-clear.md</code>（一块粘贴 + 一行绑定回令）。打开本页<strong>不是</strong>清闸步骤。父核 <a href="OBSERVE-NOT-NARRATE.md">OBSERVE-NOT-NARRATE</a> · <a href="EXCEPTION-ONLY.md">EXCEPTION-ONLY</a>（升阶前提） · <a href="CLEAR-COST.md">CLEAR-COST</a> · L11 <a href="ACTIVITY-BIAS-LOCK.md">ACTIVITY-BIAS-LOCK</a>。</p>
+
+<p><strong>One-liner：</strong> Exception-only / HOTL 在证据只靠 Agent 自述时不安全；主张须有独立存活出处；生成≠评判；一次违约降阶。</p>
+
+<h2>E1–E6 · 本轮 ~17:15 Asia/Shanghai</h2>
+<table>
+  <tr><th>#</th><th>Check</th><th>本轮证据</th><th>PASS/FAIL</th></tr>
+  <tr class="okrow">
+    <td>E1</td>
+    <td>Claim cites independent URL/HTTP/commit/raw</td>
+    <td>money-loop-1710：AI Hub LIVE 引用 <code>POST→201</code> + <code>GET→200</code> + URL；落盘 <code>submit-response.json</code> / <code>get-product.json</code>；本核 hub commit 将给 SHA</td>
+    <td class="pass">PASS</td>
+  </tr>
+  <tr class="okrow">
+    <td>E2</td>
+    <td>Generation ≠ judgement</td>
+    <td>Agent 未自标 OWNER-FAVOR PASS；分数卡仅镜像；不可逆仍待 Kevin</td>
+    <td class="pass">PASS</td>
+  </tr>
+  <tr class="okrow">
+    <td>E3</td>
+    <td>Demotion path named</td>
+    <td><a href="OBSERVE-NOT-NARRATE.md">OBSERVE-NOT-NARRATE.md</a> Rule 4：一次证据违约 → 该类立刻降阶</td>
+    <td class="pass">PASS</td>
+  </tr>
+  <tr class="okrow">
+    <td>E4</td>
+    <td>RESULT fails if only self-narrative</td>
+    <td>规则钉死；本轮 RESULT 区分「有出处的 LIVE」vs「人情仍 FAIL」；无出处主张不得当进度</td>
+    <td class="pass">PASS</td>
+  </tr>
+  <tr class="okrow">
+    <td>E5</td>
+    <td>NEVER_AUTO includes OWNER-FAVOR / Spend</td>
+    <td>清单钉死；本轮 $0 · 未代发 · 价不变</td>
+    <td class="pass">PASS</td>
+  </tr>
+  <tr class="hold">
+    <td>E6</td>
+    <td>Reject/defer rate tracked for open gate</td>
+    <td>OWNER-FAVOR 显式 <span class="fail">FAIL</span>（正确 defer，非橡皮图章假 PASS）；待 Kevin 回令后才可计批准</td>
+    <td class="pass">PASS（defer 已记）</td>
+  </tr>
+</table>
+
+<h2>NEVER_AUTO（钉死 · 永不静默升阶）</h2>
+<table>
+  <tr><th>Class</th><th>Why</th><th>Status</th></tr>
+  <tr class="hold"><td>OWNER-FAVOR（人情帖 / A/W1/W2 / WeChat C1）</td><td>不可逆信任</td><td class="fail">FAIL until Kevin</td></tr>
+  <tr class="okrow"><td>Spend / Etsy / 付费投放</td><td>花钱</td><td class="pass">无待批花费</td></tr>
+  <tr class="okrow"><td>代发 WeChat/X / 代说「是」</td><td>SAY-YES LOCK</td><td class="pass">未代发</td></tr>
+</table>
+
+<h2>Audit · money-loop-2026-10-29-1710/RESULT.md</h2>
+<table>
+  <tr><th>Claim</th><th>Independent provenance?</th><th>Note</th></tr>
+  <tr class="okrow"><td>AI Startup Hub LIVE</td><td class="pass">YES</td><td>URL + HTTP 201/200 + raw JSON on disk</td></tr>
+  <tr class="okrow"><td>Prices unchanged / $0</td><td class="pass">YES</td><td>policy restatement；无反向证据</td></tr>
+  <tr class="hold"><td>OWNER-FAVOR still FAIL</td><td class="pass">YES（defer）</td><td>正确：非自标 PASS</td></tr>
+  <tr><td>Historical risk</td><td>—</td><td>多轮 RESULT 曾以叙事复述为主；本核要求以后每条 LIVE 必须带存活出处</td></tr>
+</table>
+
+<h2>Decision-class（对照 EXCEPTION-ONLY）</h2>
+<table>
+  <tr><th>Class</th><th>Rung</th><th>Evidence bar for raise</th><th>Waiting on Kevin?</th></tr>
+  <tr class="okrow"><td>Directory LIVE / hub / Feishu</td><td>3–4</td><td>URL/HTTP/commit/raw 必须存活</td><td>No</td></tr>
+  <tr class="hold"><td>OWNER-FAVOR</td><td>2 · NEVER_AUTO</td><td>n/a — 不可升阶</td><td class="fail">Yes</td></tr>
+  <tr class="okrow"><td>Spend</td><td>2 · NEVER_AUTO</td><td>n/a</td><td>No pending</td></tr>
+</table>
+
+<p class="note">L11 held：未新开 <code>*-GATE.md</code>；唯一 packet = chat-inline 故事脚注。生成本页 ≠ 评判 Kevin 人情。</p>
+</body>
+</html>

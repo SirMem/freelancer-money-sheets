@@ -28,6 +28,7 @@
 | [CLEAR-COST.md](CLEAR-COST.md) | Measure / lower owner clear activation energy (one card + one reply); **TOKEN-LATENCY** reinforce: clear-complete = bound reply only; open-scorecard / shelf LIVE = 0 clear points ([token-latency-scorecard.html](token-latency-scorecard.html)) |
 | [REPLY-BIND.md](REPLY-BIND.md) | Bind reply token to the single in-chat paste; kill dual-path menus (L10) |
 | [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) | Which decision classes leave Kevin's queue (rung3+) vs stay approve-before; while one gate open, no new approval class (L11) · [exception-only-scorecard.html](exception-only-scorecard.html) |
+| [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md) | Evidence bar for rung3+ raise: independent surviving provenance; generation≠judgement; one-breach demotion · [observe-not-narrate-scorecard.html](observe-not-narrate-scorecard.html) |
 
 ## Pass / fail (loop RESULT discipline)
 | # | Check | Rule |
@@ -104,3 +105,7 @@ HITL 三模式非二元：Autonomous / Review-after / Approve-before。**REVIEW�
 ## Hook · EXCEPTION-ONLY EXCEPTION-QUEUE（REINFORCE · 2026-10-29 ~16:49）
 
 留在 approve-before 的动作必须是一等 **exception packet**（why · evidence · proposed · decision · owner），不是空喊催批。Agent **SAY-YES LOCK**：永不代说「是」。见 [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · [exception-only-scorecard.html](exception-only-scorecard.html) E8。
+
+## Hook · OBSERVE-NOT-NARRATE（NEW core · 2026-10-29 ~17:15）
+
+Exception-only / HOTL 升阶在证据只靠 Agent 自述时不安全。主张须有独立存活出处（URL/HTTP/commit/raw）；生成≠评判；一次违约降阶；NEVER_AUTO 钉 OWNER-FAVOR/Spend。见 [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md) · [observe-not-narrate-scorecard.html](observe-not-narrate-scorecard.html)。配合 [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md)（升阶前提）与 [CLEAR-COST.md](CLEAR-COST.md)（日志是证据还是叙事）。
