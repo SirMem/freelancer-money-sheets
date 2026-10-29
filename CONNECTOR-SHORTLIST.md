@@ -71,4 +71,5 @@
 
 ## Agent free-tool shelf (not WeChat C1)
 
+- **2026-10-29 ~09:09** awesome-list PR OPENED: [iAmCorey/awesome-indie-hacker-tools#275](https://github.com/iAmCorey/awesome-indie-hacker-tools/pull/275) · Friday Invoice Chase Ranker under 财务税务 · LIVE https://sirmem.github.io/friday-invoice-chase-tool/ — **≠** clearing OWNER-FAVOR / WeChat C1.
 - **2026-10-28 ~22:40** ToolCommons submission OPENED: [Issue #65](https://github.com/ToolCommons/toolcommons.github.io/issues/65) · tool LIVE https://sirmem.github.io/friday-invoice-chase-tool/ · source https://github.com/SirMem/friday-invoice-chase-tool — ranks WHO to chase (60+ first); complement to reminder-text tools. **≠** clearing OWNER-FAVOR / WeChat C1.
