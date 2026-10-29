@@ -5,23 +5,33 @@
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>EXCEPTION-ONLY · decision-class ladder</title>
 <style>
-  body{font-family:system-ui,sans-serif;max-width:920px;margin:1.5rem auto;padding:0 1rem;line-height:1.5}
-  table{border-collapse:collapse;width:100%;font-size:.88rem}
-  th,td{border:1px solid #ddd;padding:.45rem .55rem;text-align:left;vertical-align:top}
+  body{font-family:system-ui,sans-serif;max-width:960px;margin:1.5rem auto;padding:0 1rem;line-height:1.5}
+  table{border-collapse:collapse;width:100%;font-size:.86rem}
+  th,td{border:1px solid #ddd;padding:.4rem .5rem;text-align:left;vertical-align:top}
   th{background:#f5f5f5}
   .pass{color:#0a7a2f;font-weight:600}
   .fail{color:#b00020;font-weight:600}
   .hold{background:#fff8e6}
   .okrow{background:#eef8f0}
+  .zero{background:#f0f4ff}
   code{font-size:.85em}
   .note{background:#f8f8f8;padding:.75rem 1rem;border-radius:6px;font-size:.9rem}
 </style>
 </head>
 <body>
 <h1>EXCEPTION-ONLY · 决策类分数卡</h1>
-<p class="note"><strong>镜像 only。</strong> 清闸主表面仍是聊天内 <code>chat-inline-clear.md</code>（一块粘贴 + 一行绑定回令）。打开本页<strong>不是</strong>清闸步骤。父核 <a href="EXCEPTION-ONLY.md">EXCEPTION-ONLY</a> · 降本 <a href="CLEAR-COST.md">CLEAR-COST</a> · 暖单元 <a href="OWNER-FAVOR-GATE.md">OWNER-FAVOR</a> · L11 <a href="ACTIVITY-BIAS-LOCK.md">ACTIVITY-BIAS-LOCK</a>。</p>
+<p class="note"><strong>镜像 only。</strong> 清闸主表面仍是聊天内 <code>chat-inline-clear.md</code>（一块粘贴 + 一行绑定回令）。打开本页<strong>不是</strong>清闸步骤。父核 <a href="EXCEPTION-ONLY.md">EXCEPTION-ONLY</a> · <strong>REVIEW≠RATIFY</strong> · 降本 <a href="CLEAR-COST.md">CLEAR-COST</a> · 暖单元 <a href="OWNER-FAVOR-GATE.md">OWNER-FAVOR</a> · L11 <a href="ACTIVITY-BIAS-LOCK.md">ACTIVITY-BIAS-LOCK</a>。</p>
 
-<h2>Decision class · 本店阶梯（2026-10-29 ~15:49）</h2>
+<h2>三模式（非二元 HITL）· 2026-10-29 ~16:22</h2>
+<table>
+  <tr><th>Mode</th><th>Rung</th><th>人在哪儿</th><th>本店例子</th></tr>
+  <tr class="okrow"><td>Autonomous</td><td>4</td><td>不在关键路径</td><td>Hub / Feishu / 已 LIVE 目录</td></tr>
+  <tr class="okrow"><td>Review-after</td><td>3</td><td>事后审轨迹</td><td>QUEUED 目录 · Agent 自检分数卡</td></tr>
+  <tr class="hold"><td>Approve-before</td><td>2</td><td>事前批准</td><td>OWNER-FAVOR · Spend</td></tr>
+</table>
+<p><strong>REVIEW≠RATIFY：</strong> 审阅（本页/Agent）可逆；批准不可逆人情必须 Kevin。开本页 ≠ clear 完成。</p>
+
+<h2>Decision class · 本店阶梯</h2>
 <table>
   <tr>
     <th>Decision class</th>
@@ -88,17 +98,32 @@
   </tr>
 </table>
 
+<h2>Money-loop outbound map · CLEAR-COST = 0</h2>
+<table>
+  <tr><th>Outbound</th><th>Status</th><th>Mode/rung</th><th>CLEAR-COST pts</th><th>Verdict</th></tr>
+  <tr class="zero"><td>submitby.ai</td><td>LIVE</td><td>4</td><td class="pass">0</td><td class="pass">PASS secondary</td></tr>
+  <tr class="zero"><td>CurlShip 8311</td><td>LIVE</td><td>4</td><td class="pass">0</td><td class="pass">PASS secondary</td></tr>
+  <tr class="zero"><td>DevElif</td><td>LIVE</td><td>4</td><td class="pass">0</td><td class="pass">PASS secondary</td></tr>
+  <tr class="zero"><td>Zearches</td><td>LIVE</td><td>4</td><td class="pass">0</td><td class="pass">PASS secondary</td></tr>
+  <tr class="zero"><td>Canopy</td><td>LIVE</td><td>4</td><td class="pass">0</td><td class="pass">PASS secondary</td></tr>
+  <tr class="zero"><td>Share Your Startup</td><td>QUEUED</td><td>3</td><td class="pass">0</td><td class="pass">PASS secondary</td></tr>
+  <tr class="zero"><td>Launching Next / Ignlab</td><td>PENDING</td><td>3</td><td class="pass">0</td><td class="pass">PASS secondary</td></tr>
+  <tr class="hold"><td>OWNER-FAVOR Moments</td><td>FAIL</td><td>2</td><td>唯一 clear</td><td class="fail">FAIL until Kevin reply</td></tr>
+</table>
+
 <h2>Rules check</h2>
 <table>
   <tr><th>#</th><th>检查</th><th>本轮</th><th>规则</th></tr>
   <tr><td>E1</td><td>可逆低爆 → rung3+</td><td class="pass">PASS</td><td>Directory/hub/Feishu 不等人</td></tr>
   <tr><td>E2</td><td>不可逆人情留 rung2</td><td class="pass">PASS shape</td><td>唯一清闸 = chat-inline Moments</td></tr>
   <tr><td>E3</td><td>一条未清闸时禁新批准类</td><td class="pass">PASS</td><td>零新 *-GATE / 零第二回令（L11）</td></tr>
-  <tr><td>E4</td><td>货架 LIVE ≠ CLEAR-COST 分</td><td class="pass">PASS</td><td>CurlShip/DevElif = 0 clear points</td></tr>
+  <tr><td>E4</td><td>货架 LIVE ≠ CLEAR-COST 分</td><td class="pass">PASS</td><td>submitby/CurlShip/DevElif = 0 clear points</td></tr>
   <tr><td>E5</td><td>未催「更快批」当主解</td><td class="pass">PASS</td><td>升阶梯，不加压 Kevin</td></tr>
+  <tr><td>E6</td><td>REVIEW≠RATIFY</td><td class="pass">PASS</td><td>分数卡审阅 ≠ Kevin 批准人情</td></tr>
+  <tr><td>E7</td><td>三模式非二元</td><td class="pass">PASS</td><td>保留 Review-after；未塌成有人/无人</td></tr>
 </table>
 
-<p><strong>SCORE: PASS</strong>（阶梯钉死；L11 守住；OWNER-FAVOR 仍是唯一未清 Kevin 闸）</p>
+<p><strong>SCORE: PASS</strong>（强化 REVIEW≠RATIFY + money-loop 0 CLEAR-COST 地图；L11 守住；OWNER-FAVOR 仍是唯一未清 Kevin 闸）</p>
 <p>Kevin 下一步（唯一）：在<strong>本聊天</strong>复制故事脚注 → 发朋友圈/同学群 → 回 <code>人情帖已发：朋友圈/同学群·故事脚注 + HH:MM</code>（不必开本页）</p>
 </body>
 </html>

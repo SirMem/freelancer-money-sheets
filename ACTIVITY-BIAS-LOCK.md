@@ -96,3 +96,7 @@ Clear preview must live in the **open chat**; treating "open Pages/HTML first" a
 ## Hook · EXCEPTION-ONLY（NEW core · 2026-10-29 ~15:49）
 
 可逆·低爆破半径决策升到事后抽查/仅异常（rung3+）；只把不可逆人情（OWNER-FAVOR）留在事前批准（rung2）。**已有一条未清 Kevin 闸时，禁止再开新批准类 / 新 `*-GATE.md` / 第二回令（L11）。** 见 [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · [exception-only-scorecard.html](exception-only-scorecard.html)。
+
+## Hook · EXCEPTION-ONLY REVIEW≠RATIFY + money-loop map（REINFORCE · 2026-10-29 ~16:22）
+
+HITL 三模式非二元：Autonomous / Review-after / Approve-before。**REVIEW≠RATIFY** — 审阅可下放，批准不可逆人情必须 Kevin。同日目录 LIVE（submitby/CurlShip/DevElif/…）= rung3+ 且 **0 CLEAR-COST**。见 [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · [exception-only-scorecard.html](exception-only-scorecard.html)。
