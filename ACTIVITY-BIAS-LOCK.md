@@ -119,3 +119,7 @@ Exception-only / HOTL 升阶在证据只靠 Agent 自述时不安全。主张须
 ## Hook · SLICE-LOCK（NEW core · 2026-10-29 ~18:22）
 
 总均分/总 RESULT PASS 会掩盖单片回归。验收按切片基线锁死；保留完整评分产物并做差分；任务成功 ≠ 脚手架健康。见 [SLICE-LOCK.md](SLICE-LOCK.md) · [slice-lock-scorecard.html](slice-lock-scorecard.html)。配合 [JOB-CONTRACT.md](JOB-CONTRACT.md)（验收形状）与 [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md)（出处仍不够，还要 per-slice）。
+
+## Hook · EDIT-TRIGGERED（NEW core · 2026-10-29 ~18:51）
+
+接受流程/目录/脚手架改动须三条件：目标↑ · 保护不回退 · **触发证明**（写路径 POST/sid/调用日志）。仅 GET 页 200 ≠ LIVE 触发。见 [EDIT-TRIGGERED.md](EDIT-TRIGGERED.md) · [edit-triggered-scorecard.html](edit-triggered-scorecard.html)。

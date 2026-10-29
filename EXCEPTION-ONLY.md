@@ -50,6 +50,7 @@
 | **This core** | Classifies **which decision classes** may leave Kevin's queue (rung3+) vs stay approve-before |
 | [JOB-CONTRACT](JOB-CONTRACT.md) | Every job (any rung) must be a six-field contract before run · [job-contract-scorecard.html](job-contract-scorecard.html) |
 | [SLICE-LOCK](SLICE-LOCK.md) | RESULT acceptance decomposed per-slice; mean PASS masks open FAIL · [slice-lock-scorecard.html](slice-lock-scorecard.html) |
+| [EDIT-TRIGGERED](EDIT-TRIGGERED.md) | Accept edit only with target↑ + protect + trigger proof · [edit-triggered-scorecard.html](edit-triggered-scorecard.html) |
 | [OBSERVE-NOT-NARRATE](OBSERVE-NOT-NARRATE.md) | Evidence bar for any raise to rung3+：独立存活出处 + demotion；生成≠评判 |
 
 EXCEPTION-ONLY answers *which classes leave the queue*; CLEAR-COST lowers cost of the one that stays.
@@ -145,3 +146,7 @@ EXCEPTION-ONLY answers *which classes leave the queue*; CLEAR-COST lowers cost o
 ## Scoring discipline · SLICE-LOCK（2026-10-29 ~18:22）
 
 EXCEPTION-ONLY 管决策类升阶；SLICE-LOCK 管 RESULT **计分**：不得用总 PASS 掩盖 OWNER-FAVOR 等开着的 FAIL 切片。非新 `*-GATE.md`（L11）。见 [SLICE-LOCK.md](SLICE-LOCK.md) · [slice-lock-scorecard.html](slice-lock-scorecard.html)。
+
+## Scoring discipline · EDIT-TRIGGERED（2026-10-29 ~18:51）
+
+EXCEPTION-ONLY 管升阶类；EDIT-TRIGGERED 管**改动验收**：目标变好不够，还须执行证据证明预定路径被触发。非新 `*-GATE.md`（L11）。见 [EDIT-TRIGGERED.md](EDIT-TRIGGERED.md) · [edit-triggered-scorecard.html](edit-triggered-scorecard.html)。

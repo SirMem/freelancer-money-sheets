@@ -60,3 +60,7 @@
 ## Complements（不替代 · 不发明并列 GATE）
 
 见 [JOB-CONTRACT.md](JOB-CONTRACT.md) · [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md) · [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · [ACCEPTANCE-GATE.md](ACCEPTANCE-GATE.md) · [CLEAR-COST.md](CLEAR-COST.md) · [slice-lock-scorecard.html](slice-lock-scorecard.html) · [chat-inline-clear.md](chat-inline-clear.md)。
+
+## Hook · EDIT-TRIGGERED（2026-10-29 ~18:51）
+
+切片表里必须能单列 **触发切片**：目标 PASS ≠ 触发 PASS。见 [EDIT-TRIGGERED.md](EDIT-TRIGGERED.md) · [edit-triggered-scorecard.html](edit-triggered-scorecard.html)。

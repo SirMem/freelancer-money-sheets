@@ -26,6 +26,7 @@
 | [OBSERVE-NOT-NARRATE](OBSERVE-NOT-NARRATE.md) | 升阶证据前提：独立存活出处；日志是证据还是叙事；生成≠评判；一次违约降阶 · [observe-not-narrate-scorecard.html](observe-not-narrate-scorecard.html) |
 | [JOB-CONTRACT](JOB-CONTRACT.md) | 任务形状：六栏契约先于动手；验收测试预声明；≠买家 ACCEPTANCE-GATE · [job-contract-scorecard.html](job-contract-scorecard.html) |
 | [SLICE-LOCK](SLICE-LOCK.md) | 验收按切片基线；总均分掩盖回归；任务≠脚手架 · [slice-lock-scorecard.html](slice-lock-scorecard.html) |
+| [EDIT-TRIGGERED](EDIT-TRIGGERED.md) | 改动验收须含触发证明 · [edit-triggered-scorecard.html](edit-triggered-scorecard.html) |
 | [ONE-TAP-POST](ONE-TAP-POST.md) / [STORY-FOOTNOTE-POSTS](STORY-FOOTNOTE-POSTS.md) | 粘贴原文来源 |
 | [CHAT-REPLY-FORMAT](CHAT-REPLY-FORMAT.md) | 清闸回令格式 |
 
@@ -91,3 +92,7 @@
 ## Reinforce · SLICE-LOCK（2026-10-29 ~18:22 · 非新门禁）
 
 清闸之外：RESULT 不得只报 mean/总 PASS。开着的 OWNER-FAVOR 切片必须显式 FAIL。对照卡（可选镜像）：[slice-lock-scorecard.html](slice-lock-scorecard.html)。见 [SLICE-LOCK.md](SLICE-LOCK.md)。
+
+## Reinforce · EDIT-TRIGGERED（2026-10-29 ~18:51 · 非新门禁）
+
+清闸之外：声称目录 LIVE / hub 改动生效时，RESULT 须含写路径触发证据（POST/sid/commit），不能只用 GET。对照卡：[edit-triggered-scorecard.html](edit-triggered-scorecard.html)。见 [EDIT-TRIGGERED.md](EDIT-TRIGGERED.md)。

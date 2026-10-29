@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>EDIT-TRIGGERED · target + protect + trigger</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:960px;margin:1.5rem auto;padding:0 1rem;line-height:1.5}
+  table{border-collapse:collapse;width:100%;font-size:.86rem}
+  th,td{border:1px solid #ddd;padding:.4rem .5rem;text-align:left;vertical-align:top}
+  th{background:#f5f5f5}
+  .pass{color:#0a7a2f;font-weight:600}
+  .fail{color:#b00020;font-weight:600}
+  .hold{background:#fff8e6}
+  .okrow{background:#eef8f0}
+  .failrow{background:#fdecee}
+  .note{background:#f8f8f8;padding:.75rem 1rem;border-radius:6px;font-size:.9rem}
+  code{font-size:.85em}
+</style>
+</head>
+<body>
+<h1>EDIT-TRIGGERED · 触发证明 分数卡</h1>
+<p class="note"><strong>镜像 only。</strong> 清闸主表面仍是聊天内 <code>chat-inline-clear.md</code>。打开本页<strong>不是</strong>清闸步骤。父核 <a href="EDIT-TRIGGERED.md">EDIT-TRIGGERED</a> · <a href="SLICE-LOCK.md">SLICE-LOCK</a> · <a href="JOB-CONTRACT.md">JOB-CONTRACT</a> · <a href="OBSERVE-NOT-NARRATE.md">OBSERVE-NOT-NARRATE</a> · <a href="EXCEPTION-ONLY.md">EXCEPTION-ONLY</a> · L11 <a href="ACTIVITY-BIAS-LOCK.md">ACTIVITY-BIAS-LOCK</a>。</p>
+
+<p><strong>One-liner：</strong> 目标↑ + 保护不回退仍不够；接受改动还必须有执行证据证明预定改动路径被触发。缺触发 = 不升正本。</p>
+
+<h2>T1–T6 · 本轮 ~18:51 Asia/Shanghai</h2>
+<table>
+  <tr><th>#</th><th>Check</th><th>本轮证据</th><th>PASS/FAIL</th></tr>
+  <tr class="okrow"><td>T1</td><td>三条件命名</td><td>RESULT 含 Target / Protect / Trigger</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>T2</td><td>触发路径特异</td><td>AISO <code>POST /api/submit</code> → 200 + sid；非仅 GET</td><td class="pass">PASS</td></tr>
+  <tr class="failrow"><td>T3</td><td>保护切片显式</td><td>OWNER-FAVOR 仍 FAIL（正确 defer）</td><td class="fail">FAIL（正确）</td></tr>
+  <tr class="okrow"><td>T4</td><td>未触发 ≠ PASS</td><td>本轮 POST 已触发；未把 not-triggered 标绿</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>T5</td><td>候选 vs 正本</td><td>核心 + hub + 分数卡有触发（commit）；三条件齐才记 ACCEPTED</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>T6</td><td>无新 *-GATE</td><td>EDIT-TRIGGERED 非 *-GATE.md；L11</td><td class="pass">PASS</td></tr>
+</table>
+
+<h2>Worked example · AISO Tools LIVE（写路径触发）</h2>
+<table>
+  <tr><th>Condition</th><th>Evidence</th><th>Verdict</th></tr>
+  <tr class="okrow"><td>Target</td><td>https://aisotools.com/tool/friday-invoice-chase-ranker · GET HTTP 200（本轮 recheck）</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>Protect</td><td>价 $6/$5/$5/$12 不变 · $0 · 无新 GATE</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>Trigger</td><td><code>POST /api/submit</code> raw JSON success+free · sid <code>1bd0af60-6d4f-403a-b8b9-d6f157a107f8</code> · 落盘 money-loop-2026-10-29-1834/aiso-submit-response.json</td><td class="pass">PASS</td></tr>
+  <tr class="failrow"><td>Harness open gate</td><td>OWNER-FAVOR A/W1/W2 + WeChat C1 + Affiliates R0</td><td class="fail">FAIL until Kevin</td></tr>
+</table>
+
+<p class="note"><strong>Overall：</strong> AISO LIVE 三条件齐 → 该目录改动可 ACCEPTED。OWNER-FAVOR 仍是开着的 FAIL 切片（SLICE-LOCK），不得被目录 LIVE 总绿掩盖。Mean PASS 不合法。</p>
+</body>
+</html>
