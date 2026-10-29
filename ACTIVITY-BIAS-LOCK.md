@@ -25,7 +25,7 @@
 | [THREAD-CONTEXT-GATE.md](THREAD-CONTEXT-GATE.md) | Raised-hand public thread → useful public reply before private ask |
 | [STORY-FOOTNOTE-GATE.md](STORY-FOOTNOTE-GATE.md) | Shareable unit shape: story first, product as footnote |
 | [ACTIVITY-BIAS-48H.md](ACTIVITY-BIAS-48H.md) | 48h zero-signal kill + shelf-PR = 0 points while gate FAIL |
-| [CLEAR-COST.md](CLEAR-COST.md) | Measure / lower owner clear activation energy (one card + one reply) |
+| [CLEAR-COST.md](CLEAR-COST.md) | Measure / lower owner clear activation energy (one card + one reply); **TOKEN-LATENCY** reinforce: clear-complete = bound reply only; open-scorecard / shelf LIVE = 0 clear points ([token-latency-scorecard.html](token-latency-scorecard.html)) |
 | [REPLY-BIND.md](REPLY-BIND.md) | Bind reply token to the single in-chat paste; kill dual-path menus (L10) |
 
 ## Pass / fail (loop RESULT discipline)

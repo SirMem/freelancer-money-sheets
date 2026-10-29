@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>TOKEN-LATENCY · CLEAR-COST reinforce</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:760px;margin:1.5rem auto;padding:0 1rem;line-height:1.5}
+  table{border-collapse:collapse;width:100%;font-size:.9rem}
+  th,td{border:1px solid #ddd;padding:.45rem .55rem;text-align:left;vertical-align:top}
+  th{background:#f5f5f5}
+  .pass{color:#0a7a2f;font-weight:600}
+  .fail{color:#b00020;font-weight:600}
+  .best{background:#eef8f0}
+  code{font-size:.85em}
+  .note{background:#f8f8f8;padding:.75rem 1rem;border-radius:6px;font-size:.9rem}
+</style>
+</head>
+<body>
+<h1>TOKEN-LATENCY · 分数卡（强化 CLEAR-COST）</h1>
+<p class="note"><strong>镜像 only。</strong> 清闸主表面是聊天内 <code>chat-inline-clear.md</code> —— 一块粘贴 + 一行绑定回令。打开本页<strong>不是</strong>清闸步骤、不算 first action。父核 <a href="CLEAR-COST.md">CLEAR-COST</a> · 绑定 <a href="REPLY-BIND.md">REPLY-BIND</a> · 通道 <a href="GATE-IN-CHANNEL.md">GATE-IN-CHANNEL</a>。</p>
+
+<h2>路径对照（证明 chat-inline 更优）</h2>
+<table>
+  <tr><th>Path</th><th>Kevin reply tokens</th><th>Page opens</th><th>Est. seconds</th><th>Clear-complete when</th></tr>
+  <tr class="best"><td><strong>★ chat-inline</strong></td><td class="pass">1</td><td class="pass">0</td><td class="pass">60–90</td><td>收到绑定回令</td></tr>
+  <tr><td>Open HTML card → copy → post → reply</td><td>1</td><td class="fail">≥1</td><td class="fail">120–180+</td><td>同左，但更高延迟；不得标 Lowest</td></tr>
+  <tr><td>Dual A∥C / EN·CN menu</td><td class="fail">≥2 决策</td><td>0–1</td><td class="fail">不定</td><td class="fail">FAIL（REPLY-BIND）</td></tr>
+  <tr><td>Shelf PR / directory LIVE · B=FAIL</td><td>0</td><td>n/a</td><td>n/a</td><td class="fail">0 CLEAR-COST 完成分</td></tr>
+</table>
+
+<h2>First-action 规则</h2>
+<table>
+  <tr><th>#</th><th>检查</th><th>本轮</th><th>规则</th></tr>
+  <tr><td>T1</td><td>完成分只计绑定回令</td><td class="pass">PASS</td><td>开卡/货架 LIVE ≠ first action</td></tr>
+  <tr><td>T2</td><td>chat-inline token/opens/sec 最优</td><td class="pass">PASS</td><td>1 / 0 / ≤90</td></tr>
+  <tr><td>T3</td><td>分数卡下一步 ≠「先开 HTML」</td><td class="pass">PASS</td><td>已修 clear-cost-scorecard 泄漏</td></tr>
+  <tr><td>T4</td><td>零新并列 GATE</td><td class="pass">PASS</td><td>强化旧核；非 L11 新门</td></tr>
+  <tr><td>T5</td><td>未声称闸门 PASS</td><td class="pass">PASS</td><td>OWNER-FAVOR / C1 / R0 仍 FAIL</td></tr>
+</table>
+
+<p><strong>SCORE: PASS</strong>（计量钉死 first action；chat-inline 证明更优；HTML 泄漏已修）</p>
+<p>Kevin 下一步（唯一）：在<strong>本聊天</strong>复制故事脚注 → 发朋友圈/同学群 → 回 <code>人情帖已发：朋友圈/同学群·故事脚注 + HH:MM</code>（不必开本页）</p>
+</body>
+</html>

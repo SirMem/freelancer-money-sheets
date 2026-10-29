@@ -47,6 +47,18 @@
 
 备选（仅当 Kevin 明确拒绝 Moments）：微信 1:1 DM-R1 无硬链；连接者 C1；W1/W2 名单。备选**不得**与推荐动作并列在同一张卡的首屏（REPLY-BIND）。
 
+## Reinforce · TOKEN-LATENCY（2026-10-29 ~15:22 · 非新门禁）
+
+**First-action only:** 清闸「完成分」只计收到绑定回令；开分数卡 / 货架 LIVE / 多开预览 = **0** 激活完成分（与 ACTIVITY-BIAS 同向，钉本核计量）。
+
+| Path | Tokens | Page opens | Est. s | Notes |
+|------|--------|------------|--------|-------|
+| **★ [chat-inline-clear.md](chat-inline-clear.md)** | 1 | 0 | 60–90 | PRIMARY；Lowest |
+| Open HTML → copy → post → reply | 1 | ≥1 | 120–180+ | 镜像路径；**不得**标 Lowest |
+| Dual A∥C menu | ≥2 决策 | 0–1 | 不定 | FAIL · [REPLY-BIND](REPLY-BIND.md) |
+
+对照卡（可选镜像）：[token-latency-scorecard.html](token-latency-scorecard.html)。Signals: [one-ping first action](https://thefirstusers.com/waitlist-to-signup-activation-ping)；TikTok in-feed one-tap；IH choice-overload empty state；本仓 clear-cost-scorecard 曾写「先开 HTML」= 泄漏（已修）。
+
 ## Anti-patterns
 
 - 把 CLEAR-COST 再拆成 5 个新门禁文件
