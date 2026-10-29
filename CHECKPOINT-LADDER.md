@@ -63,3 +63,27 @@
 ## Complements
 
 见 [PROGRESS-MIRAGE.md](PROGRESS-MIRAGE.md) · [SLICE-LOCK.md](SLICE-LOCK.md) · [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md) · [EDIT-TRIGGERED.md](EDIT-TRIGGERED.md) · [JOB-CONTRACT.md](JOB-CONTRACT.md) · [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md) · [CLEAR-COST.md](CLEAR-COST.md) · [checkpoint-ladder-scorecard.html](checkpoint-ladder-scorecard.html) · [chat-inline-clear.md](chat-inline-clear.md)。
+
+## Reinforce · CURRENT-STATE（2026-10-29 ~20:54 · 非新门禁）
+
+**One-liner add-on:** 梯子计分必须用 **当前仍成立的谓词**（current-state），不能用「曾经摸到过的峰值」当 credit。历史峰值 / 曾 LIVE / 曾 PASS 在回退后仍挂在分数上 = **HISTORICAL-PEAK 幻觉**；PartHackBench 里 historical credit 均膨胀 **0.252**、严格回退检出 **0/14**，而 current-state 规则膨胀 **0**、检出 **14/14**。
+
+| Signal | Point |
+|--------|-------|
+| [PartHackBench · arXiv/html 2609.29578](https://arxiv.org/html/2609.29578) | Historical/max 峰值 credit 对 matched 终局膨胀 mean **.252**（ASR 10/15）；rollback 检出 **0/14**；CSPS/current-state **Δhack=0** · rollback **14/14** |
+| [LHTB 2.0 · 2610.14146](https://arxiv.org/html/2610.14146)（父核已引） | 30min verifier 暴露终局低于更早检查点——密检查点须读**当下**状态，不是历史高水位 |
+| X [@brendenvonhouse](https://x.com/brendenvonhouse/status/2108760682435162224) | 「draft in a folder = partial credit；我只在它 live on the site 时计分」→ 当前可观察态 |
+| X [@baboonAI4S](https://x.com/baboonAI4S/status/2114246198609776735) | 长跑 ~step 12 静默改需求 = drift；峰值叙事掩盖当前不合格 |
+| X [@ashwinsuriya](https://x.com/ashwinsuriya/status/2115777815329325184) / Thruline | 测试「看起来过了」≠ 动作真实发生；核对当前外环证据 |
+| X [@ba3hit](https://x.com/ba3hit/status/2115780343341129871) | 长会话忘已改内容；步间要 checkpoint **state** |
+| Local same-day | 目录 LIVE 堆叠 = 历史峰值 harness；OWNER-FAVOR **current rung 仍 0**；不得把曾 LIVE 计成 rung+ |
+
+**Rules（钉在 CHECKPOINT-LADDER 上，≠新 *-GATE）：**
+
+1. **Current predicates only：** 梯档得分 = 此刻谓词仍真（人情已发出、绑定回令在、付费单在）。曾 READY / 曾 LIVE / 曾 SCORE PASS **不再真** → 不得保留 credit。
+2. **Historical-peak FAIL：** 用「本周最多 LIVE 数 / 曾爬到过的叙事档」替代当前 rung → **FAIL**（对偶 PartHackBench historical witness）。
+3. **Rollback sensitivity：** 若外环证据消失（回令撤回、帖删、单退）→ 当前 rung **必须下降**并标 REGRESSION-ON-LADDER；禁止挂 stale 峰值。
+4. **Directory LIVE ≠ durable rung：** LIVE 是边界切片瞬时态；不写入 OWNER-FAVOR 当前谓词向量。
+5. **L11/L12：** 不新开 `CURRENT-STATE-GATE.md` / `HISTORICAL-PEAK-GATE.md`。
+
+对照卡（可选镜像）：[checkpoint-current-state-scorecard.html](checkpoint-current-state-scorecard.html)。父核分数卡：[checkpoint-ladder-scorecard.html](checkpoint-ladder-scorecard.html)。

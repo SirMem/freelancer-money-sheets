@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>CHECKPOINT-LADDER · CURRENT-STATE scorecard</title>
+<style>
+  body{font-family:system-ui,-apple-system,sans-serif;max-width:760px;margin:2rem auto;padding:0 1rem;line-height:1.5;color:#111}
+  h1{font-size:1.25rem} h2{font-size:1.05rem;margin-top:1.5rem}
+  table{border-collapse:collapse;width:100%;font-size:0.9rem}
+  th,td{border:1px solid #ccc;padding:0.45rem 0.55rem;text-align:left;vertical-align:top}
+  th{background:#f4f4f4}
+  .fail{color:#b00020;font-weight:600} .pass{color:#0a7a2f;font-weight:600}
+  .warn{color:#a15c00;font-weight:600}
+  .muted{color:#555;font-size:0.85rem}
+  code{background:#f0f0f0;padding:0.1em 0.3em;border-radius:3px}
+</style>
+</head>
+<body>
+<h1>CHECKPOINT-LADDER · CURRENT-STATE · 2026-10-29 ~20:54 Asia/Shanghai</h1>
+<p class="muted">强化父核 <code>CHECKPOINT-LADDER</code>（非新 *-GATE）。Signals: PartHackBench arXiv/html 2609.29578 · LHTB 2.0 · X @brendenvonhouse / @baboonAI4S / @ashwinsuriya / @ba3hit。对照 <a href="checkpoint-ladder-scorecard.html">checkpoint-ladder</a> · <a href="progress-mirage-scorecard.html">progress-mirage</a> · <a href="clear-cost-fatigue-scorecard.html">clear-cost-fatigue</a>。</p>
+
+<h2>Current-state vs historical-peak（本店）</h2>
+<table>
+  <tr><th>Predicate</th><th>Historical peak（幻觉）</th><th>Current state（合法）</th><th>Verdict</th></tr>
+  <tr><td>Directory LIVE</td><td>多目录曾 LIVE / SCORE PASS</td><td>边界切片瞬时；不进梯子向量</td><td class="pass">记 harness，非 rung</td></tr>
+  <tr><td>OWNER-FAVOR rung</td><td>「包就绪过 / 快好了」叙事</td><td>warm 未发 · 回令无 · 付费无 → <strong>rung=0</strong></td><td class="fail">current=0</td></tr>
+  <tr><td>World Δ</td><td>实践文件堆叠</td><td>付费首单未破 · Δ≈0</td><td class="fail">Δ≈0</td></tr>
+</table>
+
+<h2>CS1–CS5 · 本轮</h2>
+<table>
+  <tr><th>#</th><th>Check</th><th>Evidence</th><th>Verdict</th></tr>
+  <tr><td>CS1</td><td>Rung 用当前谓词</td><td>RESULT 写 current rung=0，非峰值</td><td class="pass">PASS</td></tr>
+  <tr><td>CS2</td><td>未用 LIVE 堆叠当 rung+</td><td>同日 money-loop LIVE ≠ ladder</td><td class="pass">PASS</td></tr>
+  <tr><td>CS3</td><td>Rollback 敏感设计</td><td>规则：外环证据消失必须降档</td><td class="pass">PASS（设计）</td></tr>
+  <tr><td>CS4</td><td>无新 *-GATE</td><td>强化段挂 CHECKPOINT-LADDER；未开 CURRENT-STATE-GATE</td><td class="pass">PASS</td></tr>
+  <tr><td>CS5</td><td>World Δ ≠ historical harness</td><td>付费/人情仍 FAIL</td><td class="fail">Δ≈0 / FAIL</td></tr>
+</table>
+
+<h2>PartHackBench 对照（为何强化）</h2>
+<table>
+  <tr><th>Evaluator type</th><th>Matched inflation</th><th>Rollback detect</th><th>本店对偶</th></tr>
+  <tr><td>Historical / peak</td><td>.252 mean</td><td>0/14</td><td>用「曾 LIVE」当进度</td></tr>
+  <tr><td>Current-state (CSPS)</td><td>0</td><td>14/14</td><td>只计此刻真谓词</td></tr>
+</table>
+
+<p class="muted">本卡打开 = 0 清闸完成分。价格不变 Invoice $6 / Expense $5 / Client $5 / Bundle $12 · $0 spend。下一步仍唯一：Kevin Clear-Cost / 人情发出 → 当前 rung 1。</p>
+</body>
+</html>
