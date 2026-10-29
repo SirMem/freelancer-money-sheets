@@ -72,6 +72,7 @@
 
 | 日期 (Asia/Shanghai) | 连接者（公开名/称呼） | 渠道（微信私聊/评论/加群/学院面谈…） | 已发 C1？ (Y/N) | 对方回复（无/可看样/拒绝/其它） | 备注 |
 |----------------------|----------------------|--------------------------------------|-----------------|----------------------------------|------|
+| 2026-10-29 ~21:44 | UniLink (unil.ink / unilink.us free agent platform) | Friday Invoice Chase Ranker → finance/freelance | LIVE | https://unil.ink/friday-invoice-chase-ranker · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool · card https://unilink.us/api/agents/friday-invoice-chase-ranker/card | Free `POST /api/agents/register` → 200 username **friday-invoice-chase-ranker** · page HTTP 200 og:title + agent card name/desc · status active · $0 · ACTIVITY-BIAS L6 · ≠ WeChat C1 |
 |                      |                      |                                      |                 |                                  |      |
 
 ## B · Agent 可代开的公开渠道（SirMem 账号）
