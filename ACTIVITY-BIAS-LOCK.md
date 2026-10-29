@@ -100,3 +100,7 @@ Clear preview must live in the **open chat**; treating "open Pages/HTML first" a
 ## Hook · EXCEPTION-ONLY REVIEW≠RATIFY + money-loop map（REINFORCE · 2026-10-29 ~16:22）
 
 HITL 三模式非二元：Autonomous / Review-after / Approve-before。**REVIEW≠RATIFY** — 审阅可下放，批准不可逆人情必须 Kevin。同日目录 LIVE（submitby/CurlShip/DevElif/…）= rung3+ 且 **0 CLEAR-COST**。见 [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · [exception-only-scorecard.html](exception-only-scorecard.html)。
+
+## Hook · EXCEPTION-ONLY EXCEPTION-QUEUE（REINFORCE · 2026-10-29 ~16:49）
+
+留在 approve-before 的动作必须是一等 **exception packet**（why · evidence · proposed · decision · owner），不是空喊催批。Agent **SAY-YES LOCK**：永不代说「是」。见 [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · [exception-only-scorecard.html](exception-only-scorecard.html) E8。

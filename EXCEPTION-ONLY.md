@@ -81,6 +81,36 @@ EXCEPTION-ONLY answers *which classes leave the queue*; CLEAR-COST lowers cost o
 | X / paid boost / Etsy fee | — | 2 Approve-before | n/a（未发起） |
 | WeChat Moments OWNER-FAVOR | FAIL | 2 | **唯一** clear 目标 |
 
+## EXCEPTION-QUEUE（reinforce 2026-10-29 ~16:49 Asia/Shanghai）
+
+**异常必须是一等公民工作项，不是「请批准」口头禅。** 留在 rung2（approve-before）的动作，Agent 只能交付一份 **exception packet**；禁止空喊催批、禁止用分数卡/货架 LIVE 冒充清闸。
+
+| Packet field | 必须有 | 本店 OWNER-FAVOR 例 |
+|--------------|--------|---------------------|
+| Why escalated | 为何不能升 rung3+ | 朋友圈人情不可逆 · 信任燃烧 |
+| Evidence | 已备好的可核对材料 | 故事脚注全文（chat-inline 粘贴块） |
+| Proposed action | 具体可执行一步 | 复制 → 发朋友圈/同学群 |
+| Decision question | 一个二元/一行回令 | 发完回绑定令牌 |
+| Owner + deadline feel | 谁批 · 不堆第二闸 | Kevin · 唯一开闸；L11 禁并列 |
+
+**SAY-YES LOCK：** Agent 可备订单/出站/草稿/日志；**永远不代「说是」**（不代发人情、不代花、不代批准）。「说是」= ratify = Kevin。
+
+**Bare ask = FAIL：** 「请更快批」/「打开分数卡再决定」/ 无粘贴块的催促 — 全部 FAIL。packet 必须已把可逆准备工作做完，只留不可逆那一击。
+
+### Reinforce signals（~16:49）
+
+| Signal | Point |
+|--------|-------|
+| [Silpho · approval & exception boundaries](https://silpho.com/insights/supervised-ai-agents-approval-exceptions) | Exceptions = first-class state: reason · evidence · proposed action · owning decision · follow-up |
+| [TechEMC · exception queue](https://techemc.com/blog/ai-workflow-exception-queue-what-to-review-before-approval/) | Narrow queue; AI prepares; human decides before consequence |
+| [type.com · concrete proposal](https://type.com/blog/ai-agent-approval-workflows) | 「Should I continue?」难判；具体提案才可批 |
+| [Accelate · HITL bottleneck](https://accelate.ai/blog/human-in-the-loop-approval-bottleneck) | 每动作同审 = 新瓶颈；按风险分层 |
+| [Agentled · delegated approval](https://www.agentled.ai/en/blog/post/from-approval-queues-to-delegated-approval) | Draft-only → approve consequential → delegated within policy |
+| X [@NullContex1s](https://x.com/NullContex1s/status/2113420371718529453) | Remove 80% boring workflow; keep 2-min approval for risky 20% |
+| X [@M1k3meta](https://x.com/M1k3meta/status/2113359129741807869) | Bots run side business; never allowed to **say yes** |
+| X [@0xForem](https://x.com/0xForem/status/2114032775674102137) | Structure autonomy by reversibility, not task size |
+| Local | OWNER-FAVOR 仍 FAIL；chat-inline 已是 packet 雏形 — 本轮钉死字段与 SAY-YES LOCK |
+
 ## Pass rules（Agent 自检）
 
 1. While OWNER-FAVOR **B=FAIL**, primary deliverable must **not** open a new competing approval class / new `*-GATE.md` / second reply token (**L11**).
@@ -89,6 +119,7 @@ EXCEPTION-ONLY answers *which classes leave the queue*; CLEAR-COST lowers cost o
 4. Spend / paid boost stays rung2 forever — never silent.
 5. RESULT must score decision-class table ([exception-only-scorecard.html](exception-only-scorecard.html)): each class PASS if on target rung, FAIL if still waiting on Kevin when it should not.
 6. **REVIEW≠RATIFY:** 分数卡/货架审阅 ≠ Kevin 批准人情；不得用「已开 scorecard」冒充 clear 完成。
+7. **EXCEPTION-QUEUE:** 每个 rung2 开闸必须是完整 packet（why/evidence/proposed/decision/owner）；bare ask = FAIL；Agent 永不代「说是」。
 
 ## Anti-patterns
 
@@ -98,3 +129,5 @@ EXCEPTION-ONLY answers *which classes leave the queue*; CLEAR-COST lowers cost o
 - 把 EXCEPTION-ONLY 再拆成新 `*-GATE.md`
 - 把 HITL 当成「有人/无人」二元（丢掉 Review-after）
 - 把 Agent 自检审阅当成主人批准（REVIEW 冒充 RATIFY）
+- 空喊「请批准」而无 exception packet 字段
+- Agent 代发人情 / 代花 / 代说「是」（违反 SAY-YES LOCK）

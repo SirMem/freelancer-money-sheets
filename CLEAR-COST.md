@@ -22,7 +22,7 @@
 | [PREVIEW-CONTRACT](PREVIEW-CONTRACT.md) | 预览同意语义：类目≠令牌；按钮动词；批准后改文=新卡 |
 | [GATE-IN-CHANNEL](GATE-IN-CHANNEL.md) | 通道：预览必须在已打开聊天；站外 HTML = 可选镜像 |
 | [REPLY-BIND](REPLY-BIND.md) | 绑定：回令 ↔ 唯一粘贴块；双主路径/中英菜单/新门禁 = FAIL |
-| [EXCEPTION-ONLY](EXCEPTION-ONLY.md) | 决策类阶梯：可逆低爆 → rung3+；不可逆人情留 rung2；一条未清闸时再开新批准类 / 新 GATE = **FAIL 抬高 ceiling**；**REVIEW≠RATIFY** + money-loop 出站 = 0 CLEAR-COST（reinforce ~16:22） |
+| [EXCEPTION-ONLY](EXCEPTION-ONLY.md) | 决策类阶梯：可逆低爆 → rung3+；不可逆人情留 rung2；一条未清闸时再开新批准类 / 新 GATE = **FAIL 抬高 ceiling**；**REVIEW≠RATIFY** + money-loop 出站 = 0 CLEAR-COST；**EXCEPTION-QUEUE** packet + SAY-YES LOCK（reinforce ~16:49） |
 | [ONE-TAP-POST](ONE-TAP-POST.md) / [STORY-FOOTNOTE-POSTS](STORY-FOOTNOTE-POSTS.md) | 粘贴原文来源 |
 | [CHAT-REPLY-FORMAT](CHAT-REPLY-FORMAT.md) | 清闸回令格式 |
 

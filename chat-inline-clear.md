@@ -4,6 +4,8 @@
 
 **绑定（REPLY-BIND）：** 唯一推荐动作 ↔ 唯一粘贴块 ↔ 唯一回令。备选路径不在本页首屏。
 
+**EXCEPTION-QUEUE packet（~16:49）：** 本页 = 唯一 rung2 exception packet（why=人情不可逆 · evidence=上块 · proposed=复制发送 · decision=回令 · owner=Kevin）。不要另开第二 packet / 第二回令。Agent SAY-YES LOCK：不代发。
+
 **Recommended action = 1：** 朋友圈/同学群 · 故事脚注（来源 [STORY-FOOTNOTE-POSTS.md](STORY-FOOTNOTE-POSTS.md) A · [ONE-TAP-POST.md](ONE-TAP-POST.md) ★）
 
 **配图（可选）：** `assets/wechat-zh-sihuo-share.png`
