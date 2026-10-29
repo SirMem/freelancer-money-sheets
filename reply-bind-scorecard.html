@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>REPLY-BIND scorecard</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:720px;margin:1.5rem auto;padding:0 1rem;line-height:1.5}
+  table{border-collapse:collapse;width:100%;font-size:.92rem}
+  th,td{border:1px solid #ddd;padding:.45rem .55rem;text-align:left}
+  th{background:#f5f5f5}
+  .pass{color:#0a7a2f;font-weight:600}
+  .fail{color:#b00020;font-weight:600}
+  code{font-size:.85em}
+  .note{background:#f8f8f8;padding:.75rem 1rem;border-radius:6px;font-size:.9rem}
+</style>
+</head>
+<body>
+<h1>REPLY-BIND · 分数卡</h1>
+<p class="note"><strong>镜像 only。</strong> 清闸主表面是聊天内 <code>chat-inline-clear.md</code> —— 一块粘贴 + 一行绑定回令。打开本页<strong>不是</strong>清闸步骤。强化 <a href="CLEAR-COST.md">CLEAR-COST</a> + <a href="GATE-IN-CHANNEL.md">GATE-IN-CHANNEL</a>。核心：<a href="REPLY-BIND.md">REPLY-BIND.md</a></p>
+<table>
+  <tr><th>#</th><th>检查</th><th>本轮</th><th>规则</th></tr>
+  <tr><td>R1</td><td>唯一推荐动作</td><td class="pass">PASS</td><td>朋友圈/同学群·故事脚注；非 A∥C 同等</td></tr>
+  <tr><td>R2</td><td>唯一粘贴块在聊天</td><td class="pass">PASS</td><td>chat-inline-clear verbatim；非中英菜单</td></tr>
+  <tr><td>R3</td><td>回令绑定该块</td><td class="pass">PASS</td><td><code>人情帖已发：朋友圈/同学群·故事脚注 + HH:MM</code></td></tr>
+  <tr><td>R4</td><td>零新门禁冒充降本</td><td class="pass">PASS</td><td>L10；本轮强化旧核，不新开并列 GATE</td></tr>
+  <tr><td>R5</td><td>备选不并列首屏</td><td class="pass">PASS</td><td>DM/C1/W/EN 仅拒绝 Moments 后展开</td></tr>
+  <tr><td>R6</td><td>未声称闸门 PASS</td><td class="pass">PASS</td><td>OWNER-FAVOR / C1 / AUDIENCE-RENT 仍 FAIL</td></tr>
+  <tr><td>R7</td><td>Lowest ≠ HTML 卡</td><td class="pass">PASS</td><td>OWNER-FAVOR 指向 chat-inline，非 clear-cost-card</td></tr>
+</table>
+<p><strong>SCORE: PASS</strong>（回令绑定就绪；双主路径已拆）</p>
+<p>卡点：Kevin 复制聊天里那一块 → 发朋友圈/同学群 → 回绑定令牌（不必开网页、不必在 A/C 间选）</p>
+</body>
+</html>

@@ -1,16 +1,19 @@
 <!-- GATE-IN-CHANNEL: primary = chat-inline-clear.md in open chat; HTML cards = optional mirror -->
 # One-tap · 双主路径并列 · W3 CN · 2026-10-28 ~21:33
 
-**默认（降激活能 · GATE-IN-CHANNEL）：** 直接用本页或 [chat-inline-clear.md](chat-inline-clear.md) 的故事脚注正文——**不必**先打开网页。可选镜像：[clear-cost-card.html](clear-cost-card.html) / [action-preview-card.html](action-preview-card.html)（打开 ≠ 清闸步骤）。
+**默认（降激活能 · GATE-IN-CHANNEL + REPLY-BIND）：** 直接用 [chat-inline-clear.md](chat-inline-clear.md) 的故事脚注正文——**不必**先打开网页，**不必**在 A/C 间选。可选镜像：[reply-bind-scorecard.html](reply-bind-scorecard.html)（打开 ≠ 清闸步骤）。
 
-**两条主路径同等优先（二选一即可清暖单元）：**
+**唯一推荐（REPLY-BIND · 2026-10-29）：** 朋友圈/同学群 · 故事脚注 → 回 `人情帖已发：朋友圈/同学群·故事脚注 + HH:MM`。
 
-| 路径 | 清什么 | 最低动作 |
-|------|--------|----------|
-| **A · 微信 1:1 DM-R1** | OWNER-FAVOR A | 本人发 ≥1 条真实私聊 |
-| **C · 连接者 C1** | CONNECTOR C1 | 本人向 ≥1 连接者粘贴 C1 |
+| 优先级 | 路径 | 何时用 |
+|--------|------|--------|
+| **★ 唯一推荐** | 朋友圈/同学群 · 故事脚注 | 默认；最低人名单成本 |
+| 备选（拒绝 Moments 后） | 微信 1:1 DM-R1 | Kevin 明确拒绝公开贴 |
+| 备选（拒绝 Moments 后） | 连接者 C1 | Kevin 明确要走连接者 |
 
-从 Kevin **自己的号**发。然后回聊天 → [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md)。
+**禁止**把 A 与 C 写成「同等优先」并列首屏（违反 [REPLY-BIND.md](REPLY-BIND.md) / CLEAR-COST 推荐动作=1）。
+
+从 Kevin **自己的号**发。然后回聊天 → [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md)（绑定回令）。
 
 完整脚本：买家侧 [WECHAT-DM-PACK.md](WECHAT-DM-PACK.md) · 连接者侧 [CONNECTOR-PACK.md](CONNECTOR-PACK.md)  
 公开建议名单：[CONNECTOR-SHORTLIST.md](CONNECTOR-SHORTLIST.md) · 触达表：[CONNECTOR-TOUCH-LOG.md](CONNECTOR-TOUCH-LOG.md)
@@ -54,7 +57,7 @@ https://sirmem.github.io/freelancer-money-sheets/zh-xuesheng-sihuo-zhuizhang.htm
 
 ---
 
-## C · 连接者（主路径 · 与微信 DM 并列）
+## C · 连接者（备选 · 拒绝 Moments 后 · 不并列首屏）
 
 ### C1 粘贴（无硬链 · 先问）
 
@@ -82,7 +85,7 @@ https://sirmem.github.io/freelancer-money-sheets/zh-xuesheng-sihuo-zhuizhang.htm
 
 ---
 
-## A · 微信 1:1 私聊（主路径 · 买家侧）
+## A · 微信 1:1 私聊（备选 · 拒绝 Moments 后 · 不并列首屏）
 
 ### DM-R1（无链接）
 

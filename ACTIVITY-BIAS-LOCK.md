@@ -26,6 +26,7 @@
 | [STORY-FOOTNOTE-GATE.md](STORY-FOOTNOTE-GATE.md) | Shareable unit shape: story first, product as footnote |
 | [ACTIVITY-BIAS-48H.md](ACTIVITY-BIAS-48H.md) | 48h zero-signal kill + shelf-PR = 0 points while gate FAIL |
 | [CLEAR-COST.md](CLEAR-COST.md) | Measure / lower owner clear activation energy (one card + one reply) |
+| [REPLY-BIND.md](REPLY-BIND.md) | Bind reply token to the single in-chat paste; kill dual-path menus (L10) |
 
 ## Pass / fail (loop RESULT discipline)
 | # | Check | Rule |
@@ -39,6 +40,7 @@
 | L7 | If primary is favor-cost, score CLEAR-COST | Recommended action = 1; paste preview on card; one reply token — else not a real cost drop |
 | L8 | Clear card must be PREVIEW-CONTRACT | Title=verb+object; verbatim fields; approve button names the act; no silent mutate after yes |
 | L9 | Clear preview must be GATE-IN-CHANNEL | Verbatim paste in the **open chat** / WakeParent; requiring open Pages/HTML before reply token = **FAIL cost drop** |
+| L10 | Reply must be REPLY-BIND | One paste ↔ one bound reply; ≥2 equal recommended actions / dual EN·CN first screen / new gate doc instead of fewer tokens = **FAIL cost drop** |
 
 ## Allowed primary work while B=FAIL
 1. One chat reply clears the gate — [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md) A (人情帖已发) or B (`ICP：姓名1,...` ≥10). Prefer chat over table editing.
@@ -47,7 +49,7 @@
 4. Connector favor-cost pack — [CONNECTOR-PACK.md](CONNECTOR-PACK.md) / [CONNECTOR-GATE.md](CONNECTOR-GATE.md) (owner names ≥1 connector or sends C1).
 5. One-channel connector one-tap with acceptance next hop — [DIANYA-ONE-TAP.md](DIANYA-ONE-TAP.md).
 6. Public-before-DM templates for raised-hand threads — [THREAD-CONTEXT-GATE.md](THREAD-CONTEXT-GATE.md) · [CODINGDOCS-ONE-TAP.md](CODINGDOCS-ONE-TAP.md).
-7. **One clear surface in-channel** (single recommended action + paste preview + reply token) — [GATE-IN-CHANNEL.md](GATE-IN-CHANNEL.md) / [chat-inline-clear.md](chat-inline-clear.md); HTML cards optional mirror only ([CLEAR-COST.md](CLEAR-COST.md)).
+7. **One clear surface in-channel** (single recommended action + paste preview + **bound** reply token) — [GATE-IN-CHANNEL.md](GATE-IN-CHANNEL.md) / [REPLY-BIND.md](REPLY-BIND.md) / [chat-inline-clear.md](chat-inline-clear.md); HTML cards optional mirror only ([CLEAR-COST.md](CLEAR-COST.md)); dual equal paths = L10 FAIL.
 
 ## Forbidden as primary while B=FAIL
 - New paid SKU, new free sample “alignment,” new awesome-list PRs sold as first-sale progress.
@@ -80,3 +82,7 @@ Rewriting recruit closes so the first ask is a **7-day paste-test** (not "join m
 ## Hook · GATE-IN-CHANNEL（2026-10-29 ~13:53）
 
 Clear preview must live in the **open chat**; treating "open Pages/HTML first" as step 1 adds activation energy and is **not** a CLEAR-COST drop (L9). See [GATE-IN-CHANNEL.md](GATE-IN-CHANNEL.md) · [chat-inline-clear.md](chat-inline-clear.md) · [gate-in-channel-scorecard.html](gate-in-channel-scorecard.html).
+
+## Hook · REPLY-BIND（REINFORCE CLEAR-COST + GATE-IN-CHANNEL · 2026-10-29 ~14:16）
+
+回令必须绑定聊天里那一块 verbatim 粘贴；「两条主路径同等优先」/中英菜单/再开新门禁文档 = **FAIL** cost drop（L10）。见 [REPLY-BIND.md](REPLY-BIND.md) · [chat-inline-clear.md](chat-inline-clear.md) · [reply-bind-scorecard.html](reply-bind-scorecard.html)。

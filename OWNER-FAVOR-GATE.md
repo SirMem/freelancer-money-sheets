@@ -35,8 +35,9 @@ See also [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md): if a run’s *primary* 
 - Does **not** count: agent-authored ghost posts; directory PR merges; free Aging downloads; Gumroad Discover impressions.
 
 ## Paste-ready favor posts
-- **Lowest activation (recommended):** [clear-cost-card.html](clear-cost-card.html) — one card, one paste, one reply ([CLEAR-COST.md](CLEAR-COST.md))
-- Shortest story-shaped: [STORY-FOOTNOTE-POSTS.md](STORY-FOOTNOTE-POSTS.md) · [ONE-TAP-POST.md](ONE-TAP-POST.md) ★
+- **Lowest activation (REPLY-BIND · recommended):** [chat-inline-clear.md](chat-inline-clear.md) in the **open chat** — one paste block + bound reply token ([REPLY-BIND.md](REPLY-BIND.md) · [GATE-IN-CHANNEL.md](GATE-IN-CHANNEL.md) · [CLEAR-COST.md](CLEAR-COST.md)). HTML cards are **optional mirrors only** — not lowest activation.
+- Shortest story-shaped source: [STORY-FOOTNOTE-POSTS.md](STORY-FOOTNOTE-POSTS.md) · [ONE-TAP-POST.md](ONE-TAP-POST.md) ★
+- Optional mirrors: [reply-bind-scorecard.html](reply-bind-scorecard.html) · [gate-in-channel-scorecard.html](gate-in-channel-scorecard.html) · legacy clear-cost / action-preview cards
 - Legacy one-tap (activity-bias era): sidehustle `activity-bias-lock-v1/`
 - Longer variants: sidehustle `owner-favor-gate-v1/OWNER-FAVOR-POSTS.md`
 - Named list: [ICP-ROSTER.md](ICP-ROSTER.md)

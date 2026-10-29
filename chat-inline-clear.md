@@ -1,6 +1,8 @@
-# Chat-inline clear · PRIMARY（GATE-IN-CHANNEL）
+# Chat-inline clear · PRIMARY（GATE-IN-CHANNEL + REPLY-BIND）
 
-**Rule:** 下面整段出现在**本聊天正文 / WakeParent**。Kevin **不必**先打开任何 Pages/HTML。站外卡仅可选镜像。
+**Rule:** 下面整段出现在**本聊天正文 / WakeParent**。Kevin **不必**先打开任何 Pages/HTML，**不必**在 A/C/中英之间选择。站外卡仅可选镜像。
+
+**绑定（REPLY-BIND）：** 唯一推荐动作 ↔ 唯一粘贴块 ↔ 唯一回令。备选路径不在本页首屏。
 
 **Recommended action = 1：** 朋友圈/同学群 · 故事脚注（来源 [STORY-FOOTNOTE-POSTS.md](STORY-FOOTNOTE-POSTS.md) A · [ONE-TAP-POST.md](ONE-TAP-POST.md) ★）
 
@@ -23,19 +25,23 @@ https://sirmem.github.io/freelancer-money-sheets/zh-xuesheng-sihuo-zhuizhang.htm
 
 ---
 
-## 回令（发完后贴回本聊天 · 一行）
+## 回令（发完后贴回本聊天 · 一行 · 绑定上块）
 
 ```
 人情帖已发：朋友圈/同学群·故事脚注 + HH:MM
 ```
 
-例：`人情帖已发：朋友圈/同学群·故事脚注 + 14:05`
+例：`人情帖已发：朋友圈/同学群·故事脚注 + 14:20`
 
 ---
 
 ## Optional mirrors（非清闸前置）
 
-- Scorecard: [gate-in-channel-scorecard.html](gate-in-channel-scorecard.html)
-- Legacy cards: [clear-cost-card.html](clear-cost-card.html) / [action-preview-card.html](action-preview-card.html)（**勿**再写成「请先打开」）
+- Scorecard: [reply-bind-scorecard.html](reply-bind-scorecard.html) · [gate-in-channel-scorecard.html](gate-in-channel-scorecard.html)
+- Legacy cards: [clear-cost-card.html](clear-cost-card.html) / [action-preview-card.html](action-preview-card.html)（**勿**再写成「请先打开」；**勿**标成 Lowest activation）
+
+## Backup（仅当 Kevin 明确拒绝 Moments 后展开 · 不并列首屏）
+
+见 [ONE-TAP-POST.md](ONE-TAP-POST.md) 备选：微信 DM-R1 · 连接者 C1 · W1/W2 · EN X。展开前仍须 [REPLY-BIND.md](REPLY-BIND.md)。
 
 Do **not** invent new marketing copy. Do **not** auto-send WeChat/X.
