@@ -27,6 +27,7 @@
 | [JOB-CONTRACT](JOB-CONTRACT.md) | Six fields + acceptance before run | Acceptance test for open goals must name an **out-of-band** oracle when success lives outside transcript |
 | [ACTIVITY-BIAS-LOCK](ACTIVITY-BIAS-LOCK.md) | Shelf/LIVE ≠ first-sale while B=FAIL | Formalizes why LIVE+self-PASS is mirage, not SCOPE-FAIL alone |
 | [CHECKPOINT-LADDER](CHECKPOINT-LADDER.md) | Dense mid-run ladder + OOB checkpoints | Mirage = channel type; ladder = **time-axis density** on one long run |
+| [DISCOVERY-REWARD](DISCOVERY-REWARD.md) | Discovery rewards traction; LIVE before traction = inventory | Mirage = harness≠world; discovery-reward = **platform causal arrow** traction→discovery |
 
 **Harder than OBSERVE alone：** OBSERVE 要存活出处；PROGRESS-MIRAGE 说出处仍可在带内，**闸门信道类型**才决定是否幻觉。
 
@@ -64,4 +65,4 @@
 
 ## Complements
 
-见 [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md) · [EDIT-TRIGGERED.md](EDIT-TRIGGERED.md) · [SLICE-LOCK.md](SLICE-LOCK.md) · [JOB-CONTRACT.md](JOB-CONTRACT.md) · [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md) · [progress-mirage-scorecard.html](progress-mirage-scorecard.html) · [CHECKPOINT-LADDER.md](CHECKPOINT-LADDER.md) · [chat-inline-clear.md](chat-inline-clear.md)。
+见 [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md) · [EDIT-TRIGGERED.md](EDIT-TRIGGERED.md) · [SLICE-LOCK.md](SLICE-LOCK.md) · [JOB-CONTRACT.md](JOB-CONTRACT.md) · [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md) · [progress-mirage-scorecard.html](progress-mirage-scorecard.html) · [CHECKPOINT-LADDER.md](CHECKPOINT-LADDER.md) · [DISCOVERY-REWARD.md](DISCOVERY-REWARD.md) · [discovery-reward-scorecard.html](discovery-reward-scorecard.html) · [chat-inline-clear.md](chat-inline-clear.md)。

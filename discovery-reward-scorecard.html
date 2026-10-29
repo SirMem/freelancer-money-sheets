@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>DISCOVERY-REWARD · traction→discovery scorecard</title>
+<style>
+  body{font-family:system-ui,-apple-system,sans-serif;max-width:760px;margin:2rem auto;padding:0 1rem;line-height:1.5;color:#111}
+  h1{font-size:1.25rem} h2{font-size:1.05rem;margin-top:1.5rem}
+  table{border-collapse:collapse;width:100%;font-size:0.9rem}
+  th,td{border:1px solid #ccc;padding:0.45rem 0.55rem;text-align:left;vertical-align:top}
+  th{background:#f4f4f4}
+  .fail{color:#b00020;font-weight:600} .pass{color:#0a7a2f;font-weight:600}
+  .warn{color:#a15c00;font-weight:600}
+  .muted{color:#555;font-size:0.85rem}
+  .failrow{background:#fdecee} .okrow{background:#eef8f0} .hold{background:#fff8e6}
+  code{background:#f0f0f0;padding:0.1em 0.3em;border-radius:3px}
+</style>
+</head>
+<body>
+<h1>DISCOVERY-REWARD · 2026-10-29 ~21:22 Asia/Shanghai</h1>
+<p class="muted">NEW core（非 *-GATE · L11）。Signals: <a href="https://dev.to/ottoautomaton/im-an-autonomous-ai-agent-running-a-real-business-11-cycles-in-ive-made-0-heres-the-wall-i-4agg">Otto DEV</a> · <a href="https://saucekit.so/blog/ai-skill-marketplace-or-your-own-page">Saucekit</a> · X <a href="https://x.com/krishav_kr9125/status/2111681462626091246">@krishav_kr9125</a> / <a href="https://x.com/zentricod/status/2092658351733670290">@zentricod</a>。对照 <a href="progress-mirage-scorecard.html">progress-mirage</a> · <a href="checkpoint-ladder-scorecard.html">checkpoint-ladder</a> · <a href="checkpoint-current-state-scorecard.html">current-state</a> · <a href="DISCOVERY-REWARD.md">DISCOVERY-REWARD.md</a>。</p>
+
+<p><strong>One-liner：</strong> 发现=对已有 traction 的奖励，非冷流量；LIVE 上架≠分发。</p>
+
+<h2>Traction predicates → discovery_eligible</h2>
+<table>
+  <tr><th>Predicate</th><th>Current</th><th>Verdict</th></tr>
+  <tr class="failrow"><td>OWNER-FAVOR A（named list / favor post）</td><td>未清</td><td class="fail">FAIL</td></tr>
+  <tr class="failrow"><td>OWNER-FAVOR W1 / W2</td><td>未发 / 无回令</td><td class="fail">FAIL</td></tr>
+  <tr class="failrow"><td>WeChat C1</td><td>未发</td><td class="fail">FAIL</td></tr>
+  <tr class="failrow"><td>Affiliates R0</td><td>无持链回复</td><td class="fail">FAIL</td></tr>
+  <tr class="failrow"><td>First paid sale (Gumroad)</td><td>Δ≈0</td><td class="fail">FAIL</td></tr>
+  <tr class="failrow"><td colspan="2"><strong>discovery_eligible</strong></td><td class="fail">false</td></tr>
+</table>
+
+<h2>DR1–DR5 · 本轮</h2>
+<table>
+  <tr><th>#</th><th>Check</th><th>Evidence</th><th>Verdict</th></tr>
+  <tr class="okrow"><td>DR1</td><td>Traction predicates listed</td><td>A/W1/W2/C1/R0/首单 全 FAIL → eligible=false</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>DR2</td><td>LIVE = inventory not discovery</td><td>同日多目录 LIVE 标库存；不计分发 credit</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>DR3</td><td>No new *-GATE</td><td>DISCOVERY-REWARD 非 GATE；未开 DISCOVERY-REWARD-GATE</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>DR4</td><td>Prices / $0 spend</td><td>$6/$5/$5/$12 · free $0 · 0 spend</td><td class="pass">PASS</td></tr>
+  <tr class="failrow"><td>DR5</td><td>World Δ until traction</td><td>付费/人情仍 FAIL · Δ≈0</td><td class="fail">Δ≈0 / FAIL</td></tr>
+</table>
+
+<h2>Explicit FAIL · LIVE as「分发进度」</h2>
+<table>
+  <tr><th>Claim</th><th>Reality</th><th>Verdict</th></tr>
+  <tr class="failrow"><td>Agent Control / AgentLaunch / Directory Index LIVE = distribution progress</td><td>traction FAIL · discovery_eligible=false → LIVE=库存上架</td><td class="fail">FAIL（因果反）</td></tr>
+  <tr class="hold"><td>Directory visits / marketplace views</td><td>Otto: 30d=1 view $0；@krishav: visits≠sales $0</td><td class="warn">非销量代理</td></tr>
+</table>
+
+<p class="muted">本卡打开 = 0 清闸完成分。价格不变 Invoice $6 / Expense $5 / Client $5 / Bundle $12 · $0 spend。下一步仍唯一：Kevin Clear-Cost / 人情发出 → traction 破后 LIVE 才可记 discovery。</p>
+</body>
+</html>

@@ -131,3 +131,7 @@ Exception-only / HOTL 升阶在证据只靠 Agent 自述时不安全。主张须
 ## Hook · CHECKPOINT-LADDER（NEW core · 2026-10-29 ~19:45）
 
 长目标不能只靠终点二元；有序密梯子 + 周期性外环检查点。目录 LIVE / SCORE PASS **不**推进 OWNER-FAVOR 梯档。见 [CHECKPOINT-LADDER.md](CHECKPOINT-LADDER.md) · [checkpoint-ladder-scorecard.html](checkpoint-ladder-scorecard.html)。正交 [PROGRESS-MIRAGE.md](PROGRESS-MIRAGE.md)（信道）与 [SLICE-LOCK.md](SLICE-LOCK.md)（跨切片）；钉时间轴密检查点。
+
+## Hook · DISCOVERY-REWARD（NEW core · 2026-10-29 ~21:22）
+
+目录/市场「发现」奖励已有 traction，不是冷流量来源；人情/首单/联盟未破前 LIVE 上架 = **库存**，不算分发。钉平台因果 traction→discovery。见 [DISCOVERY-REWARD.md](DISCOVERY-REWARD.md) · [discovery-reward-scorecard.html](discovery-reward-scorecard.html)。配合 [PROGRESS-MIRAGE.md](PROGRESS-MIRAGE.md)（LIVE≠WorldΔ）与 [CHECKPOINT-LADDER.md](CHECKPOINT-LADDER.md)（LIVE≠rung）与 [AUDIENCE-RENT-GATE.md](AUDIENCE-RENT-GATE.md)。
