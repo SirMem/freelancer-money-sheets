@@ -29,11 +29,13 @@
 See also [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md): if a run’s *primary* deliverable is samples/PRs/listing polish while B=FAIL, mark **SCOPE-FAIL** — that is activity bias, not first-sale progress.
 
 ## What counts as owner favor
+- **Shape:** must also pass [STORY-FOOTNOTE-GATE.md](STORY-FOOTNOTE-GATE.md) (story first, product footnote). Product-brochure paste ≠ A.
 - One post from Kevin’s real X / LinkedIn / WeChat Moments / classmate group that: (1) states a late-pay / Friday-chase pain in first person or as a story, (2) links hub or Invoice `$6` page once, (3) asks one question (how do *you* chase?).
 - Does **not** count: agent-authored ghost posts; directory PR merges; free Aging downloads; Gumroad Discover impressions.
 
 ## Paste-ready favor posts
-- Shortest: [ONE-TAP-POST.md](ONE-TAP-POST.md) (also sidehustle `activity-bias-lock-v1/`)
+- Shortest story-shaped: [STORY-FOOTNOTE-POSTS.md](STORY-FOOTNOTE-POSTS.md) · [ONE-TAP-POST.md](ONE-TAP-POST.md) ★
+- Legacy one-tap (activity-bias era): sidehustle `activity-bias-lock-v1/`
 - Longer variants: sidehustle `owner-favor-gate-v1/OWNER-FAVOR-POSTS.md`
 - Named list: [ICP-ROSTER.md](ICP-ROSTER.md)
 

@@ -17,6 +17,7 @@
 | [WARM-SEQUENCING.md](WARM-SEQUENCING.md) | How one warm thread is sequenced once B passes |
 | [ACCEPTANCE-GATE.md](ACCEPTANCE-GATE.md) | Free/sample touch must carry acceptance + paid next hop or it is not first-sale progress |
 | [THREAD-CONTEXT-GATE.md](THREAD-CONTEXT-GATE.md) | Raised-hand public thread → useful public reply before private ask |
+| [STORY-FOOTNOTE-GATE.md](STORY-FOOTNOTE-GATE.md) | Shareable unit shape: story first, product as footnote |
 
 ## Pass / fail (loop RESULT discipline)
 | # | Check | Rule |
@@ -27,7 +28,7 @@
 
 ## Allowed primary work while B=FAIL
 1. One chat reply clears the gate — [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md) A (人情帖已发) or B (`ICP：姓名1,...` ≥10). Prefer chat over table editing.
-2. One-tap WeChat paste + share PNG — [ONE-TAP-POST.md](ONE-TAP-POST.md); card at `assets/wechat-friday-chase-share.png`.
+2. One-tap WeChat paste + share PNG — **story-footnote shape** [STORY-FOOTNOTE-GATE.md](STORY-FOOTNOTE-GATE.md) / [STORY-FOOTNOTE-POSTS.md](STORY-FOOTNOTE-POSTS.md) / [ONE-TAP-POST.md](ONE-TAP-POST.md); card at `assets/wechat-friday-chase-share.png`. Product-brochure paste does not clear share progress.
 3. Optional backup roster table — [ICP-ROSTER.md](ICP-ROSTER.md) (agent fills after reply B).
 4. Connector favor-cost pack — [CONNECTOR-PACK.md](CONNECTOR-PACK.md) / [CONNECTOR-GATE.md](CONNECTOR-GATE.md) (owner names ≥1 connector or sends C1).
 5. One-channel connector one-tap with acceptance next hop — [DIANYA-ONE-TAP.md](DIANYA-ONE-TAP.md).

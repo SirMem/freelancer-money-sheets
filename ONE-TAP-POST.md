@@ -21,6 +21,36 @@
 
 ---
 
+## ★ 故事脚注优先（STORY-FOOTNOTE · 2026-10-29）
+
+人情帖/朋友圈的**默认形状**改为「故事，产品作脚注」。功能清单式开场不计分享进度。完整模板：[STORY-FOOTNOTE-POSTS.md](STORY-FOOTNOTE-POSTS.md) · 门禁：[STORY-FOOTNOTE-GATE.md](STORY-FOOTNOTE-GATE.md)。
+
+### 朋友圈 / 同学群（替换下方「次要」旧文案）
+
+```
+上周三晚上催尾款：打开账龄一看，同一个人欠了三笔，最大那笔已经 60+ 天。
+以前习惯是「谁烦催谁」——那天改成按 Current / 1–30 / 31–60 / 60+ 排，只追 top3。
+当晚回了两笔。
+
+（脚注）「本周先催谁」四档仪式 + 免费中文 ¥ 样本，要的自取：
+https://sirmem.github.io/freelancer-money-sheets/zh-xuesheng-sihuo-zhuizhang.html
+
+你们接私活被拖款时，现在一般先催谁？
+```
+
+配图仍可用 `assets/wechat-zh-sihuo-share.png`。发完回：`人情帖已发：朋友圈/同学群·故事脚注 + HH:MM`
+
+### DM-R1 故事开场（仍无硬链）
+
+```
+我上周自己踩过一次：账龄表打开才发现同一个人三笔，最大的已经 60+——以前都是谁烦催谁。
+你接私活有没有被拖款的？你们现在一般怎么追——微信催、等、还是先记着？
+```
+
+（对方回了再用原 DM-R2。）
+
+---
+
 ## C · 连接者（主路径 · 与微信 DM 并列）
 
 ### C1 粘贴（无硬链 · 先问）
@@ -70,9 +100,11 @@
 
 ---
 
-## 次要 · 朋友圈 / 同学群（配图）
+## 次要 · 朋友圈 / 同学群（旧·产品说明书形 · STORY-FOOTNOTE = FAIL）
 
-配图：`assets/wechat-zh-sihuo-share.png`。文案：
+> **弃用当人情帖。** 下面是产品形开场，只留作反例。请改用上方 ★ 故事脚注 或 [STORY-FOOTNOTE-POSTS.md](STORY-FOOTNOTE-POSTS.md)。
+
+配图：`assets/wechat-zh-sihuo-share.png`。反例文案：
 
 ```
 接私活被拖款的同学看过来——客户晚付钱你们本周先催谁？
@@ -81,7 +113,7 @@ https://sirmem.github.io/freelancer-money-sheets/zh-xuesheng-sihuo-zhuizhang.htm
 用得上直接说你们现在怎么追就行，别急着买东西。
 ```
 
-发完回：`人情帖已发：朋友圈/同学群 + 时间`
+（若误发了此版，不算 STORY-FOOTNOTE PASS；可补发故事脚注版。）
 
 ---
 
