@@ -24,6 +24,7 @@
 | [REPLY-BIND](REPLY-BIND.md) | 绑定：回令 ↔ 唯一粘贴块；双主路径/中英菜单/新门禁 = FAIL |
 | [EXCEPTION-ONLY](EXCEPTION-ONLY.md) | 决策类阶梯：可逆低爆 → rung3+；不可逆人情留 rung2；一条未清闸时再开新批准类 / 新 GATE = **FAIL 抬高 ceiling**；**REVIEW≠RATIFY** + money-loop 出站 = 0 CLEAR-COST；**EXCEPTION-QUEUE** packet + SAY-YES LOCK（reinforce ~16:49） |
 | [OBSERVE-NOT-NARRATE](OBSERVE-NOT-NARRATE.md) | 升阶证据前提：独立存活出处；日志是证据还是叙事；生成≠评判；一次违约降阶 · [observe-not-narrate-scorecard.html](observe-not-narrate-scorecard.html) |
+| [JOB-CONTRACT](JOB-CONTRACT.md) | 任务形状：六栏契约先于动手；验收测试预声明；≠买家 ACCEPTANCE-GATE · [job-contract-scorecard.html](job-contract-scorecard.html) |
 | [ONE-TAP-POST](ONE-TAP-POST.md) / [STORY-FOOTNOTE-POSTS](STORY-FOOTNOTE-POSTS.md) | 粘贴原文来源 |
 | [CHAT-REPLY-FORMAT](CHAT-REPLY-FORMAT.md) | 清闸回令格式 |
 
@@ -71,6 +72,11 @@
 ## Reinforce · OBSERVE-NOT-NARRATE（2026-10-29 ~17:15 · 非新门禁）
 
 清闸成本度量之外：RESULT / 分数卡若只有 Agent 自述而无 URL/HTTP/commit/raw，**不得**记为进度（含目录 LIVE 叙事）。对照卡（可选镜像）：[observe-not-narrate-scorecard.html](observe-not-narrate-scorecard.html)。见 [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md)。
+
+
+## Reinforce · JOB-CONTRACT（2026-10-29 ~17:48 · 非新门禁）
+
+清闸之外：每个循环 RESULT 应对齐六栏契约（触发/输入/有界产出/验收/异常/主人）。缺验收预声明的「我觉得做好了」不计进度。对照卡（可选镜像）：[job-contract-scorecard.html](job-contract-scorecard.html)。见 [JOB-CONTRACT.md](JOB-CONTRACT.md)。
 
 ## Anti-patterns
 

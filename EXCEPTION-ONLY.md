@@ -48,6 +48,7 @@
 | [GATE-IN-CHANNEL](GATE-IN-CHANNEL.md) / [REPLY-BIND](REPLY-BIND.md) | That clear lives in chat; one paste ↔ one reply |
 | [OWNER-FAVOR-GATE](OWNER-FAVOR-GATE.md) | Names the irreversible warm unit that stays at rung2 |
 | **This core** | Classifies **which decision classes** may leave Kevin's queue (rung3+) vs stay approve-before |
+| [JOB-CONTRACT](JOB-CONTRACT.md) | Every job (any rung) must be a six-field contract before run · [job-contract-scorecard.html](job-contract-scorecard.html) |
 | [OBSERVE-NOT-NARRATE](OBSERVE-NOT-NARRATE.md) | Evidence bar for any raise to rung3+：独立存活出处 + demotion；生成≠评判 |
 
 EXCEPTION-ONLY answers *which classes leave the queue*; CLEAR-COST lowers cost of the one that stays.
