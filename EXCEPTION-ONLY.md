@@ -49,6 +49,7 @@
 | [OWNER-FAVOR-GATE](OWNER-FAVOR-GATE.md) | Names the irreversible warm unit that stays at rung2 |
 | **This core** | Classifies **which decision classes** may leave Kevin's queue (rung3+) vs stay approve-before |
 | [JOB-CONTRACT](JOB-CONTRACT.md) | Every job (any rung) must be a six-field contract before run · [job-contract-scorecard.html](job-contract-scorecard.html) |
+| [SLICE-LOCK](SLICE-LOCK.md) | RESULT acceptance decomposed per-slice; mean PASS masks open FAIL · [slice-lock-scorecard.html](slice-lock-scorecard.html) |
 | [OBSERVE-NOT-NARRATE](OBSERVE-NOT-NARRATE.md) | Evidence bar for any raise to rung3+：独立存活出处 + demotion；生成≠评判 |
 
 EXCEPTION-ONLY answers *which classes leave the queue*; CLEAR-COST lowers cost of the one that stays.
@@ -140,3 +141,7 @@ EXCEPTION-ONLY answers *which classes leave the queue*; CLEAR-COST lowers cost o
 - 把 Agent 自检审阅当成主人批准（REVIEW 冒充 RATIFY）
 - 空喊「请批准」而无 exception packet 字段
 - Agent 代发人情 / 代花 / 代说「是」（违反 SAY-YES LOCK）
+
+## Scoring discipline · SLICE-LOCK（2026-10-29 ~18:22）
+
+EXCEPTION-ONLY 管决策类升阶；SLICE-LOCK 管 RESULT **计分**：不得用总 PASS 掩盖 OWNER-FAVOR 等开着的 FAIL 切片。非新 `*-GATE.md`（L11）。见 [SLICE-LOCK.md](SLICE-LOCK.md) · [slice-lock-scorecard.html](slice-lock-scorecard.html)。

@@ -84,4 +84,4 @@ Authority precision: draft ≠ send · prepare batch ≠ release funds · sugges
 
 ## Complements（不替代 · 不发明并列 GATE）
 
-见 [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md) · [ACCEPTANCE-GATE.md](ACCEPTANCE-GATE.md) · [CLEAR-COST.md](CLEAR-COST.md) · [job-contract-scorecard.html](job-contract-scorecard.html) · [chat-inline-clear.md](chat-inline-clear.md)。
+见 [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md) · [SLICE-LOCK.md](SLICE-LOCK.md)（验收按切片分解） · [ACCEPTANCE-GATE.md](ACCEPTANCE-GATE.md) · [CLEAR-COST.md](CLEAR-COST.md) · [job-contract-scorecard.html](job-contract-scorecard.html) · [chat-inline-clear.md](chat-inline-clear.md)。

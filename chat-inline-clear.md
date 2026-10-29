@@ -4,7 +4,7 @@
 
 **绑定（REPLY-BIND）：** 唯一推荐动作 ↔ 唯一粘贴块 ↔ 唯一回令。备选路径不在本页首屏。
 
-**EXCEPTION-QUEUE packet（KEEP · L11）：** 本页 = 唯一 rung2 exception packet（why=人情不可逆 · evidence=上块 · proposed=复制发送 · decision=回令 · owner=Kevin）。不要另开第二 packet / 第二回令。Agent SAY-YES LOCK：不代发。**OBSERVE-NOT-NARRATE：** 本页主张的「待 Kevin」状态本身是 defer 证据；Agent 不得自标 OWNER-FAVOR PASS。**JOB-CONTRACT：** 本页填齐 exception-route + named-owner；money/cognition 完整六栏见 [JOB-CONTRACT.md](JOB-CONTRACT.md)。
+**EXCEPTION-QUEUE packet（KEEP · L11）：** 本页 = 唯一 rung2 exception packet（why=人情不可逆 · evidence=上块 · proposed=复制发送 · decision=回令 · owner=Kevin）。不要另开第二 packet / 第二回令。Agent SAY-YES LOCK：不代发。**OBSERVE-NOT-NARRATE：** 本页主张的「待 Kevin」状态本身是 defer 证据；Agent 不得自标 OWNER-FAVOR PASS。**JOB-CONTRACT：** 本页填齐 exception-route + named-owner；money/cognition 完整六栏见 [JOB-CONTRACT.md](JOB-CONTRACT.md)。**SLICE-LOCK：** OWNER-FAVOR 是开着的 FAIL 切片，不得被总 RESULT PASS 掩盖；见 [SLICE-LOCK.md](SLICE-LOCK.md)。
 
 **Recommended action = 1：** 朋友圈/同学群 · 故事脚注（来源 [STORY-FOOTNOTE-POSTS.md](STORY-FOOTNOTE-POSTS.md) A · [ONE-TAP-POST.md](ONE-TAP-POST.md) ★）
 
@@ -39,7 +39,7 @@ https://sirmem.github.io/freelancer-money-sheets/zh-xuesheng-sihuo-zhuizhang.htm
 
 ## Optional mirrors（非清闸前置）
 
-- Scorecard: [reply-bind-scorecard.html](reply-bind-scorecard.html) · [gate-in-channel-scorecard.html](gate-in-channel-scorecard.html) · [token-latency-scorecard.html](token-latency-scorecard.html) · [exception-only-scorecard.html](exception-only-scorecard.html)（REVIEW≠RATIFY 镜像） · [observe-not-narrate-scorecard.html](observe-not-narrate-scorecard.html)（证据≠叙事 镜像）
+- Scorecard: [reply-bind-scorecard.html](reply-bind-scorecard.html) · [gate-in-channel-scorecard.html](gate-in-channel-scorecard.html) · [token-latency-scorecard.html](token-latency-scorecard.html) · [exception-only-scorecard.html](exception-only-scorecard.html)（REVIEW≠RATIFY 镜像） · [observe-not-narrate-scorecard.html](observe-not-narrate-scorecard.html)（证据≠叙事 镜像） · [job-contract-scorecard.html](job-contract-scorecard.html)（六栏契约 镜像） · [slice-lock-scorecard.html](slice-lock-scorecard.html)（切片基线 镜像）
 - Legacy cards: [clear-cost-card.html](clear-cost-card.html) / [action-preview-card.html](action-preview-card.html)（**勿**再写成「请先打开」；**勿**标成 Lowest activation）
 
 ## Backup（仅当 Kevin 明确拒绝 Moments 后展开 · 不并列首屏）

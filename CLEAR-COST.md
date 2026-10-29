@@ -25,6 +25,7 @@
 | [EXCEPTION-ONLY](EXCEPTION-ONLY.md) | 决策类阶梯：可逆低爆 → rung3+；不可逆人情留 rung2；一条未清闸时再开新批准类 / 新 GATE = **FAIL 抬高 ceiling**；**REVIEW≠RATIFY** + money-loop 出站 = 0 CLEAR-COST；**EXCEPTION-QUEUE** packet + SAY-YES LOCK（reinforce ~16:49） |
 | [OBSERVE-NOT-NARRATE](OBSERVE-NOT-NARRATE.md) | 升阶证据前提：独立存活出处；日志是证据还是叙事；生成≠评判；一次违约降阶 · [observe-not-narrate-scorecard.html](observe-not-narrate-scorecard.html) |
 | [JOB-CONTRACT](JOB-CONTRACT.md) | 任务形状：六栏契约先于动手；验收测试预声明；≠买家 ACCEPTANCE-GATE · [job-contract-scorecard.html](job-contract-scorecard.html) |
+| [SLICE-LOCK](SLICE-LOCK.md) | 验收按切片基线；总均分掩盖回归；任务≠脚手架 · [slice-lock-scorecard.html](slice-lock-scorecard.html) |
 | [ONE-TAP-POST](ONE-TAP-POST.md) / [STORY-FOOTNOTE-POSTS](STORY-FOOTNOTE-POSTS.md) | 粘贴原文来源 |
 | [CHAT-REPLY-FORMAT](CHAT-REPLY-FORMAT.md) | 清闸回令格式 |
 
@@ -86,3 +87,7 @@
 - 把「打开网页/下载卡」当成清闸第一步（违反 [GATE-IN-CHANNEL](GATE-IN-CHANNEL.md)）
 - 「两条主路径同等优先」/中英菜单并列首屏，或再开新门禁文档冒充降本（违反 [REPLY-BIND](REPLY-BIND.md)）
 - 「催更快批」或一条未清闸旁再开新 GATE / 第二回令（违反 [EXCEPTION-ONLY](EXCEPTION-ONLY.md) / L11）
+
+## Reinforce · SLICE-LOCK（2026-10-29 ~18:22 · 非新门禁）
+
+清闸之外：RESULT 不得只报 mean/总 PASS。开着的 OWNER-FAVOR 切片必须显式 FAIL。对照卡（可选镜像）：[slice-lock-scorecard.html](slice-lock-scorecard.html)。见 [SLICE-LOCK.md](SLICE-LOCK.md)。

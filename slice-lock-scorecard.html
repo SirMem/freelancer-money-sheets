@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>SLICE-LOCK · per-slice baseline beats mean</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:960px;margin:1.5rem auto;padding:0 1rem;line-height:1.5}
+  table{border-collapse:collapse;width:100%;font-size:.86rem}
+  th,td{border:1px solid #ddd;padding:.4rem .5rem;text-align:left;vertical-align:top}
+  th{background:#f5f5f5}
+  .pass{color:#0a7a2f;font-weight:600}
+  .fail{color:#b00020;font-weight:600}
+  .hold{background:#fff8e6}
+  .okrow{background:#eef8f0}
+  .failrow{background:#fdecee}
+  .note{background:#f8f8f8;padding:.75rem 1rem;border-radius:6px;font-size:.9rem}
+  code{font-size:.85em}
+</style>
+</head>
+<body>
+<h1>SLICE-LOCK · 切片基线 分数卡</h1>
+<p class="note"><strong>镜像 only。</strong> 清闸主表面仍是聊天内 <code>chat-inline-clear.md</code>。打开本页<strong>不是</strong>清闸步骤。父核 <a href="SLICE-LOCK.md">SLICE-LOCK</a> · <a href="JOB-CONTRACT.md">JOB-CONTRACT</a> · <a href="OBSERVE-NOT-NARRATE.md">OBSERVE-NOT-NARRATE</a> · <a href="EXCEPTION-ONLY.md">EXCEPTION-ONLY</a> · L11 <a href="ACTIVITY-BIAS-LOCK.md">ACTIVITY-BIAS-LOCK</a>。</p>
+
+<p><strong>One-liner：</strong> 总均分/总 RESULT PASS 会掩盖单片回归；验收按切片基线锁死，保留完整评分产物并做差分；任务成功 ≠ 脚手架健康。</p>
+
+<h2>S1–S6 · 本轮 ~18:22 Asia/Shanghai</h2>
+<table>
+  <tr><th>#</th><th>Check</th><th>本轮证据</th><th>PASS/FAIL</th></tr>
+  <tr class="okrow"><td>S1</td><td>Per-slice RESULT table</td><td>RESULT.md 含切片表（core/hub/Pages/Feishu/prices/OWNER-FAVOR/L11）</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>S2</td><td>Full grade artifact kept</td><td>本分数卡 + SLICE-LOCK.md 上 hub</td><td class="pass">PASS</td></tr>
+  <tr class="failrow"><td>S3</td><td>Open gate slices named FAIL</td><td>OWNER-FAVOR A/W1/W2 + WeChat C1 + Affiliates R0 显式 FAIL</td><td class="fail">FAIL（正确 defer）</td></tr>
+  <tr class="okrow"><td>S4</td><td>Task ≠ harness</td><td>核心上线与 OWNER-FAVOR 分列；未混「都过了」</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>S5</td><td>Diff vs baseline</td><td>相对 JOB-CONTRACT 轮：新增切片纪律核；开闸切片仍 FAIL</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>S6</td><td>No new competing *-GATE</td><td>核心名 SLICE-LOCK（非 *-GATE.md）；L11 守住</td><td class="pass">PASS</td></tr>
+</table>
+
+<h2>本轮 RESULT 切片（非 mean）</h2>
+<table>
+  <tr><th>Slice</th><th>Baseline / test</th><th>Evidence</th><th>Verdict</th></tr>
+  <tr class="okrow"><td>Cognition NEW core shipped</td><td>file + hub commit</td><td>SLICE-LOCK.md on hub</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>Scorecard on Pages/hub</td><td>HTTP or path</td><td>slice-lock-scorecard.html</td><td class="pass">PASS / pending Pages</td></tr>
+  <tr class="okrow"><td>Feishu cog append</td><td>lark rev</td><td>见 RESULT</td><td class="pass">见 RESULT</td></tr>
+  <tr class="okrow"><td>Feishu wealth sync</td><td>lark rev</td><td>见 RESULT</td><td class="pass">见 RESULT</td></tr>
+  <tr class="okrow"><td>Prices / $0</td><td>$6/$5/$5/$12 · $0</td><td>stated · 0 spend</td><td class="pass">PASS</td></tr>
+  <tr class="failrow"><td>OWNER-FAVOR</td><td>must FAIL until Kevin</td><td>未发人情帖 · 无回令</td><td class="fail">FAIL</td></tr>
+  <tr class="okrow"><td>No new *-GATE (L11)</td><td>非并列批准类</td><td>SLICE-LOCK 非 *-GATE</td><td class="pass">PASS</td></tr>
+</table>
+
+<p class="note"><strong>Overall：</strong> 勿折叠成单一绿灯。开着的 OWNER-FAVOR 切片 = FAIL；其余实践切片可 PASS。Mean PASS 在此不合法。</p>
+
+<p style="font-size:.85rem;color:#666">Updated 2026-10-29 ~18:22 Asia/Shanghai · 0 spend · prices unchanged</p>
+</body>
+</html>

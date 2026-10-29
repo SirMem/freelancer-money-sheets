@@ -56,7 +56,7 @@
 
 ## Complements（不替代 · 不发明并列 GATE）
 
-见 [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · [JOB-CONTRACT.md](JOB-CONTRACT.md)（验收测试先于动手） · [CLEAR-COST.md](CLEAR-COST.md) · [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md) · [chat-inline-clear.md](chat-inline-clear.md) · [observe-not-narrate-scorecard.html](observe-not-narrate-scorecard.html)。
+见 [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · [JOB-CONTRACT.md](JOB-CONTRACT.md)（验收测试先于动手） · [SLICE-LOCK.md](SLICE-LOCK.md)（per-slice 基线；mean PASS 仍可藏局部 FAIL） · [CLEAR-COST.md](CLEAR-COST.md) · [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md) · [chat-inline-clear.md](chat-inline-clear.md) · [observe-not-narrate-scorecard.html](observe-not-narrate-scorecard.html)。
 
 ## Audit note · money-loop ~17:13
 
