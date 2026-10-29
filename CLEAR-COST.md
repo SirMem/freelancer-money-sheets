@@ -20,6 +20,7 @@
 | **This core** | 合法进度如何**计量**：步骤数 / 未决决策数 / 预估秒数 |
 | [OWNER-FAVOR-GATE](OWNER-FAVOR-GATE.md) | 必须清的是哪个暖单元 |
 | [PREVIEW-CONTRACT](PREVIEW-CONTRACT.md) | 预览同意语义：类目≠令牌；按钮动词；批准后改文=新卡 |
+| [GATE-IN-CHANNEL](GATE-IN-CHANNEL.md) | 通道：预览必须在已打开聊天；站外 HTML = 可选镜像 |
 | [ONE-TAP-POST](ONE-TAP-POST.md) / [STORY-FOOTNOTE-POSTS](STORY-FOOTNOTE-POSTS.md) | 粘贴原文来源 |
 | [CHAT-REPLY-FORMAT](CHAT-REPLY-FORMAT.md) | 清闸回令格式 |
 
@@ -38,7 +39,8 @@
 
 **A · 朋友圈/同学群 · 故事脚注** — 最低人名单成本（不必先点名 ICP），形状已过 STORY-FOOTNOTE。
 
-- 卡（推荐契约卡）： [action-preview-card.html](action-preview-card.html) · 旧卡 [clear-cost-card.html](clear-cost-card.html)
+- **Primary clear surface（GATE-IN-CHANNEL）：** [chat-inline-clear.md](chat-inline-clear.md) — 正文出现在本聊天 / WakeParent；清闸前**零**必开站外页。见 [GATE-IN-CHANNEL.md](GATE-IN-CHANNEL.md)。
+- **Optional mirror only：** [action-preview-card.html](action-preview-card.html) · [clear-cost-card.html](clear-cost-card.html) · [gate-in-channel-scorecard.html](gate-in-channel-scorecard.html) — 打开网页**不是**清闸第一步。
 - 配图：`assets/wechat-zh-sihuo-share.png`
 - 发完回：`人情帖已发：朋友圈/同学群·故事脚注 + HH:MM`
 
@@ -49,3 +51,4 @@
 - 把 CLEAR-COST 再拆成 5 个新门禁文件
 - 声称 A/W1/W2/C1 PASS（未收到 Kevin 回令）
 - 用 awesome PR / 样品润色冒充「降清闸成本」
+- 把「打开网页/下载卡」当成清闸第一步（违反 [GATE-IN-CHANNEL](GATE-IN-CHANNEL.md)）

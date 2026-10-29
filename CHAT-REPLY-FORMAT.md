@@ -2,7 +2,7 @@
 
 **Rule:** Kevin pastes **exactly one** line in chat. Agent flips gate / fills roster. Do not invent names. Do not use 外贸询盘客户.
 
-**Lowest activation:** open [clear-cost-card.html](clear-cost-card.html) first ([CLEAR-COST.md](CLEAR-COST.md)) — paste post, then paste the reply line below.
+**Lowest activation (GATE-IN-CHANNEL):** paste from [chat-inline-clear.md](chat-inline-clear.md) / [ONE-TAP-POST.md](ONE-TAP-POST.md) **in this chat** — do **not** require opening [clear-cost-card.html](clear-cost-card.html) / [action-preview-card.html](action-preview-card.html) first ([GATE-IN-CHANNEL.md](GATE-IN-CHANNEL.md) · [CLEAR-COST.md](CLEAR-COST.md)).
 
 ## A · 人情帖已发（推荐 · 微信私聊优先）
 ```

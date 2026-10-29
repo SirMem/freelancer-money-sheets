@@ -1,7 +1,7 @@
-<!-- CLEAR-COST: prefer clear-cost-card.html as the single recommended surface while B=FAIL -->
+<!-- GATE-IN-CHANNEL: primary = chat-inline-clear.md in open chat; HTML cards = optional mirror -->
 # One-tap · 双主路径并列 · W3 CN · 2026-10-28 ~21:33
 
-**默认先打开一张卡（降激活能）：** [clear-cost-card.html](clear-cost-card.html)（CLEAR-COST · 推荐 Moments 故事脚注）。
+**默认（降激活能 · GATE-IN-CHANNEL）：** 直接用本页或 [chat-inline-clear.md](chat-inline-clear.md) 的故事脚注正文——**不必**先打开网页。可选镜像：[clear-cost-card.html](clear-cost-card.html) / [action-preview-card.html](action-preview-card.html)（打开 ≠ 清闸步骤）。
 
 **两条主路径同等优先（二选一即可清暖单元）：**
 

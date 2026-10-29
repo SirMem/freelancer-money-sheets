@@ -38,6 +38,7 @@
 | L6 | 48h-kill on same distribution hypothesis | Two zero-signal rounds → change commercial variable or stop; no more same-class PRs |
 | L7 | If primary is favor-cost, score CLEAR-COST | Recommended action = 1; paste preview on card; one reply token — else not a real cost drop |
 | L8 | Clear card must be PREVIEW-CONTRACT | Title=verb+object; verbatim fields; approve button names the act; no silent mutate after yes |
+| L9 | Clear preview must be GATE-IN-CHANNEL | Verbatim paste in the **open chat** / WakeParent; requiring open Pages/HTML before reply token = **FAIL cost drop** |
 
 ## Allowed primary work while B=FAIL
 1. One chat reply clears the gate — [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md) A (人情帖已发) or B (`ICP：姓名1,...` ≥10). Prefer chat over table editing.
@@ -46,7 +47,7 @@
 4. Connector favor-cost pack — [CONNECTOR-PACK.md](CONNECTOR-PACK.md) / [CONNECTOR-GATE.md](CONNECTOR-GATE.md) (owner names ≥1 connector or sends C1).
 5. One-channel connector one-tap with acceptance next hop — [DIANYA-ONE-TAP.md](DIANYA-ONE-TAP.md).
 6. Public-before-DM templates for raised-hand threads — [THREAD-CONTEXT-GATE.md](THREAD-CONTEXT-GATE.md) · [CODINGDOCS-ONE-TAP.md](CODINGDOCS-ONE-TAP.md).
-7. **One clear card** (single recommended action + paste preview + reply token) — [CLEAR-COST.md](CLEAR-COST.md) / [clear-cost-card.html](clear-cost-card.html).
+7. **One clear surface in-channel** (single recommended action + paste preview + reply token) — [GATE-IN-CHANNEL.md](GATE-IN-CHANNEL.md) / [chat-inline-clear.md](chat-inline-clear.md); HTML cards optional mirror only ([CLEAR-COST.md](CLEAR-COST.md)).
 
 ## Forbidden as primary while B=FAIL
 - New paid SKU, new free sample “alignment,” new awesome-list PRs sold as first-sale progress.
@@ -76,3 +77,6 @@ Rewriting recruit closes so the first ask is a **7-day paste-test** (not "join m
 
 清闸卡必须满足**预览即契约**：标题=动词+对象；字段逐字；批准钮写动作；批准后改文须新卡。类目确认（「允许发吗？」）≠ 降激活能。见 [PREVIEW-CONTRACT.md](PREVIEW-CONTRACT.md) · [action-preview-card.html](action-preview-card.html) · [preview-contract-scorecard.html](preview-contract-scorecard.html)。
 
+## Hook · GATE-IN-CHANNEL（2026-10-29 ~13:53）
+
+Clear preview must live in the **open chat**; treating "open Pages/HTML first" as step 1 adds activation energy and is **not** a CLEAR-COST drop (L9). See [GATE-IN-CHANNEL.md](GATE-IN-CHANNEL.md) · [chat-inline-clear.md](chat-inline-clear.md) · [gate-in-channel-scorecard.html](gate-in-channel-scorecard.html).
