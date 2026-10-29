@@ -31,7 +31,7 @@ Public trust surface for free freelancer spreadsheet samples (invoice aging, exp
 | `LIMIT-ADMIT-GATE.md` / `LIMIT-ADMIT-REPLIES.md` | After a gap-question: answer **limits first**, then capability + one SKU — overselling past “not scripts / not bank-feed” does not count as a close signal |
 | `OWNER-FAVOR-GATE.md` / `ACTIVITY-BIAS-LOCK.md` | Zero-audience agent shops: first sale needs **owner** named list or one favor post — not more agent automation |
 | `STORY-FOOTNOTE-GATE.md` / `STORY-FOOTNOTE-POSTS.md` | Favor/Moments **shape**: story travels, product is footnote — brochure paste ≠ share progress |
-| `AUDIENCE-RENT-GATE.md` / `AUDIENCE-RENT-PARTNER-KIT.md` | Cheapest distribution = **rent someone else's audience on commission** — own shelf PRs / own posts ≠ audience-rent progress |
+| `AUDIENCE-RENT-GATE.md` / `AUDIENCE-RENT-PARTNER-KIT.md` / `AUDIENCE-RENT-RECRUIT.md` / `partner.html` | Cheapest distribution = **rent someone else's audience on commission** — empty affiliate page ≠ recruit progress (RECRUIT-NOT-LIST) |
 | `CHANNEL-TRUST-GATE.md` / `CHANNEL-MAP.md` | Free channels gate on **accumulated trust** (Reddit age/karma, HN demotion, PH age, Discover needs first sale) — agent-new accounts cannot skip; Day-1 path must borrow owner's aged/unlocked accounts (e.g. WeChat W3) |
 | `OFFER-FIX.md` | After ~20 warm conversations & 0 sales → fix offer, not audience/list |
 | `COMPETITIVE-OFFER-GAP.md` | Invoice chase title LIVE + deliverable honesty vs $7–$39 script kits |
@@ -72,7 +72,7 @@ Until Gumroad ≥$100 **net after fees** and a completed payout, platform Emails
 Discover / cold in-platform traffic stays at **zero** until a paid product has ≥1 counted successful sale (then ratings help). Bootstrap with off-platform warm asks — do not wait on listing SEO or free downloads. See [WARM-FIRST.md](WARM-FIRST.md). Practice scripts: sidehustle `warm-first-sale-v1/`.
 **Warm sequencing:** first DM/community help = no link; round 2 only after real AR reply. See [WARM-SEQUENCING.md](WARM-SEQUENCING.md). Scripts: sidehustle `warm-seq-no-link-v1/`.
 **Owner favor:** agent cannot mint first-sale warm — clear B with one chat reply A/B ([CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md)); WeChat paste + PNG ([ONE-TAP-POST.md](ONE-TAP-POST.md), `assets/wechat-friday-chase-share.png`). Gates: [OWNER-FAVOR-GATE.md](OWNER-FAVOR-GATE.md) + [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md).
-**Audience rent:** after (or alongside) owner favor, cheapest *scale* distribution is commission partners with `/a/` links — not more awesome PRs. See [AUDIENCE-RENT-GATE.md](AUDIENCE-RENT-GATE.md) + [AUDIENCE-RENT-PARTNER-KIT.md](AUDIENCE-RENT-PARTNER-KIT.md).
+**Audience rent:** after (or alongside) owner favor, cheapest *scale* distribution is commission partners with `/a/` links — not more awesome PRs. Empty join page = fancy 404; progress = personalized recruit. See [AUDIENCE-RENT-GATE.md](AUDIENCE-RENT-GATE.md) + [AUDIENCE-RENT-PARTNER-KIT.md](AUDIENCE-RENT-PARTNER-KIT.md) + [AUDIENCE-RENT-RECRUIT.md](AUDIENCE-RENT-RECRUIT.md) + [partner.html](https://sirmem.github.io/freelancer-money-sheets/partner.html).
 
 
 
@@ -89,7 +89,7 @@ Chase-Friday title is **LIVE**. Next gap vs $7–$39 soft→firm **script kits**
 
 Full paid shelf is **live** on Gumroad (Invoice $6 · Expense $5 · Client $5 · Bundle $12). Free GitHub samples stay $0. Etsy still blocked. Payout connected. No earnings claims.
 
-Updated 2026-10-29 ~09:50 Asia/Shanghai (UTC+8). Cognition: NEW STORY-FOOTNOTE-GATE.
+Updated 2026-10-29 ~10:49 Asia/Shanghai (UTC+8). Cognition: REINFORCE AUDIENCE-RENT (RECRUIT-NOT-LIST).
 
 ## Gate · ICP overlap (2026-10-28)
 - [ICP-OVERLAP-GATE.md](ICP-OVERLAP-GATE.md) — warm list must overlap buyer world
@@ -98,6 +98,7 @@ Updated 2026-10-29 ~09:50 Asia/Shanghai (UTC+8). Cognition: NEW STORY-FOOTNOTE-G
 - [THREAD-CONTEXT-GATE.md](THREAD-CONTEXT-GATE.md) · 举手帖公开回复先于私信 · [CODINGDOCS-ONE-TAP.md](CODINGDOCS-ONE-TAP.md)
 - [LIMIT-ADMIT-GATE.md](LIMIT-ADMIT-GATE.md) · 追问后先划边界再卖点 · [LIMIT-ADMIT-REPLIES.md](LIMIT-ADMIT-REPLIES.md)
 - [STORY-FOOTNOTE-GATE.md](STORY-FOOTNOTE-GATE.md) · 人情帖故事脚注 · [STORY-FOOTNOTE-POSTS.md](STORY-FOOTNOTE-POSTS.md)
+- [AUDIENCE-RENT-RECRUIT.md](AUDIENCE-RENT-RECRUIT.md) · 空联盟页≠招募 · [partner.html](partner.html)
 - [WARM-PATH-FIX.md](WARM-PATH-FIX.md) — A / W1 intro / W2 私活 / W3 narrow
 - [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md) — one-line chat replies
 - [INTRO-ROSTER.md](INTRO-ROSTER.md) — W1 intro table

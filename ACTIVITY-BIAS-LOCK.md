@@ -41,3 +41,6 @@
 
 ## Related · audience rent (2026-10-29)
 While OWNER-FAVOR B=FAIL, shipping a Partner Kit / enable checklist for Gumroad affiliates **counts** as favor-cost reduction (lowers Kevin's next action). Opening another awesome-list PR still does **not**. See [AUDIENCE-RENT-GATE.md](AUDIENCE-RENT-GATE.md).
+
+## Hook · AUDIENCE-RENT recruit (2026-10-29)
+写伙伴页 / 短名单 / 邀请草稿 ≠ 发出招募。空联盟 404 探针见 [R0-PROBE.md](R0-PROBE.md)。Agent 可做 R1a/R1b；R1c 仍要 Kevin。

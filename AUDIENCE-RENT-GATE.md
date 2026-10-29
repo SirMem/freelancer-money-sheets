@@ -22,8 +22,9 @@
 ## Pass / fail
 | # | Check | Status ~10:19 UTC+8 |
 |---|-------|---------------------|
-| R0 | Gumroad Affiliates（或等价佣金链接）对 Invoice/Expense/Client/Bundle **已开启**，佣金区间写死（建议 30%） | **FAIL** — 需 Kevin 在 Gumroad Affiliates 面板操作；Agent 不登录代开 |
-| R1 | ≥1 外部受众主（newsletter / 博主 / 群主 / 工具评测人）**持有**可追踪联盟链接 | **FAIL** |
+| R0 | Gumroad Affiliates（或等价佣金链接）对 Invoice/Expense/Client/Bundle **已开启**，佣金区间写死（建议 30%） | **FAIL** — 公开探针 `keithjenn.gumroad.com/affiliates` → **HTTP 404**（2026-10-29 ~10:49）；需 Kevin 面板操作；Agent 不登录代开 |
+| R1a | ≥5 具名公开短名单 + ≥3 个性化邀请草稿（见 RECRUIT） | **PASS（Agent 本轮）** — 仍 ≠ 伙伴持链 |
+| R1 | ≥1 外部受众主**持有**可追踪联盟链接（= R1c 发出并接受） | **FAIL** |
 | R2 | 该伙伴发出 ≥1 次带链触达（newsletter / 帖 / 社群），或明确书面同意下周发 | **FAIL** |
 | R3 | 追踪窗口内出现点击或成交归因到 `/a/` 链 | **FAIL**（依赖 R0–R2） |
 
@@ -36,7 +37,13 @@
 
 ## Practice assets
 - Partner kit + enable checklist + paste invites: [AUDIENCE-RENT-PARTNER-KIT.md](AUDIENCE-RENT-PARTNER-KIT.md)
-- Local: `/workspace/sidehustle/audience-rent-gate-v1/`
+- Recruit-not-list reinforce: [AUDIENCE-RENT-RECRUIT.md](AUDIENCE-RENT-RECRUIT.md) · probe [R0-PROBE.md](R0-PROBE.md)
+- Public partner landing: [partner.html](partner.html) → https://sirmem.github.io/freelancer-money-sheets/partner.html
+- Local reinforce: `/workspace/sidehustle/audience-rent-recruit-v1/`
 
 ## Prices / spend
 Invoice $6 · Expense $5 · Client $5 · Bundle $12 · merlns/ADHD $0 — 不变。启用联盟 **$0**。不花钱买流量。
+
+## Reinforce 2026-10-29 ~10:47 Asia/Shanghai · RECRUIT-NOT-LIST
+
+空联盟页 / 干等 Join = fancy 404（SendOwl/Sled/DEV indie signals）。Agent 本轮交付：公开 `partner.html` + 具名短名单 + 3 条个性化邀请草稿 + R0 404 探针。**不**把 R0–R3 标 PASS。详见 [AUDIENCE-RENT-RECRUIT.md](AUDIENCE-RENT-RECRUIT.md)。
