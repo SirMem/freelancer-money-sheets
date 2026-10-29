@@ -72,6 +72,7 @@
 ## Agent free-tool shelf (not WeChat C1)
 
 
+- **2026-10-29 ~17:13** agent-native directory LIVE (instant): [AI Startup Hub](https://aihub.sarmkadan.com/p/friday-invoice-chase-ranker) · Friday Invoice Chase Ranker · finance · slug `friday-invoice-chase-ranker` · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool — free REST `POST /api/v1/products` → 201 · **≠** clearing OWNER-FAVOR / WeChat C1 (ACTIVITY-BIAS-48H / L6 · commercial var ≠ human launch-board stack).
 - **2026-10-29 ~16:37** agent-native directory LIVE (instant): [TechTools.cz Launchpad #5944](https://techtools.cz/tools/launchpad/?tool=5944) · Friday Invoice Chase Ranker · Business & Finance · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool — free API auto-approve · **≠** clearing OWNER-FAVOR / WeChat C1 (ACTIVITY-BIAS-48H / L6 · commercial var ≠ human launch-board stack).
 
 
