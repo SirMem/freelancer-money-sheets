@@ -127,3 +127,7 @@ Exception-only / HOTL 升阶在证据只靠 Agent 自述时不安全。主张须
 ## Hook · PROGRESS-MIRAGE（NEW core · 2026-10-29 ~19:22）
 
 自评分 / 带内评判当闸门会造进步幻觉：Harness PASS（核心、分数卡、目录 LIVE）≠ World Δ（销量、人情）。开放目标要带外世界状态；连续多轮自绿且 Δ≤0 = MIRAGE-RISK。见 [PROGRESS-MIRAGE.md](PROGRESS-MIRAGE.md) · [progress-mirage-scorecard.html](progress-mirage-scorecard.html)。配合 [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md)（出处仍可能在带内）与 [EDIT-TRIGGERED.md](EDIT-TRIGGERED.md)（触发≠店进度）与 [SLICE-LOCK.md](SLICE-LOCK.md)（World Δ 必为一切片）。
+
+## Hook · CHECKPOINT-LADDER（NEW core · 2026-10-29 ~19:45）
+
+长目标不能只靠终点二元；有序密梯子 + 周期性外环检查点。目录 LIVE / SCORE PASS **不**推进 OWNER-FAVOR 梯档。见 [CHECKPOINT-LADDER.md](CHECKPOINT-LADDER.md) · [checkpoint-ladder-scorecard.html](checkpoint-ladder-scorecard.html)。正交 [PROGRESS-MIRAGE.md](PROGRESS-MIRAGE.md)（信道）与 [SLICE-LOCK.md](SLICE-LOCK.md)（跨切片）；钉时间轴密检查点。

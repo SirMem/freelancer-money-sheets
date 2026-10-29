@@ -68,4 +68,4 @@ Until all three hold, previous accepted harness/process stays canonical; candida
 
 ## Complements（不替代 · 不发明并列 GATE）
 
-见 [JOB-CONTRACT.md](JOB-CONTRACT.md) · [SLICE-LOCK.md](SLICE-LOCK.md) · [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md) · [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · [edit-triggered-scorecard.html](edit-triggered-scorecard.html) · [PROGRESS-MIRAGE.md](PROGRESS-MIRAGE.md) · [chat-inline-clear.md](chat-inline-clear.md)。
+见 [JOB-CONTRACT.md](JOB-CONTRACT.md) · [SLICE-LOCK.md](SLICE-LOCK.md) · [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md) · [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · [edit-triggered-scorecard.html](edit-triggered-scorecard.html) · [PROGRESS-MIRAGE.md](PROGRESS-MIRAGE.md) · [CHECKPOINT-LADDER.md](CHECKPOINT-LADDER.md) · [chat-inline-clear.md](chat-inline-clear.md)。
