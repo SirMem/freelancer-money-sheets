@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>USECASE-OPEN · invite scorecard</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;line-height:1.5;color:#111}
+  h1{font-size:1.25rem} .fail{color:#b00020;font-weight:600} .pass{color:#0a7a2f;font-weight:600}
+  textarea{width:100%;min-height:160px;font:inherit} button{padding:.5rem 1rem;margin-top:.5rem}
+  ul{padding-left:1.2rem} code{background:#f4f4f4;padding:0 .25rem}
+</style>
+</head>
+<body>
+<h1>AUDIENCE-RENT · USECASE-OPEN scorecard</h1>
+<p>Paste a recruit invite. <strong>Fail</strong> if commission % / earn / 佣金数字 appears in the first two non-empty lines. Progress = usecase + named compliment first; rate is the close.</p>
+<textarea id="t" placeholder="Paste invite draft…"></textarea>
+<button type="button" id="go">Check</button>
+<div id="out"></div>
+<script>
+document.getElementById('go').onclick=()=>{
+  const raw=document.getElementById('t').value||'';
+  const lines=raw.split(/\n/).map(s=>s.trim()).filter(Boolean);
+  const head=lines.slice(0,2).join('\n');
+  const re=/(?:\d+\s*%|％|commission|earn\s+\$?\d|佣金|分成)/i;
+  const fail=re.test(head);
+  const named=/(你的|your|thanks|谢谢|liked|读了|维护|notes on|dashboard|newsletter|列表)/i.test(head);
+  const scene=/(monday|周一|overdue|逾期|chase|催|aging|fog|发呆|who to|先催)/i.test(raw.slice(0,400));
+  let html=`<p>First two lines:</p><pre>${head.replace(/[<>&]/g,c=>({ '<':'&lt;','>':'&gt;','&':'&amp;' }[c]))}</pre>`;
+  html+= fail?`<p class="fail">FAIL — rate/commission in first 2 lines (HOOK-NOT-RATE).</p>`:`<p class="pass">PASS rate-position — no % in first 2 lines.</p>`;
+  html+= named?`<p class="pass">Named compliment / channel cue detected.</p>`:`<p class="fail">Weak naming — add specific work/channel in line 1.</p>`;
+  html+= scene?`<p class="pass">ICP scene cue present.</p>`:`<p class="fail">Add Monday AR / chase scene early.</p>`;
+  html+=`<ul><li>R0 still needs Gumroad affiliates live</li><li>R1c = Kevin actually sends</li><li>Quota mindset: ~30 contacts → ~10 yes (Sled)</li></ul>`;
+  document.getElementById('out').innerHTML=html;
+};
+</script>
+</body>
+</html>

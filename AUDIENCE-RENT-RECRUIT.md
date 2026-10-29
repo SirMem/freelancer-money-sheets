@@ -2,7 +2,7 @@
 
 **一句话：** 空联盟页 /「等别人来报名」= fancy 404；租受众进度只认**个性化招募销售动作**（发出去的邀请），不认上线一个 Join 页。
 
-父门：[AUDIENCE-RENT-GATE.md](AUDIENCE-RENT-GATE.md) · Kit：[AUDIENCE-RENT-PARTNER-KIT.md](AUDIENCE-RENT-PARTNER-KIT.md)
+父门：[AUDIENCE-RENT-GATE.md](AUDIENCE-RENT-GATE.md) · Kit：[AUDIENCE-RENT-PARTNER-KIT.md](AUDIENCE-RENT-PARTNER-KIT.md) · 开场形状：[AUDIENCE-RENT-HOOK.md](AUDIENCE-RENT-HOOK.md)（USECASE-OPEN）
 
 ## Why reinforce（signals 2026-10-29 ~10:47 Asia/Shanghai）
 
@@ -26,7 +26,8 @@
 |---|-------|---------------------|
 | R0 | Gumroad Affiliates 付费 SKU 已开（见父门） | **FAIL** — 公开页 404 |
 | R1a | ≥5 条**具名** ICP 伙伴短名单（公开可核，状态=未触达）已写入 Kit | **PASS（本轮 Agent）** — 见 PARTNER-KIT §4 |
-| R1b | ≥3 条个性化邀请草稿（点名对方作品/受众，非群发）已就绪可粘贴 | **PASS（本轮 Agent）** — 见 Kit §3b |
+| R1b | ≥3 条个性化邀请草稿（点名对方作品/受众，非群发）已就绪可粘贴 | **PASS** — 见 Kit §3c（§3b 旧稿归档） |
+| R1b-hook | 草稿前 2 行无佣金 %；先场景后费率（USECASE-OPEN） | **PASS（2026-10-29 ~11:25）** — 见 [AUDIENCE-RENT-HOOK.md](AUDIENCE-RENT-HOOK.md) |
 | R1c | Kevin **实际发出** ≥1 邀请（或伙伴自助加入后持有 `/a/`） | **FAIL** — 需 Kevin；Agent 不代发 |
 | R2–R3 | 伙伴发帖 / 归因 | **FAIL**（依赖 R0+R1c） |
 

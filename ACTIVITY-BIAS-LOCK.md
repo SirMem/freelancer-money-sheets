@@ -44,3 +44,8 @@ While OWNER-FAVOR B=FAIL, shipping a Partner Kit / enable checklist for Gumroad 
 
 ## Hook · AUDIENCE-RENT recruit (2026-10-29)
 写伙伴页 / 短名单 / 邀请草稿 ≠ 发出招募。空联盟 404 探针见 [R0-PROBE.md](R0-PROBE.md)。Agent 可做 R1a/R1b；R1c 仍要 Kevin。
+
+
+## Hook · AUDIENCE-RENT USECASE-OPEN (2026-10-29 ~11:25)
+
+Rewriting recruit invites so **scene precedes commission %** counts as favor-cost reduction (raises reply odds). Opening another awesome-list PR still does **not**. Shipping a join page without R1c send still does **not**. See [AUDIENCE-RENT-HOOK.md](AUDIENCE-RENT-HOOK.md).

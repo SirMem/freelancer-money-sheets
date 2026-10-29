@@ -85,35 +85,59 @@ free Friday Chase Ranker → https://sirmem.github.io/friday-invoice-chase-tool/
 ### 3b) 个性化邀请草稿（R1b · 点名作品 · 佣金作 close）
 
 > 招募是销售动作：先夸具体作品 + 点受众重叠，再提免费工具，最后才提 30% 联盟。群发「开了 affiliate 请来」= RECRUIT-NOT-LIST FAIL。
+> **2026-10-29 ~11:25 审计：** 旧草稿 A 第 2 行即甩 ~30% → **USECASE-OPEN FAIL**。请改用下方 §3c。
 
-**草稿 A · awesome / 工具列表维护者（在已有 PR 之后，另开私信）**
+<details><summary>旧草稿（归档 · 勿直接发）</summary>
+
+**旧 A（FAIL）** — 第 2 行佣金  
+**旧 B/C** — 部分靠后但仍不够硬；以 §3c 为准。
+
+</details>
+
+### 3c) USECASE-OPEN 过检邀请（R1b-hook · 2026-10-29 ~11:25）
+
+> 硬规则（见 [AUDIENCE-RENT-HOOK.md](AUDIENCE-RENT-HOOK.md)）：**前两行禁止出现佣金数字 / % / earn / commission**；第 1 行点名作品或频道；第 2 行写 ICP 周一场景；佣金只在后三分之一。Sled：~30 触达换 ~10 答应是正常销售漏斗，不是挂页等流量。
+
+**草稿 A′ · awesome / 工具列表维护者（PR 之后另开私信 · 过检）**
 ```
-嗨，之前给「周五追账排序器」提过 PR（公开货架），谢谢你维护列表。
-另外想问：如果你愿意用联盟链推荐，我可以开 Gumroad ~30%（Invoice $6）。
-读者可先玩免费 Ranker：https://sirmem.github.io/friday-invoice-chase-tool/
-伙伴说明页：https://sirmem.github.io/freelancer-money-sheets/partner.html
-方便的话回你的 Gumroad 邮箱，我加 affiliate？（货架链和联盟链是两件事，不勉强）
+嗨，谢谢你一直维护那份 indie/freelance 工具列表——周五追账排序器能挂上去，读者周一找工具时就能撞见。
+你的读者里很多人对着逾期表发呆，缺的不是另一套会计，而是「今天先催谁」的五分钟排序。
+我们有个免费浏览器 Ranker（不用登录）：https://sirmem.github.io/friday-invoice-chase-tool/
+若你愿意偶尔用故事脚注提一句，我可以给你开 Gumroad 联盟（Invoice $6 约 30%，自动打款），并贴好可粘贴文案。
+伙伴页：https://sirmem.github.io/freelancer-money-sheets/partner.html
+方便的话回 Gumroad 邮箱？货架链和联盟链是两件事，完全不勉强。
 ```
 
-**草稿 B · freelance / solopreneur newsletter**
+**草稿 B′ · freelance / solopreneur newsletter（500–5k 甜区优先）**
 ```
-Hi — I read your notes on freelancer cashflow / tools and thought of your readers' Monday AR fog.
-We ship a free 5-min Friday Chase Ranker (browser, no login) plus an optional $6 Invoice Tracker.
-If you ever mention invoice hygiene, I can set a ~30% Gumroad affiliate for you and send a story-shaped blurb (product as footnote).
+Hi — your last notes on freelancer cashflow / Monday money fog matched a scene we keep hearing: aging sheet open, no idea who to nudge first.
+Readers don't need another full accounting stack; they need a 5-minute "who to chase this Friday" sort.
+Free browser Ranker (no login): https://sirmem.github.io/friday-invoice-chase-tool/
+If that ever fits a roundup, I can add you as a Gumroad affiliate (~30% on the $6 Invoice Tracker), send a story-shaped blurb (product as footnote), and you never touch support.
 Partner page: https://sirmem.github.io/freelancer-money-sheets/partner.html
-Want me to add your Gumroad email when affiliates are on?
+Want me to add your Gumroad email once affiliates are live?
 ```
 
-**草稿 C · Notion/spreadsheet 模板创作者（互补）**
+**草稿 C′ · Notion/spreadsheet 模板创作者（互补 · 过检）**
 ```
-Hey — your freelancer dashboard / template audience overlaps people who still rank overdue invoices in five tabs.
-We don't compete on Notion; we sell a tiny Friday "who to chase" sheet (+ free Ranker).
-Happy to open ~30% affiliate + hand you a paste-ready story blurb so you don't write a review.
+Hey — your freelancer dashboard / template folks still jump across five tabs to rank overdue invoices every Monday.
+We don't compete on Notion boards; we only ship a tiny "who to chase this Friday" ritual (+ free Ranker).
+Free tool: https://sirmem.github.io/friday-invoice-chase-tool/
+If useful next to your templates, I can open a Gumroad affiliate (~30%), hand you a paste-ready story blurb, and you never write a review from scratch.
 https://sirmem.github.io/freelancer-money-sheets/partner.html
 ```
 
+**草稿 D · 微刊甜区（Sled：优先 500–5k newsletter · 填具体刊名后发）**
+```
+Hi [NAME] — I liked how [ISSUE/NOTE] named the awkward "which client do I chase first" moment for freelancers.
+That Monday AR fog is exactly what our free Friday Chase Ranker compresses into a three-name list in five minutes.
+Tool: https://sirmem.github.io/friday-invoice-chase-tool/
+If it ever earns a footnote in the newsletter, I can set a Gumroad affiliate (~30% on Invoice $6) and send a story-shaped paragraph so you don't draft copy.
+Partner kit: https://sirmem.github.io/freelancer-money-sheets/partner.html
+```
+
 Partner landing（公开）：https://sirmem.github.io/freelancer-money-sheets/partner.html  
-强化门： [AUDIENCE-RENT-RECRUIT.md](AUDIENCE-RENT-RECRUIT.md)
+强化门： [AUDIENCE-RENT-RECRUIT.md](AUDIENCE-RENT-RECRUIT.md) · [AUDIENCE-RENT-HOOK.md](AUDIENCE-RENT-HOOK.md)
 
 ---
 
