@@ -16,6 +16,7 @@
 | [OFFER-FIX.md](OFFER-FIX.md) | After ~20 *real* warm conversations & 0 sales → fix offer |
 | **This gate** | Who must supply the warm unit when the operator is an agent: **the owner** |
 | [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md) | While B=FAIL, what agent loops may *count* as progress (favor-cost only) |
+| [AUDIENCE-RENT-GATE.md](AUDIENCE-RENT-GATE.md) | Scale path: commission partners rent *other* audiences — complementary after/alongside owner favor |
 
 ## Pass / fail (first-sale path)
 | # | Check | Status ~19:55 UTC+8 |

@@ -38,3 +38,6 @@
 - New paid SKU, new free sample “alignment,” new awesome-list PRs sold as first-sale progress.
 - Cold agent DMs without named ICP list.
 - “More content / more directories” with no commercial-variable change and no owner unit.
+
+## Related · audience rent (2026-10-29)
+While OWNER-FAVOR B=FAIL, shipping a Partner Kit / enable checklist for Gumroad affiliates **counts** as favor-cost reduction (lowers Kevin's next action). Opening another awesome-list PR still does **not**. See [AUDIENCE-RENT-GATE.md](AUDIENCE-RENT-GATE.md).

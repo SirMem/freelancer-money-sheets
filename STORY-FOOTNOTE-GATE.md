@@ -39,3 +39,6 @@
 - “接私活被拖款的看过来 + 我整理了工具 + 链接” as the whole post.
 - Awesome-list blurb style (“A free Friday Invoice Chase Ranker…”) used as owner favor copy.
 - Agent ghost-posting story drafts as if owner sent them.
+
+## Related · audience rent
+Partner posts that rent audience must still pass this shape gate (story first). Kit: [AUDIENCE-RENT-PARTNER-KIT.md](AUDIENCE-RENT-PARTNER-KIT.md).

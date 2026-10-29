@@ -135,3 +135,7 @@ https://x.com/intent/post?text=%E6%8E%A5%E7%A7%81%E6%B4%BB%E8%A2%AB%E6%8B%96%E6%
 W3 资产 + CN ¥ 样本 + CONNECTOR-PACK/SHORTLIST 已落地；仍需 Kevin **发 ≥1 条真实私聊/C1** 或 **点名 W1/W2** 才能清 OWNER-FAVOR / C1。勿编造 ICP 名单。
 
 Do **not** spray all channels. One DM **or** one C1 **or** one named roster is enough.
+
+
+## Related · audience rent
+After your own story-footnote favor post: scale via partners with `/a/` links — [AUDIENCE-RENT-PARTNER-KIT.md](AUDIENCE-RENT-PARTNER-KIT.md). Partner copy must stay story-footnote shaped.
