@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>WRONG-AXIS · DISCOVERY-REWARD reinforce · impressions≠intent</title>
+<style>
+  body{font-family:system-ui,-apple-system,sans-serif;max-width:780px;margin:2rem auto;padding:0 1rem;line-height:1.5;color:#111}
+  h1{font-size:1.25rem} h2{font-size:1.05rem;margin-top:1.5rem}
+  table{border-collapse:collapse;width:100%;font-size:0.88rem}
+  th,td{border:1px solid #ccc;padding:0.45rem 0.55rem;text-align:left;vertical-align:top}
+  th{background:#f4f4f4}
+  .fail{color:#b00020;font-weight:600} .pass{color:#0a7a2f;font-weight:600}
+  .warn{color:#a15c00;font-weight:600}
+  .muted{color:#555;font-size:0.85rem}
+  .failrow{background:#fdecee} .okrow{background:#eef8f0} .hold{background:#fff8e6}
+  code{background:#f0f0f0;padding:0.1em 0.3em;border-radius:3px}
+</style>
+</head>
+<body>
+<h1>WRONG-AXIS · 2026-10-29 ~21:45 Asia/Shanghai</h1>
+<p class="muted">无新增·强化 <a href="DISCOVERY-REWARD.md">DISCOVERY-REWARD</a> ← WRONG-AXIS（impressions≠intent · 非 *-GATE · L11）。Signals: <a href="https://www.indiehackers.com/post/1-534-impressions-2-opens-0-clicks-i-was-judging-a-launch-directory-on-the-wrong-axis-54cf2e5fb4">IH OpenMyPro 1534/2/0</a> · <a href="https://favors.dev/blog/launch-metrics-to-track">Favors.dev</a> · X <a href="https://x.com/OperatorOpt/status/2113644154484150561">@OperatorOpt</a>。对照 <a href="discovery-reward-scorecard.html">discovery-reward</a> · <a href="progress-mirage-scorecard.html">progress-mirage</a>。</p>
+
+<p><strong>One-liner：</strong> impressions/LIVE 计数是错误刻度；判 listing 看 intent 或 equity；equity ≠ discovery_eligible。</p>
+
+<h2>Three axes</h2>
+<table>
+  <tr><th>Axis</th><th>What counts</th><th>本店 current</th><th>Verdict</th></tr>
+  <tr class="failrow"><td>Vanity</td><td>impressions · LIVE shelf-count · tagline Δ-impressions</td><td>多目录 LIVE；无 panel impressions 可读；不得当进度</td><td class="fail">IGNORE as progress</td></tr>
+  <tr class="failrow"><td>Intent</td><td>opens → outbound clicks → stranger reply → trial/paid</td><td>已知 inbound from shelves ≈ 0</td><td class="fail">FAIL</td></tr>
+  <tr class="hold"><td>Equity</td><td>dofollow (no nofollow/sponsored/ugc) + listing indexed</td><td>见下表：多页有工具锚点；noreferrer≠nofollow；索引未全验</td><td class="warn">PARTIAL · ≠ eligible</td></tr>
+</table>
+
+<h2>Local LIVE audit（HTML · 本轮）</h2>
+<table>
+  <tr><th>Listing</th><th>HTTP</th><th>Anchor → us</th><th>rel</th><th>Note</th></tr>
+  <tr class="okrow"><td><a href="https://agent-control.net/directory/agent_537507fdf879a87de017de3c">Agent Control</a></td><td>200</td><td>sirmem.github.io/friday-invoice-chase-tool/</td><td>(none → dofollow-default)</td><td class="pass">equity candidate</td></tr>
+  <tr class="okrow"><td><a href="https://agents-launch.lovable.app/agents/friday-invoice-chase-ranker">AgentLaunch</a></td><td>200</td><td>tool + GitHub</td><td>noreferrer noopener</td><td class="pass">≠ nofollow</td></tr>
+  <tr class="okrow"><td><a href="https://directory-index.com/technology/friday-invoice-chase-ranker/">Directory Index</a></td><td>200</td><td>sirmem.github.io/</td><td>noopener noreferrer</td><td class="pass">≠ nofollow</td></tr>
+  <tr class="okrow"><td><a href="https://cdn.jsdelivr.net/gh/110kc3/seo@main/l/friday-invoice-chase-ranker.html">AI Product Index (jsDelivr)</a></td><td>200</td><td>friday-invoice-chase-tool/</td><td>(none → dofollow-default)</td><td class="pass">equity candidate</td></tr>
+</table>
+
+<h2>Traction → discovery_eligible（unchanged）</h2>
+<table>
+  <tr><th>Predicate</th><th>Verdict</th></tr>
+  <tr class="failrow"><td>OWNER-FAVOR A / W1 / W2</td><td class="fail">FAIL</td></tr>
+  <tr class="failrow"><td>WeChat C1 · Affiliates R0 · first paid</td><td class="fail">FAIL</td></tr>
+  <tr class="failrow"><td><strong>discovery_eligible</strong></td><td class="fail">false（equity PARTIAL 不解锁）</td></tr>
+</table>
+
+<h2>WA1–WA5 · 本轮</h2>
+<table>
+  <tr><th>#</th><th>Check</th><th>Evidence</th><th>Verdict</th></tr>
+  <tr class="okrow"><td>WA1</td><td>Axes named</td><td>vanity / intent / equity 三分</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>WA2</td><td>LIVE HTML audit</td><td>4× HTTP 200 + rel notes</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>WA3</td><td>Intent honesty</td><td>inbound ≈ 0 显式</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>WA4</td><td>equity ≠ eligible</td><td>discovery_eligible=false</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>WA5</td><td>No new GATE · $0 · prices</td><td>强化非 GATE · $6/$5/$5/$12 · 0 spend</td><td class="pass">PASS</td></tr>
+</table>
+
+<p class="muted">本卡打开 = 0 清闸完成分。下一步仍唯一：Kevin Clear-Cost / 人情发出 → traction 破后 LIVE 才可记 discovery；日常看 listing 用 intent/equity 列，不看 impressions。</p>
+</body>
+</html>

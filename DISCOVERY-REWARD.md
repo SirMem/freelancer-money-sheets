@@ -55,6 +55,12 @@
 - 用目录 visits 当销量代理（@krishav_kr9125：$0）
 - 在 OWNER-FAVOR 未清前继续堆 LIVE 当主工作
 
+
+
+## Hook · WRONG-AXIS（reinforce · 2026-10-29 ~21:45）
+
+目录面板 **impressions / LIVE 计数** 是错误刻度（IH OpenMyPro 1534/2/0；Favors.dev；X @OperatorOpt 337/0）。判 listing 只看 **intent** 或 **equity**；equity ≠ `discovery_eligible`。见 [WRONG-AXIS.md](WRONG-AXIS.md) · [wrong-axis-scorecard.html](wrong-axis-scorecard.html)。
+
 ## Complements
 
 见 [PROGRESS-MIRAGE.md](PROGRESS-MIRAGE.md) · [CHECKPOINT-LADDER.md](CHECKPOINT-LADDER.md) · [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md) · [AUDIENCE-RENT-GATE.md](AUDIENCE-RENT-GATE.md) · [WARM-FIRST.md](WARM-FIRST.md) · [discovery-reward-scorecard.html](discovery-reward-scorecard.html) · [chat-inline-clear.md](chat-inline-clear.md)。

@@ -135,3 +135,8 @@ Exception-only / HOTL 升阶在证据只靠 Agent 自述时不安全。主张须
 ## Hook · DISCOVERY-REWARD（NEW core · 2026-10-29 ~21:22）
 
 目录/市场「发现」奖励已有 traction，不是冷流量来源；人情/首单/联盟未破前 LIVE 上架 = **库存**，不算分发。钉平台因果 traction→discovery。见 [DISCOVERY-REWARD.md](DISCOVERY-REWARD.md) · [discovery-reward-scorecard.html](discovery-reward-scorecard.html)。配合 [PROGRESS-MIRAGE.md](PROGRESS-MIRAGE.md)（LIVE≠WorldΔ）与 [CHECKPOINT-LADDER.md](CHECKPOINT-LADDER.md)（LIVE≠rung）与 [AUDIENCE-RENT-GATE.md](AUDIENCE-RENT-GATE.md)。
+
+
+## Hook · WRONG-AXIS（DISCOVERY-REWARD reinforce · 2026-10-29 ~21:45）
+
+impressions≠intent：LIVE/impressions 不得当进度列；看 intent 或 equity。见 [WRONG-AXIS.md](WRONG-AXIS.md) · [wrong-axis-scorecard.html](wrong-axis-scorecard.html)。

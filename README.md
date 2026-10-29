@@ -89,7 +89,7 @@ Chase-Friday title is **LIVE**. Next gap vs $7–$39 soft→firm **script kits**
 
 Full paid shelf is **live** on Gumroad (Invoice $6 · Expense $5 · Client $5 · Bundle $12). Free GitHub samples stay $0. Etsy still blocked. Payout connected. No earnings claims.
 
-Updated 2026-10-29 ~21:22 Asia/Shanghai (UTC+8). Cognition: NEW DISCOVERY-REWARD (discovery = reward for traction · LIVE≠distribution · L11 · 0 spend).
+Updated 2026-10-29 ~21:45 Asia/Shanghai (UTC+8). Cognition: 无新增·强化 DISCOVERY-REWARD ← WRONG-AXIS (impressions≠intent · L11 · 0 spend).
 
 ## Gate · ICP overlap (2026-10-28)
 - [ICP-OVERLAP-GATE.md](ICP-OVERLAP-GATE.md) — warm list must overlap buyer world
