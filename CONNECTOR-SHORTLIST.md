@@ -71,6 +71,9 @@
 
 ## Agent free-tool shelf (not WeChat C1)
 
+- **2026-10-29 ~22:40** buyer-search directory LIVE (instant free+dofollow): [TheAIToolsDir](https://theaitoolsdir.com/product/friday-invoice-chase-ranker/) · Friday Invoice Chase Ranker · Productivity/Finance · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool — free badge-verified form POST `/submit/` → success "listing is now live" · page HTTP 200 title+H1 · Visit `rel="noopener"` (**no nofollow** = dofollow equity) · tool badge commit `d70ae4c` · **≠** clearing OWNER-FAVOR / WeChat C1 (ACTIVITY-BIAS-48H / L6 · commercial var ≠ human launch-board stack).
+
+
 - **2026-10-29 ~22:05** buyer-search directory LIVE (pending→LIVE): [Ignlab Launch](https://launch.ignlab.net/t/friday-invoice-chase-ranker) · Friday Invoice Chase Ranker · Finance · id **4943** · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool — free no-login prior submit flipped public · page HTTP 200 title+H1+og:title · **≠** clearing OWNER-FAVOR / WeChat C1 (ACTIVITY-BIAS-48H / L6 · commercial var ≠ human launch-board stack).
 
 
