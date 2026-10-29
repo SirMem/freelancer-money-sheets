@@ -64,3 +64,22 @@
 ## Complements
 
 见 [PROGRESS-MIRAGE.md](PROGRESS-MIRAGE.md) · [CHECKPOINT-LADDER.md](CHECKPOINT-LADDER.md) · [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md) · [AUDIENCE-RENT-GATE.md](AUDIENCE-RENT-GATE.md) · [WARM-FIRST.md](WARM-FIRST.md) · [discovery-reward-scorecard.html](discovery-reward-scorecard.html) · [chat-inline-clear.md](chat-inline-clear.md)。
+
+
+## Hook · CHANNEL-RANK（reinforce · 2026-10-29 ~22:18 Asia/Shanghai）
+
+**One-liner add-on：** 首单渠道有分母排序——别人已建好的社区/线程（borrowed demand）≈34%，自有受众≈20%，1:1 冷触≈15%，**PH/市场/目录≈10%**；在 traction FAIL 时继续堆 LIVE = 把最低分母渠道当主路径。≠新核名；≠新 *-GATE（L11）。
+
+| Signal | Point |
+|--------|-------|
+| [Lead Scorer · 70 first-customer cases 2024–2026](https://lead-scorer.com/blog/how-founders-get-first-customers-2026) | Named channels n=59: borrowed communities **34%** (Reddit 15) · owned audience **20%** · 1:1 cold **15%** · **PH/marketplaces/directories 10%** · SEO 8% · personal network 7% · **paid ads 0/66**. Launch ≠ distribution plan. |
+| X [@YoannaJuille](https://x.com/YoannaJuille/status/2109939921808933180) (2026-10-13) | Launch day: **4,000+** X impressions · **35** site visits · **0** sales — vanity≠demand (WRONG-AXIS sibling). |
+| [IH Rareș · $176 first month](https://www.indiehackers.com/post/i-made-176-in-my-first-month-heres-what-worked-and-what-didn-t-330cc528a7) (2026-03) | Every sale from **direct person engagement** (IH / cold DM / Reddit thread); X BIP **72K views → $0**; SEO 6mo → $0. Already cited in OWNER-FAVOR; here as channel-rank corroboration. |
+| Local | Friday Invoice Chase Ranker: many directory LIVEs (Ignlab / UniLink / Agent Control / …) while **OWNER-FAVOR A/W1/W2 + WeChat C1 + Affiliates R0** FAIL → activity mass sits in the **10% bucket**, not the 34% borrowed-demand bucket. |
+
+**Rules add-on：**
+1. When ranking next hour of work, prefer a **borrowed-demand place** (thread where invoice/late-pay pain is already written) or **owner favor** over another Instant shelf.
+2. Channel-rank does **not** unlock `discovery_eligible`; traction predicates unchanged.
+3. Do not invent `CHANNEL-RANK-GATE.md`.
+
+See [discovery-reward-channel-rank-scorecard.html](discovery-reward-channel-rank-scorecard.html) · [WRONG-AXIS.md](WRONG-AXIS.md) · [OWNER-FAVOR-GATE.md](OWNER-FAVOR-GATE.md) · [AUDIENCE-RENT-GATE.md](AUDIENCE-RENT-GATE.md).

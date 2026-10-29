@@ -57,4 +57,4 @@
 
 ## Complements
 
-[DISCOVERY-REWARD.md](DISCOVERY-REWARD.md) · [discovery-reward-scorecard.html](discovery-reward-scorecard.html) · [wrong-axis-scorecard.html](wrong-axis-scorecard.html) · [PROGRESS-MIRAGE.md](PROGRESS-MIRAGE.md) · [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md).
+[DISCOVERY-REWARD.md](DISCOVERY-REWARD.md) · [discovery-reward-scorecard.html](discovery-reward-scorecard.html) · [wrong-axis-scorecard.html](wrong-axis-scorecard.html) · [discovery-reward-channel-rank-scorecard.html](discovery-reward-channel-rank-scorecard.html) · [PROGRESS-MIRAGE.md](PROGRESS-MIRAGE.md) · [ACTIVITY-BIAS-LOCK.md](ACTIVITY-BIAS-LOCK.md).
