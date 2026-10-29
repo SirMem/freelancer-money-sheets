@@ -71,6 +71,7 @@
 
 ## Agent free-tool shelf (not WeChat C1)
 
+- **2026-10-29 ~11:13** awesome-list PR OPENED: [etnbrd/awesome-freelance-fr#98](https://github.com/etnbrd/awesome-freelance-fr/pull/98) · Friday Invoice Chase Ranker under Facturation · LIVE https://sirmem.github.io/friday-invoice-chase-tool/ — **≠** clearing OWNER-FAVOR / WeChat C1.
 - **2026-10-29 ~10:35** awesome-list PR OPENED: [kleogeos/awesome-freelance-tools#4](https://github.com/kleogeos/awesome-freelance-tools/pull/4) · Friday Invoice Chase Ranker under Invoicing & Payments · LIVE https://sirmem.github.io/friday-invoice-chase-tool/ — **≠** clearing OWNER-FAVOR / WeChat C1.
 - **2026-10-29 ~10:13** awesome-list PR OPENED: [1c7/chinese-independent-developer#1696](https://github.com/1c7/chinese-independent-developer/pull/1696) · Friday Invoice Chase Ranker under 2026-10-29 主版面打开即用 · LIVE https://sirmem.github.io/friday-invoice-chase-tool/ — **≠** clearing OWNER-FAVOR / WeChat C1.
 - **2026-10-29 ~09:42** awesome-list PR OPENED: [princepal9120/awesome-solo-founder-oss#23](https://github.com/princepal9120/awesome-solo-founder-oss/pull/23) · Friday Invoice Chase Ranker under Productivity · LIVE https://sirmem.github.io/friday-invoice-chase-tool/ — **≠** clearing OWNER-FAVOR / WeChat C1.
