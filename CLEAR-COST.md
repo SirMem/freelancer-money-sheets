@@ -88,6 +88,8 @@
 - 把「打开网页/下载卡」当成清闸第一步（违反 [GATE-IN-CHANNEL](GATE-IN-CHANNEL.md)）
 - 「两条主路径同等优先」/中英菜单并列首屏，或再开新门禁文档冒充降本（违反 [REPLY-BIND](REPLY-BIND.md)）
 - 「催更快批」或一条未清闸旁再开新 GATE / 第二回令（违反 [EXCEPTION-ONLY](EXCEPTION-ONLY.md) / L11）
+- 「再催一次确认」/把目录 LIVE 包装成新的 Kevin 批准实例（违反 APPROVAL-FATIGUE / L12）
+- 同构确认连发 ≥2 或 instant-yes 训练（橡皮图章）
 
 ## Reinforce · SLICE-LOCK（2026-10-29 ~18:22 · 非新门禁）
 
@@ -96,3 +98,26 @@
 ## Reinforce · EDIT-TRIGGERED（2026-10-29 ~18:51 · 非新门禁）
 
 清闸之外：声称目录 LIVE / hub 改动生效时，RESULT 须含写路径触发证据（POST/sid/commit），不能只用 GET。对照卡：[edit-triggered-scorecard.html](edit-triggered-scorecard.html)。见 [EDIT-TRIGGERED.md](EDIT-TRIGGERED.md)。
+
+## Reinforce · APPROVAL-FATIGUE（2026-10-29 ~20:24 · 非新门禁）
+
+**One-liner add-on:** 清闸合法进度不是「多催几次 / 多开几条确认」——**实例级连发审批训练橡皮图章**（approval fatigue）。队列里每一项都必须值得认真读；批**类别**或**一批相关动作一次决**，不批第 40 次同构「请确认」。
+
+| Signal | Point |
+|--------|-------|
+| [Crevio HITL · approve categories](https://crevio.co/blog/human-in-the-loop-ai-agents) | Approve categories not instances；>10/日说明有的该毕业到 let-run；batch related into one decision |
+| [Nexera · approve button](https://nexeraintelligence.com/blog/ai-agent-approval-small-business) | 日程批阅 ≠ 推送连点；钱/客户/价格每次全文读 |
+| [Machinelike · tiered approvals](https://machinelike.ai/field-notes/ai-agent-approvals-stay-in-control-without-reviewing-everything) | Tier by blast radius；可逆异步 digest；不可逆同步闸 |
+| X [@sudheerdotai](https://x.com/sudheerdotai/status/2113849993576829228) | 40 asks/session → rubber-stamp；prompt-on-every-step trains yes |
+| X [@AiCamila_](https://x.com/AiCamila_/status/2108415859001806977) | Instant accept rate = fatigue detector |
+| Local same-day | 目录 LIVE 连发 ≠ 多一次 Kevin 确认；OWNER-FAVOR 仍是**一条** chat-inline 清闸 |
+
+**Rules（钉在 CLEAR-COST 上，≠新 *-GATE）：**
+
+1. **One meaningful decision：** 本轮对 Kevin 只保留 1 条清闸（chat-inline 人情）。目录 LIVE / hub / Feishu = 0 CLEAR-COST 分，也**不得**变成第 N 次「请批一下」。
+2. **Category > instance：** 同类可逆出站毕业到 agent 自治后，不再逐条要 Kevin 点头（EXCEPTION-ONLY rung3+）。
+3. **Fatigue FAIL：** 若本轮对 Kevin 的确认请求 ≥2 条同构/并列，或把 LIVE 堆叠包装成「又需要你批一次」→ **FAIL**（抬高激活能，违反本核 + L11）。
+4. **World Δ 对齐：** 疲劳检测看 **accept latency / 是否回绑定令牌**；harness PASS 堆叠 ≠ 清闸完成（PROGRESS-MIRAGE + CHECKPOINT-LADDER rung0）。
+
+对照卡（可选镜像）：[clear-cost-fatigue-scorecard.html](clear-cost-fatigue-scorecard.html)。LOCK：**L12**（不新开 `APPROVAL-FATIGUE-GATE.md`）。
+
