@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>发朋友圈故事脚注 · Action Preview</title>
+<style>
+  body{font-family:system-ui,-apple-system,sans-serif;max-width:640px;margin:1.25rem auto;padding:0 1rem;line-height:1.5;color:#111;background:#f4f4f5}
+  .card{background:#fff;border:1px solid #d4d4d8;border-radius:12px;padding:1.05rem 1.15rem;margin-bottom:1rem;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+  .agent{font-size:.75rem;color:#52525b;letter-spacing:.02em}
+  h1{font-size:1.15rem;margin:.25rem 0 .55rem}
+  .fail{color:#b91c1c;font-weight:600}
+  dl{margin:.4rem 0;display:grid;grid-template-columns:6.5rem 1fr;gap:.35rem .6rem;font-size:.92rem}
+  dt{color:#52525b;font-weight:500}
+  dd{margin:0;word-break:break-word}
+  details{margin:.55rem 0;border:1px solid #e4e4e7;border-radius:8px;background:#fafafa}
+  summary{cursor:pointer;padding:.55rem .7rem;font-weight:600;font-size:.9rem}
+  pre{white-space:pre-wrap;word-break:break-word;margin:0;padding:.7rem .85rem;font-size:.9rem;border-top:1px solid #e4e4e7;background:#fff}
+  .actions{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.85rem}
+  button{appearance:none;border-radius:8px;padding:.6rem 1rem;font-size:.95rem;cursor:pointer;border:1px solid #18181b}
+  .reject{background:#fff;color:#18181b}
+  .approve{background:#18181b;color:#fff;font-weight:600}
+  .toast{font-size:.85rem;color:#3f3f46;min-height:1.2em}
+  .muted{color:#52525b;font-size:.85rem}
+  a{color:#1d4ed8}
+  .badge{display:inline-block;background:#0f766e;color:#fff;font-size:.72rem;padding:.12rem .45rem;border-radius:999px;font-weight:600}
+</style>
+</head>
+<body>
+<div class="card" role="group" aria-labelledby="ap-title">
+  <div class="agent">✉ 认知循环 · 权威：CLEAR-COST / OWNER-FAVOR 仍 <span class="fail">FAIL</span></div>
+  <span class="badge">PREVIEW-CONTRACT</span>
+  <h1 id="ap-title">发朋友圈/同学群 · 故事脚注</h1>
+  <p class="muted">预览即契约：下面字段 = 将要发生的唯一动作。批准后若改文，须重开一张卡。</p>
+
+  <dl>
+    <dt>渠道</dt><dd>微信朋友圈 或 同学群（本人发出）</dd>
+    <dt>配图</dt><dd><code>assets/wechat-zh-sihuo-share.png</code>（可选）</dd>
+    <dt>产品脚注</dt><dd><a href="https://sirmem.github.io/freelancer-money-sheets/zh-xuesheng-sihuo-zhuizhang.html">学生/新人私活追账页</a>（正文内已含）</dd>
+    <dt>回令</dt><dd><code>人情帖已发：朋友圈/同学群·故事脚注 + HH:MM</code></dd>
+    <dt>激活能</dt><dd>≤90 秒 · 0 个「选哪个」未决</dd>
+  </dl>
+
+  <details open>
+    <summary>正文（逐字 · 可展开核对）</summary>
+    <pre id="paste">上周三晚上催尾款：打开账龄一看，同一个人欠了三笔，最大那笔已经 60+ 天。
+以前习惯是「谁烦催谁」——那天改成按 Current / 1–30 / 31–60 / 60+ 排，只追 top3。
+当晚回了两笔。
+
+（脚注）我把这套「本周先催谁」四档仪式 + 免费中文 ¥ 样本放这儿了，要的自取，别当广告：
+https://sirmem.github.io/freelancer-money-sheets/zh-xuesheng-sihuo-zhuizhang.html
+
+你们接私活被拖款时，现在一般先催谁？</pre>
+  </details>
+
+  <div class="actions">
+    <button type="button" class="reject" id="reject">先不发</button>
+    <button type="button" class="approve" id="approve">复制正文 · 去发</button>
+  </div>
+  <p class="toast" id="toast" aria-live="polite"></p>
+  <p class="muted">父核 <a href="CLEAR-COST.md">CLEAR-COST</a> · 本核 <a href="PREVIEW-CONTRACT.md">PREVIEW-CONTRACT</a> · 分数 <a href="preview-contract-scorecard.html">scorecard</a> · 旧卡 <a href="clear-cost-card.html">clear-cost-card</a></p>
+</div>
+<script>
+const paste = document.getElementById('paste').textContent;
+const toast = document.getElementById('toast');
+document.getElementById('approve').onclick = async () => {
+  try { await navigator.clipboard.writeText(paste); toast.textContent = '已复制正文。去微信粘贴发出，然后回令：人情帖已发：朋友圈/同学群·故事脚注 + HH:MM'; }
+  catch { toast.textContent = '复制失败，请手动选中正文。'; }
+};
+document.getElementById('reject').onclick = () => {
+  toast.textContent = '已拒绝本动作。不要改用并列菜单；需要时再打开本卡。';
+};
+</script>
+</body>
+</html>

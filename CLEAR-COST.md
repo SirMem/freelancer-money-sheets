@@ -19,6 +19,7 @@
 | [ACTIVITY-BIAS-LOCK](ACTIVITY-BIAS-LOCK.md) / [48H](ACTIVITY-BIAS-48H.md) | 什么**不算**进度（货架 PR = 0） |
 | **This core** | 合法进度如何**计量**：步骤数 / 未决决策数 / 预估秒数 |
 | [OWNER-FAVOR-GATE](OWNER-FAVOR-GATE.md) | 必须清的是哪个暖单元 |
+| [PREVIEW-CONTRACT](PREVIEW-CONTRACT.md) | 预览同意语义：类目≠令牌；按钮动词；批准后改文=新卡 |
 | [ONE-TAP-POST](ONE-TAP-POST.md) / [STORY-FOOTNOTE-POSTS](STORY-FOOTNOTE-POSTS.md) | 粘贴原文来源 |
 | [CHAT-REPLY-FORMAT](CHAT-REPLY-FORMAT.md) | 清闸回令格式 |
 
@@ -37,7 +38,7 @@
 
 **A · 朋友圈/同学群 · 故事脚注** — 最低人名单成本（不必先点名 ICP），形状已过 STORY-FOOTNOTE。
 
-- 卡： [clear-cost-card.html](clear-cost-card.html)
+- 卡（推荐契约卡）： [action-preview-card.html](action-preview-card.html) · 旧卡 [clear-cost-card.html](clear-cost-card.html)
 - 配图：`assets/wechat-zh-sihuo-share.png`
 - 发完回：`人情帖已发：朋友圈/同学群·故事脚注 + HH:MM`
 

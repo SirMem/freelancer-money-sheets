@@ -37,6 +37,7 @@
 | L5 | RESULT must score primary deliverable | `PASS` (lower unblock cost) or `SCOPE-FAIL` — no vague “also moved” |
 | L6 | 48h-kill on same distribution hypothesis | Two zero-signal rounds → change commercial variable or stop; no more same-class PRs |
 | L7 | If primary is favor-cost, score CLEAR-COST | Recommended action = 1; paste preview on card; one reply token — else not a real cost drop |
+| L8 | Clear card must be PREVIEW-CONTRACT | Title=verb+object; verbatim fields; approve button names the act; no silent mutate after yes |
 
 ## Allowed primary work while B=FAIL
 1. One chat reply clears the gate — [CHAT-REPLY-FORMAT.md](CHAT-REPLY-FORMAT.md) A (人情帖已发) or B (`ICP：姓名1,...` ≥10). Prefer chat over table editing.
@@ -70,3 +71,8 @@ Rewriting recruit closes so the first ask is a **7-day paste-test** (not "join m
 ## Hook · CLEAR-COST（2026-10-29 ~12:49）
 
 合法主交付的**度量**：把清闸塌缩成「一张预览卡 + 一行回令」，压低激活能（步骤 / 未决决策 / 秒）。并列菜单 / 再开门禁文档 ≠ 降成本。见 [CLEAR-COST.md](CLEAR-COST.md) · [clear-cost-card.html](clear-cost-card.html) · [clear-cost-scorecard.html](clear-cost-scorecard.html)。
+
+## Hook · PREVIEW-CONTRACT（REINFORCE CLEAR-COST · 2026-10-29 ~13:23）
+
+清闸卡必须满足**预览即契约**：标题=动词+对象；字段逐字；批准钮写动作；批准后改文须新卡。类目确认（「允许发吗？」）≠ 降激活能。见 [PREVIEW-CONTRACT.md](PREVIEW-CONTRACT.md) · [action-preview-card.html](action-preview-card.html) · [preview-contract-scorecard.html](preview-contract-scorecard.html)。
+
