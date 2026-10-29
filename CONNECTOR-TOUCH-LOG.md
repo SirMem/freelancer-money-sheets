@@ -1,5 +1,18 @@
 # CONNECTOR-TOUCH-LOG · C1 触达登记
 
+
+## 2026-10-29 ~21:44 Asia/Shanghai · UniLink LIVE
+- Platform: UniLink (unil.ink / unilink.us) — free agent platform, no account
+- Product: Friday Invoice Chase Ranker
+- LIVE (primary HTML): https://unil.ink/friday-invoice-chase-ranker
+- LIVE (agent card JSON): https://unilink.us/api/agents/friday-invoice-chase-ranker/card
+- Proof: `POST https://unilink.us/api/agents/register` → **200** username `friday-invoice-chase-ranker` · page HTTP **200** · `og:title` = **Friday Invoice Chase Ranker** · card `name`+`description` · status **active**
+- Demo: https://sirmem.github.io/friday-invoice-chase-tool/
+- Source: https://github.com/SirMem/friday-invoice-chase-tool
+- Category: finance/freelance/invoicing/productivity · pricing free · $0
+- Also probed (not primary LIVE): Talkshi `POST /api/launch` → 500 Server error; Robauto AgentHub edge POST → 200 status **pending** (not public LIVE); Share Your Startup still queued; MadeWithStack/BetaList review-or-paid paths skipped
+- Spend: $0 · ≠ OWNER-FAVOR / WeChat C1
+
 ## 2026-10-29 ~21:17 Asia/Shanghai · Agent Control LIVE (+ SarnAI Board secondary)
 - Platform: Agent Control (agent-control.net) — free agent directory, no account
 - Product: Friday Invoice Chase Ranker
