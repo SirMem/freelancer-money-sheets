@@ -136,8 +136,59 @@ If it ever earns a footnote in the newsletter, I can set a Gumroad affiliate (~3
 Partner kit: https://sirmem.github.io/freelancer-money-sheets/partner.html
 ```
 
+### 3d) TEST-NOT-DEAL 过检邀请（R1b-test · 2026-10-29 ~11:45）
+
+> 硬规则（见 [AUDIENCE-RENT-TEST.md](AUDIENCE-RENT-TEST.md)）：过 USECASE-OPEN 之后，**收尾必须是 7 天试贴 + 现成稿 + 风险在我方**；禁止首问「加入联盟 / 回邮箱入会 / 长期伙伴」。§3c 草稿保留作开场参考，**发出前改用下方 A″–D″**。
+
+<details><summary>§3c 收尾归档（USECASE-OPEN PASS · TEST-NOT-DEAL FAIL · 勿直接发）</summary>
+
+旧 close：「回 Gumroad 邮箱，我加你为 affiliate？」——把入会当第一问。
+
+</details>
+
+**草稿 A″ · awesome / 工具列表维护者**
+```
+嗨，谢谢你一直维护那份 indie/freelance 工具列表——周五追账排序器能挂上去，读者周一找工具时就能撞见。
+你的读者里很多人对着逾期表发呆，缺的不是另一套会计，而是「今天先催谁」的五分钟排序。
+免费 Ranker：https://sirmem.github.io/friday-invoice-chase-tool/
+若你愿意，我先给你一段可直接粘贴的故事脚注（产品作脚注）+ 专属链，**只试贴一周**；没反响就停，你零成本、不用做客服。
+伙伴页：https://sirmem.github.io/freelancer-money-sheets/partner.html
+方便的话回个「试」或你习惯的渠道？完全不勉强。
+```
+
+**草稿 B″ · freelance / solopreneur newsletter**
+```
+Hi — your last notes on freelancer cashflow / Monday money fog matched a scene we keep hearing: aging sheet open, no idea who to nudge first.
+Readers don't need another accounting stack; they need a 5-minute "who to chase this Friday" sort.
+Free Ranker (no login): https://sirmem.github.io/friday-invoice-chase-tool/
+If it ever fits, I'll send one story-shaped footnote + your link for a **7-day test** — you paste once, skip if silence, never touch support. Commission only if a sale lands.
+Partner page: https://sirmem.github.io/freelancer-money-sheets/partner.html
+Want the paste draft for one issue, or a pass?
+```
+
+**草稿 C″ · Notion/spreadsheet 模板创作者**
+```
+Hey — your freelancer dashboard / template folks still jump across five tabs to rank overdue invoices every Monday.
+We don't compete on Notion boards; we only ship a tiny "who to chase this Friday" ritual (+ free Ranker).
+Tool: https://sirmem.github.io/friday-invoice-chase-tool/
+Happy to send a paste-ready story blurb + your link for a **one-week try** next to your templates — no review essay, no retainer; stop anytime if it doesn't land.
+https://sirmem.github.io/freelancer-money-sheets/partner.html
+Reply "try" and I'll hand you the blurb?
+```
+
+**草稿 D″ · 微刊甜区（填具体刊名后发）**
+```
+Hi [NAME] — I liked how [ISSUE/NOTE] named the awkward "which client do I chase first" moment for freelancers.
+That Monday AR fog is exactly what our free Friday Chase Ranker compresses into a three-name list in five minutes.
+Tool: https://sirmem.github.io/friday-invoice-chase-tool/
+If useful, I'll send one story-footnote paragraph + your link for a **7-day footnote test** — paste or skip; you owe nothing if it flops.
+Partner kit: https://sirmem.github.io/freelancer-money-sheets/partner.html
+Reply「试」and I'll send the paragraph?
+```
+
 Partner landing（公开）：https://sirmem.github.io/freelancer-money-sheets/partner.html  
-强化门： [AUDIENCE-RENT-RECRUIT.md](AUDIENCE-RENT-RECRUIT.md) · [AUDIENCE-RENT-HOOK.md](AUDIENCE-RENT-HOOK.md)
+强化门： [AUDIENCE-RENT-RECRUIT.md](AUDIENCE-RENT-RECRUIT.md) · [AUDIENCE-RENT-HOOK.md](AUDIENCE-RENT-HOOK.md) · [AUDIENCE-RENT-TEST.md](AUDIENCE-RENT-TEST.md) · [test-not-deal-scorecard.html](https://sirmem.github.io/freelancer-money-sheets/test-not-deal-scorecard.html)
+
 
 ---
 

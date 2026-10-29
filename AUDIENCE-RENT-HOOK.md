@@ -20,6 +20,7 @@
 | RECRUIT-NOT-LIST | 空页 / 干等 Join ≠ 进度；要发出去的邀请 |
 | **本强化 USECASE-OPEN** | 发出去的邀请**开场形状**：场景先于费率 |
 | STORY-FOOTNOTE | 伙伴对外帖的形状（故事+脚注） |
+| TEST-NOT-DEAL | 邀请收尾：7天试贴+现成稿，非入会 |
 | LIMIT-ADMIT | 买家追问后的答复形状 |
 
 ## Pass / fail（叠在 R1b 上）

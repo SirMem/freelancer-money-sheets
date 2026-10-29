@@ -17,6 +17,7 @@
 | [STORY-FOOTNOTE-GATE.md](STORY-FOOTNOTE-GATE.md) | 人情帖**形状**（故事脚注） |
 | [CONNECTOR-GATE.md](CONNECTOR-GATE.md) | 连接者供给暖名单 / 进群（无佣金也可） |
 | [CROSS-PROMO.md](CROSS-PROMO.md) | 自有 free→paid SKU 映射 |
+| [AUDIENCE-RENT-TEST.md](AUDIENCE-RENT-TEST.md) | 邀请收尾：7天试贴+现成稿，非入会 |
 | **本门** | 分发是否进入「别人的受众 × 按成交付费」类 |
 
 ## Pass / fail
