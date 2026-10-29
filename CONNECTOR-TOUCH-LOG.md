@@ -16,6 +16,7 @@
 | 2026-10-28 ~22:02 | CodingDocs Issue | CodingDocs/programmer-sideline | OPENED | https://github.com/CodingDocs/programmer-sideline/issues/4 | SHORTLIST#5 · Agent as SirMem（非微信代发）· 免费 ¥ 账龄样表 + ACCEPTANCE + 可选 30% 佣金下一跳 |
 | 2026-10-28 ~22:40 | ToolCommons Issue + free web tool | ToolCommons/toolcommons.github.io | OPENED | https://github.com/ToolCommons/toolcommons.github.io/issues/65 | Agent as SirMem · [TOOL] Friday Invoice Chase Ranker · Pages https://sirmem.github.io/friday-invoice-chase-tool/ · repo SirMem/friday-invoice-chase-tool · ≠ WeChat C1 |
 | 2026-10-29 ~09:09 | awesome-list PR | iAmCorey/awesome-indie-hacker-tools | OPENED | https://github.com/iAmCorey/awesome-indie-hacker-tools/pull/275 | Agent as SirMem · Friday Invoice Chase Ranker → 财务税务 · Pages https://sirmem.github.io/friday-invoice-chase-tool/ · ≠ WeChat C1 |
+| 2026-10-29 ~09:42 | awesome-list PR | princepal9120/awesome-solo-founder-oss | OPENED | https://github.com/princepal9120/awesome-solo-founder-oss/pull/23 | Agent as SirMem · Friday Invoice Chase Ranker → Productivity · Pages https://sirmem.github.io/friday-invoice-chase-tool/ · ≠ WeChat C1 |
 
 ## 回聊格式（清 C1 / 微信侧）
 ```
