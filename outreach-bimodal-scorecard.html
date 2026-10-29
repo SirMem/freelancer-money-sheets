@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>OUTREACH-BIMODAL · list-quality bimodality · ≤50 vs ≥300</title>
+<style>
+  body{font-family:system-ui,-apple-system,sans-serif;max-width:820px;margin:2rem auto;padding:0 1rem;line-height:1.5;color:#111}
+  h1{font-size:1.25rem} h2{font-size:1.05rem;margin-top:1.5rem}
+  table{border-collapse:collapse;width:100%;font-size:0.88rem}
+  th,td{border:1px solid #ccc;padding:0.45rem 0.55rem;text-align:left;vertical-align:top}
+  th{background:#f4f4f4}
+  .fail{color:#b00020;font-weight:600} .pass{color:#0a7a2f;font-weight:600}
+  .warn{color:#a15c00;font-weight:600}
+  .muted{color:#555;font-size:0.85rem}
+  .failrow{background:#fdecee} .okrow{background:#eef8f0} .hold{background:#fff8e6}
+  code{background:#f0f0f0;padding:0.1em 0.3em;border-radius:3px}
+</style>
+</head>
+<body>
+<h1>OUTREACH-BIMODAL · 2026-10-29 ~22:53 Asia/Shanghai</h1>
+<p class="muted">NEW core · 名单质量二分 · 非 *-GATE（L11）。Signals: <a href="https://lead-scorer.com/blog/how-founders-get-first-customers-2026">Lead Scorer 70-case · finding #4</a> · <a href="https://lead-scorer.com/blog/cold-outreach-paradox-2026">Cold Outreach Paradox</a> · CHANNEL-RANK earlier today (borrowed 34% vs dirs 10% = channel buckets, not this core) · X <a href="https://x.com/bennydoda01/status/2113629957494862192">@bennydoda01</a> context only. 对照 <a href="DISCOVERY-REWARD.md">DISCOVERY-REWARD</a> · <a href="WRONG-AXIS.md">WRONG-AXIS</a> · <a href="discovery-reward-channel-rank-scorecard.html">CHANNEL-RANK</a>。</p>
+
+<p><strong>One-liner：</strong> 冷触达回复率是二分的——≤50 手筛常见 14–58% 且能出首单；≥300 刮号常见 ~1% 且首单≈0；变量是名单与已知事实，不是文案量。</p>
+
+<h2>Dataset · ≤50 hand-qual vs ≥300 scrape</h2>
+<table>
+  <tr><th>Band</th><th>Volume / list</th><th>Reported reply / response</th><th>First paying</th><th>Verdict</th></tr>
+  <tr class="okrow"><td>≤50 hand-qualified</td><td>15 / 21 / 25 / 26 / 43 msgs (6 campaigns)</td><td><strong>14–58%</strong></td><td>≥1 in <strong>all 6</strong></td><td class="pass">HIGH band</td></tr>
+  <tr class="failrow"><td>≥300 scraped / generic</td><td>307 / 600+ / 1,200 / 6,000 …</td><td><strong>~1–1.6%</strong> (where reported)</td><td>near-zero; no first sale from &gt;300 scrape in corpus</td><td class="fail">LOW band</td></tr>
+  <tr class="hold"><td>Natural experiment</td><td>same sender · product · 6 weeks</td><td>cite specific post → <strong>61%</strong> accept vs generic <strong>18%</strong></td><td>—</td><td class="warn">variable = known fact</td></tr>
+</table>
+<p class="muted">Source: Lead Scorer finding #4 + outreach table / Cold Outreach Paradox (n=15 campaigns). Middle “~5%” planning number barely appears.</p>
+
+<h2>Local audit · directory LIVE bias vs hand-qual cold</h2>
+<table>
+  <tr><th>Slice</th><th>Evidence (2026-10-29)</th><th>Verdict</th></tr>
+  <tr class="failrow"><td>Directory LIVE mass</td><td>TheAIToolsDir · Ignlab · UniLink · Agent Control · Directory Index · AI Startup Hub · TechTools · DevElif · Canopy · … many LIVE while traction FAIL</td><td class="fail">LIVE bias · inventory (DISCOVERY-REWARD)</td></tr>
+  <tr class="failrow"><td>Hand-qual cold pending (pre this pack)</td><td>ICP-ROSTER empty; no cited mid-problem cold queue</td><td class="fail">0 hand-qual cold before pack</td></tr>
+  <tr class="okrow"><td>This pack roster</td><td>QUALIFIED-COLD-ROSTER · <strong>8</strong> public IH peers with URL + known fact · all pending · cap ≤15</td><td class="pass">hand-qual scaffold PASS</td></tr>
+  <tr class="failrow"><td>OWNER-FAVOR / warm</td><td>A / W1 / W2 + WeChat C1 + Affiliates R0</td><td class="fail">FAIL until Kevin</td></tr>
+  <tr class="failrow"><td>World Δ</td><td>Gumroad paid ≈0 · no cold sent · no warm sent</td><td class="fail">Δ≈0</td></tr>
+</table>
+
+<h2>OB1–OB5 · 本轮</h2>
+<table>
+  <tr><th>#</th><th>Check</th><th>Evidence</th><th>Verdict</th></tr>
+  <tr class="okrow"><td>OB1</td><td>Bimodal named</td><td>≤50 14–58% vs ≥300 ~1% + 6/6 first sales</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>OB2</td><td>Cite known fact</td><td>8 roster rows each have source URL + fact</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>OB3</td><td>Cap ≤15 pending</td><td>8 pending · no scrape queue</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>OB4</td><td>Prefer warm</td><td>ICP-ROSTER still primary; cold = fallback pending</td><td class="pass">PASS</td></tr>
+  <tr class="okrow"><td>OB5</td><td>No GATE · $0 · prices</td><td>no OUTREACH-BIMODAL-GATE · $6/$5/$5/$12 · 0 spend · no send</td><td class="pass">PASS</td></tr>
+</table>
+
+<h2>Honesty · World Δ</h2>
+<p>Harness / practice can PASS (docs + roster + scorecard) while <strong>World Δ≈0</strong>. Directory LIVE count is the wrong progress axis for first sale (WRONG-AXIS / DISCOVERY-REWARD). Hand-qual roster is a scaffold, not a sale. Next real move remains Kevin Clear-Cost / OWNER-FAVOR / fill ICP-ROSTER — Agent does not invent warm names and does not send cold in this round.</p>
+</body>
+</html>

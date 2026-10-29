@@ -83,3 +83,10 @@
 3. Do not invent `CHANNEL-RANK-GATE.md`.
 
 See [discovery-reward-channel-rank-scorecard.html](discovery-reward-channel-rank-scorecard.html) · [WRONG-AXIS.md](WRONG-AXIS.md) · [OWNER-FAVOR-GATE.md](OWNER-FAVOR-GATE.md) · [AUDIENCE-RENT-GATE.md](AUDIENCE-RENT-GATE.md).
+
+
+## Sibling · OUTREACH-BIMODAL（NEW · 2026-10-29 ~22:53 Asia/Shanghai）
+
+**Within cold outreach** (not a discovery/listing axis): reply rates are **bimodal** — ≤50 hand-qualified → 14–58% & ≥1 paying in all 6 Lead Scorer cases; ≥300 scrape → ~1% & first sales≈0. Variable = list + known facts, not copy volume. Prefer [ICP-ROSTER.md](ICP-ROSTER.md) warm; cold hand-qual ≤15 pending. ≠ CHANNEL-RANK / WRONG-AXIS / *-GATE（L11）。
+
+See [OUTREACH-BIMODAL.md](OUTREACH-BIMODAL.md) · [outreach-bimodal-scorecard.html](outreach-bimodal-scorecard.html) · [HAND-QUAL-CHECKLIST.md](HAND-QUAL-CHECKLIST.md) · [QUALIFIED-COLD-ROSTER.md](QUALIFIED-COLD-ROSTER.md).

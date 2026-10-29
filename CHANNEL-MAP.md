@@ -16,3 +16,7 @@
 
 **SCOPE-FAIL 示例**：本轮主交付写成「Agent 注册 Reddit 发 SideProject」「再提 3 个 awesome PR 等 Discover」「HN 新号 Show HN」。
 **PASS 示例**：降低主人在 UNLOCKED 渠兑现成本（W3 一键帖 / 微信图 / 点名表）。
+
+## Note · OUTREACH-BIMODAL（2026-10-29）
+
+若走 1:1 冷触：名单质量二分——≤50 手筛（须引用对方公开帖/问题）≠ ≥300 刮号。主路径仍是上表 UNLOCKED 暖渠；冷触见 [OUTREACH-BIMODAL.md](OUTREACH-BIMODAL.md) · [QUALIFIED-COLD-ROSTER.md](QUALIFIED-COLD-ROSTER.md)。
