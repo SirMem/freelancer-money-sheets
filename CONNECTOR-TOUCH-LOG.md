@@ -1,5 +1,19 @@
 # CONNECTOR-TOUCH-LOG · C1 触达登记
 
+## 2026-10-29 ~20:53 Asia/Shanghai · AI Product Index LIVE (jsDelivr mirror)
+- Platform: AI Product Index (index.percall.dev / github.com/110kc3/seo)
+- Product: Friday Invoice Chase Ranker
+- LIVE (public HTML): https://cdn.jsdelivr.net/gh/110kc3/seo@main/l/friday-invoice-chase-ranker.html
+- LIVE (JSON registry): https://raw.githubusercontent.com/110kc3/seo/main/listings/friday-invoice-chase-ranker.json
+- Canonical apex (pending CF redeploy): https://index.percall.dev/l/friday-invoice-chase-ranker.html — register workflow accepted; deploy failed on their side (api/x402/catalog.json >25MiB asset limit)
+- Proof: `gh issue create` [register] → https://github.com/110kc3/seo/issues/198 CLOSED · workflow comment `{"ok":true,"slug":"friday-invoice-chase-ranker"}` · commit `d197695` Add listing · jsDelivr HTML HTTP 200 title+H1 **Friday Invoice Chase Ranker** · demo URL on page
+- Secondary: AgentStore free publish `sirmem.friday-invoice-chase-ranker` — GET API 200 (marketplace SPA route 404; API is source of truth)
+- Also queued: Jayde free submit → landing "added" (search still no match; listing link emailed)
+- Demo: https://sirmem.github.io/friday-invoice-chase-tool/
+- Source: https://github.com/SirMem/friday-invoice-chase-tool
+- Category: app · pricing free · no badge · $0
+- Spend: $0 · ≠ OWNER-FAVOR / WeChat C1
+
 ## 2026-10-29 ~20:28 Asia/Shanghai · Directory Index LIVE
 - Platform: Directory Index (directory-index.com)
 - Product: Friday Invoice Chase Ranker
