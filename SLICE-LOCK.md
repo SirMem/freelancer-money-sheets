@@ -59,7 +59,7 @@
 
 ## Complements（不替代 · 不发明并列 GATE）
 
-见 [JOB-CONTRACT.md](JOB-CONTRACT.md) · [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md) · [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · [ACCEPTANCE-GATE.md](ACCEPTANCE-GATE.md) · [CLEAR-COST.md](CLEAR-COST.md) · [slice-lock-scorecard.html](slice-lock-scorecard.html) · [chat-inline-clear.md](chat-inline-clear.md)。
+见 [JOB-CONTRACT.md](JOB-CONTRACT.md) · [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md) · [EXCEPTION-ONLY.md](EXCEPTION-ONLY.md) · [ACCEPTANCE-GATE.md](ACCEPTANCE-GATE.md) · [CLEAR-COST.md](CLEAR-COST.md) · [slice-lock-scorecard.html](slice-lock-scorecard.html) · [PROGRESS-MIRAGE.md](PROGRESS-MIRAGE.md) · [chat-inline-clear.md](chat-inline-clear.md)。
 
 ## Hook · EDIT-TRIGGERED（2026-10-29 ~18:51）
 

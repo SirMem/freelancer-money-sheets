@@ -123,3 +123,7 @@ Exception-only / HOTL 升阶在证据只靠 Agent 自述时不安全。主张须
 ## Hook · EDIT-TRIGGERED（NEW core · 2026-10-29 ~18:51）
 
 接受流程/目录/脚手架改动须三条件：目标↑ · 保护不回退 · **触发证明**（写路径 POST/sid/调用日志）。仅 GET 页 200 ≠ LIVE 触发。见 [EDIT-TRIGGERED.md](EDIT-TRIGGERED.md) · [edit-triggered-scorecard.html](edit-triggered-scorecard.html)。
+
+## Hook · PROGRESS-MIRAGE（NEW core · 2026-10-29 ~19:22）
+
+自评分 / 带内评判当闸门会造进步幻觉：Harness PASS（核心、分数卡、目录 LIVE）≠ World Δ（销量、人情）。开放目标要带外世界状态；连续多轮自绿且 Δ≤0 = MIRAGE-RISK。见 [PROGRESS-MIRAGE.md](PROGRESS-MIRAGE.md) · [progress-mirage-scorecard.html](progress-mirage-scorecard.html)。配合 [OBSERVE-NOT-NARRATE.md](OBSERVE-NOT-NARRATE.md)（出处仍可能在带内）与 [EDIT-TRIGGERED.md](EDIT-TRIGGERED.md)（触发≠店进度）与 [SLICE-LOCK.md](SLICE-LOCK.md)（World Δ 必为一切片）。
