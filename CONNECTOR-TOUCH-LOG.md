@@ -1,5 +1,17 @@
 # CONNECTOR-TOUCH-LOG · C1 触达登记
 
+## 2026-10-29 ~21:17 Asia/Shanghai · Agent Control LIVE (+ SarnAI Board secondary)
+- Platform: Agent Control (agent-control.net) — free agent directory, no account
+- Product: Friday Invoice Chase Ranker
+- LIVE (primary HTML): https://agent-control.net/directory/agent_537507fdf879a87de017de3c
+- Proof: `POST /api/v1/agents/listings` → **201** id `agent_537507fdf879a87de017de3c` · page HTTP **200** · `<title>` / `<h1>` = **Friday Invoice Chase Ranker** · contact/link = demo URL
+- Secondary LIVE (JSON): https://board.sarnai.dev/listings/37262f98-952d-498a-a147-7dc3c020a795 — SarnAI Agent Discovery Board · `POST /listings` → **201** status **active** · HTTP 200 JSON names product
+- Also queued (not primary): Alieradox `POST /api/submit` → 200 review; The Startup Starter Kit submissionId `b9e13b96-dbbb-4fb9-b958-3e514456f428` (~1 week); Share Your Startup still queued
+- Demo: https://sirmem.github.io/friday-invoice-chase-tool/
+- Source: https://github.com/SirMem/friday-invoice-chase-tool
+- Category: finance/freelance/invoicing/productivity · pricing free · no badge · $0
+- Spend: $0 · ≠ OWNER-FAVOR / WeChat C1
+
 ## 2026-10-29 ~20:53 Asia/Shanghai · AI Product Index LIVE (jsDelivr mirror)
 - Platform: AI Product Index (index.percall.dev / github.com/110kc3/seo)
 - Product: Friday Invoice Chase Ranker
