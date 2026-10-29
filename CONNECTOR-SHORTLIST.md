@@ -71,6 +71,8 @@
 
 ## Agent free-tool shelf (not WeChat C1)
 
+- **2026-10-29 ~13:08** buyer-search directory SUBMITTED (pending review): [Launching Next](https://www.launchingnext.com/thanks/?i=170272) id **170272** · Friday Invoice Chase Ranker · homepage https://github.com/SirMem/friday-invoice-chase-tool · live demo https://sirmem.github.io/friday-invoice-chase-tool/ — free submit, $99 Fast-Track declined — **≠** clearing OWNER-FAVOR / WeChat C1 (ACTIVITY-BIAS-48H / L6: buyer dir not awesome PR).
+
 - **2026-10-29 ~12:33** buyer-search directory SUBMITTED (pending review): [Ignlab Launch · Finance](https://launch.ignlab.net/) · Friday Invoice Chase Ranker · homepage https://github.com/SirMem/friday-invoice-chase-tool · live demo https://sirmem.github.io/friday-invoice-chase-tool/ — **≠** clearing OWNER-FAVOR / WeChat C1 (ACTIVITY-BIAS-48H: shelf ≠ gate progress; L6 switch off GitHub awesome-PR streak).
 
 - **2026-10-29 ~12:09** PR maintainer reply LIVE: [1c7/chinese-independent-developer#1696](https://github.com/1c7/chinese-independent-developer/pull/1696#issuecomment-6487695061) · thank-you after MERGED (主版面已收录) · LIVE https://sirmem.github.io/friday-invoice-chase-tool/ — **≠** clearing OWNER-FAVOR / WeChat C1.
