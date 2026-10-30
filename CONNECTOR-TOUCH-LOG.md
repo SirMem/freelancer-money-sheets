@@ -2,6 +2,16 @@
 
 
 
+## 2026-10-30 ~09:15 Asia/Shanghai · PostLaunchKit LIVE (pending→LIVE)
+- Platform: PostLaunchKit (postlaunchkit.com) — free human-reviewed directory
+- Product: Friday Invoice Chase Ranker
+- LIVE: https://postlaunchkit.com/directory/friday-invoice-chase-ranker/
+- API: https://postlaunchkit.com/api/v1/projects/friday-invoice-chase-ranker
+- Prior submit id `530759b6…` pending_review → public page HTTP 200 title+H1
+- Visit outbound: currently `ugc nofollow` until badge verified; tool badge `960352d`
+- Demo: https://sirmem.github.io/friday-invoice-chase-tool/
+- $0 · ≠ WeChat C1 / OWNER-FAVOR
+
 ## 2026-10-29 ~22:05 Asia/Shanghai · Ignlab Launch LIVE (pending→LIVE)
 - Platform: Ignlab Launch (launch.ignlab.net) — free no-account SaaS directory
 - Product: Friday Invoice Chase Ranker
@@ -97,6 +107,7 @@
 
 | 日期 (Asia/Shanghai) | 连接者（公开名/称呼） | 渠道（微信私聊/评论/加群/学院面谈…） | 已发 C1？ (Y/N) | 对方回复（无/可看样/拒绝/其它） | 备注 |
 |----------------------|----------------------|--------------------------------------|-----------------|----------------------------------|------|
+| 2026-10-30 ~09:15 | PostLaunchKit (postlaunchkit.com free review) | Friday Invoice Chase Ranker → Finance | LIVE | https://postlaunchkit.com/directory/friday-invoice-chase-ranker/ · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool · API /api/v1/projects/friday-invoice-chase-ranker | pending_review→LIVE · Visit ugc nofollow until badge · tool `960352d` · $0 · ACTIVITY-BIAS L6 · ≠ WeChat C1 |
 | 2026-10-29 ~22:40 | TheAIToolsDir (theaitoolsdir.com free+dofollow) | Friday Invoice Chase Ranker → Productivity/Finance | LIVE | https://theaitoolsdir.com/product/friday-invoice-chase-ranker/ · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool | Free badge-verified form · Visit dofollow (rel=noopener only) · tool `d70ae4c` · $0 · ACTIVITY-BIAS L6 · ≠ WeChat C1 |
 | 2026-10-29 ~21:44 | UniLink (unil.ink / unilink.us free agent platform) | Friday Invoice Chase Ranker → finance/freelance | LIVE | https://unil.ink/friday-invoice-chase-ranker · demo https://sirmem.github.io/friday-invoice-chase-tool/ · homepage https://github.com/SirMem/friday-invoice-chase-tool · card https://unilink.us/api/agents/friday-invoice-chase-ranker/card | Free `POST /api/agents/register` → 200 username **friday-invoice-chase-ranker** · page HTTP 200 og:title + agent card name/desc · status active · $0 · ACTIVITY-BIAS L6 · ≠ WeChat C1 |
 |                      |                      |                                      |                 |                                  |      |
