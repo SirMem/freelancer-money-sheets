@@ -8,7 +8,7 @@
 - LIVE: https://postlaunchkit.com/directory/friday-invoice-chase-ranker/
 - API: https://postlaunchkit.com/api/v1/projects/friday-invoice-chase-ranker
 - Prior submit id `530759b6…` pending_review → public page HTTP 200 title+H1
-- Visit outbound: currently `ugc nofollow` until badge verified; tool badge `960352d`
+- Visit outbound: **dofollow** after badge verify — `rel="noopener noreferrer"` only (no nofollow); tool badge `960352d`
 - Demo: https://sirmem.github.io/friday-invoice-chase-tool/
 - $0 · ≠ WeChat C1 / OWNER-FAVOR
 
